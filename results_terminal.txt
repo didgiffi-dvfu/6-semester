@@ -1,0 +1,13 @@
+python generate_report_assets.py
+Done. Rows in results table: 8
+Saved figures: 8
+
+Preview of computed rows:
+1: mean_my=4.482376, var_my=2.094645, std_my=1.447289, mean_np=4.482376, var_np=2.094645, std_np=1.447289
+2: mean_my=4.450935, var_my=2.085030, std_my=1.443963, mean_np=4.450935, var_np=2.085030, std_np=1.443963
+3: mean_my=0.250000, var_my=0.187500, std_my=0.433013, mean_np=0.250000, var_np=0.187500, std_np=0.433013
+4: mean_my=0.250000, var_my=0.187500, std_my=0.433013, mean_np=0.250000, var_np=0.187500, std_np=0.433013
+5: mean_my=4.190000, var_my=2.493900, std_my=1.579209, mean_np=4.190000, var_np=2.493900, std_np=1.579209
+6: mean_my=4.134000, var_my=2.740044, std_my=1.655308, mean_np=4.134000, var_np=2.740044, std_np=1.655308
+7: mean_my=4.537930, var_my=3.154746, std_my=1.776160, mean_np=4.537930, var_np=3.154746, std_np=1.776160
+8: mean_my=4.462000, var_my=3.174096, std_my=1.781599, mean_np=4.462000, var_np=3.174096, std_np=1.781599
