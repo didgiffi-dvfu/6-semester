@@ -1,0 +1,4 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'cursach.blg'
+[33] biber-darwin:342> INFO - === Tue Apr 14, 2026, 20:42:39
+[42] Biber.pm:421> INFO - Reading 'cursach.bcf'
