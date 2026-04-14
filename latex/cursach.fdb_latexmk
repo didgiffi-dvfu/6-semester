@@ -1,15 +1,15 @@
 # Fdb version 4
-["biber cursach"] 1776176544.70496 "cursach.bcf" "cursach.bbl" "cursach" 1776176562.25218 0
-  "cursach.bcf" 1776176561.94244 157041 decfd32819732b1e96b5660e4ba0f921 "pdflatex"
-  "literature.bib" 1776176515.59449 1054 04e6577f0aa039496856202281b9569a ""
+["biber cursach"] 1776178086.34285 "cursach.bcf" "cursach.bbl" "cursach" 1776178869.40427 0
+  "cursach.bcf" 1776178869.10607 157754 e3d8057331777fdea2594f356fa3d0c8 "pdflatex"
+  "literature.bib" 1776177912.10699 3664 cd6410a72402cd95add5cd27623a7bf5 ""
   (generated)
   "cursach.bbl"
   "cursach.blg"
   (rewritten before read)
-["pdflatex"] 1776176558.21917 "/Users/zasmina/Study/6-semester/latex/cursach.tex" "cursach.pdf" "cursach" 1776176562.2528 0
+["pdflatex"] 1776178865.28016 "/Users/zasmina/Study/6-semester/latex/cursach.tex" "cursach.pdf" "cursach" 1776178869.40486 0
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1776163255.13452 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/latt1440.tfm" 1776163260.22273 1272 e3abe42d6bdbd8626fffa22fcb43f669 ""
-  "/Users/zasmina/Study/6-semester/latex/cursach.tex" 1776176540.0684 45681 cb648c77b95d9d890b365d917e008fd9 ""
+  "/Users/zasmina/Study/6-semester/latex/cursach.tex" 1776178864.19311 43318 0e5ae78048ef4b250cb88cd59d0fbcc1 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1136849721 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc" 1442533853 3023 c4581b906237349b927d8aa9ff8a2b60 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/tmp_ac5xuc.enc" 1454715823 3362 5293928c6d94ec9cfd8489a657361948 ""
@@ -273,10 +273,10 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1776162630 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1776162512 3636778 6925ab35a6e199589a5d52b3eef864c9 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "cursach.aux" 1776176561.91797 16466 d3862d1426de56945b87ed68b75221ff "pdflatex"
-  "cursach.bbl" 1776176550.06153 3957 01e6979c0498afe4bc47f21c38f87ae0 "biber cursach"
-  "cursach.run.xml" 1776176561.94375 2523 2f2f69384d918c90309ef90b2e1f592d "pdflatex"
-  "cursach.tex" 1776176540.0684 45681 cb648c77b95d9d890b365d917e008fd9 ""
+  "cursach.aux" 1776178869.08213 17746 3315ff072bfca2d99392881639c95f4c "pdflatex"
+  "cursach.bbl" 1776178090.8911 13427 372d2e62a6a7fe8c29bf1c1cce98036d "biber cursach"
+  "cursach.run.xml" 1776178869.10728 2523 2f2f69384d918c90309ef90b2e1f592d "pdflatex"
+  "cursach.tex" 1776178864.19311 43318 0e5ae78048ef4b250cb88cd59d0fbcc1 ""
   "dvfu.png" 1776163389.2729 17669 e92731096b71a1807d870b1370da4bba ""
   "stage_1/aprox1.png" 1776146840.61406 35044 ee0639aaec8fce3ec6b655e76887e02f ""
   "stage_1/aprox13.png" 1776147015.14801 42076 d6b1dbbe1c7e007f8c5dcd56768b0212 ""

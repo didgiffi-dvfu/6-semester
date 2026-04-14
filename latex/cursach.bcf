@@ -3536,8 +3536,18 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">literature.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">krizhevsky2012imagenet</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">alipanahi2015predicting</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">raissi2019pinn</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">kuramoto1978diffusion</bcf:citekey>
+    <bcf:citekey order="2" intorder="2">sivashinsky1977nonlinear</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">kuramoto1978diffusion</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">sivashinsky1977nonlinear</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">raissi2019pinn</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">rahaman2019spectral</bcf:citekey>
+    <bcf:citekey order="5" intorder="2">tancik2020fourier</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">wang2021gradient</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">wang2022ntk</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">wang2021gradient</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">wang2022ntk</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

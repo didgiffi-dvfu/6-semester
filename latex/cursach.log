@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  15 APR 2026 00:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  15 APR 2026 01:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2224,371 +2224,360 @@ LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
 (Font)              scaled to size 20.74pt on input line 153.
 
-Underfull \hbox (badness 2781) in paragraph at lines 154--155
-[]\T2A/Tempora-TLF/m/n/14.4 За по-след-ние пол-ве-ка раз-ра-бо-та-но зна-чи-тель-ное чис-ло ал-го-рит-мов
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+[]\T2A/Tempora-TLF/m/n/14.4 В дан-ной ра-бо-те ис-сле-ду-ет-ся чис-лен-ное ре-ше-ние урав-не-ния
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 158--159
-\T2A/Tempora-TLF/m/n/14.4 от-но-сит-ся к клас-су нели-ней-ных эво-лю-ци-он-ных урав-не-ний в част-ных
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
-\T2A/Tempora-TLF/m/n/14.4 про-из-вод-ных и ши-ро-ко при-ме-ня-ет-ся для мо-де-ли-ро-ва-ния слож-ной
- []
-
-
-Underfull \hbox (badness 5504) in paragraph at lines 158--159
-\T2A/Tempora-TLF/m/n/14.4 пространственно-временной ди-на-ми-ки, вклю-чая тур-бу-лент-ные ре-жи-мы,
- []
-
-
-Underfull \hbox (badness 1509) in paragraph at lines 160--161
-\T2A/Tempora-TLF/m/n/14.4 ре-ше-ния дан-но-го урав-не-ния, та-ких как псев-до-спек-траль-ные под-хо-ды и
- []
-
-
-Underfull \hbox (badness 1248) in paragraph at lines 160--161
-\T2A/Tempora-TLF/m/n/14.4 к неустой-чи-во-сти. Эти осо-бен-но-сти обу-слов-ли-ва-ют ак-ту-аль-ность по-ис-ка
+Underfull \hbox (badness 6428) in paragraph at lines 156--157
+\T2A/Tempora-TLF/m/n/14.4 нели-ней-ную пространственно-временную ди-на-ми-ку и ис-поль-зу-ет-ся, в
  []
 
 [2
 
-] [3]
-Underfull \hbox (badness 2538) in paragraph at lines 163--163
+]
+Underfull \hbox (badness 2538) in paragraph at lines 161--161
 |[]\T2A/Tempora-TLF/b/n/20.74 Математическая по-ста-нов-ка за-да-чи и
  []
 
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 166.
+(Font)              scaled to size 17.28pt on input line 164.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 166.
+(Font)              scaled to size 17.28pt on input line 164.
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
-[]\T2A/Tempora-TLF/m/n/14.4 Работе рас-смат-ри-ва-ет-ся од-но-мер-ная за-да-ча для урав-не-ния
+Underfull \hbox (badness 1092) in paragraph at lines 167--168
+[]\T2A/Tempora-TLF/m/n/14.4 В дан-ной ра-бо-те рас-смат-ри-ва-ет-ся од-но-мер-ная за-да-ча для урав-не-ния
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 \T2A/Tempora-TLF/m/n/14.4 Ку-ра-мо-то^^UСивашинского, яв-ля-ю-ще-го-ся нели-ней-ным эво-лю-ци-он-ным
  []
 
 
-Underfull \hbox (badness 6978) in paragraph at lines 175--188
+Underfull \hbox (badness 6978) in paragraph at lines 173--186
 []\T2A/Tempora-TLF/m/n/14.4 Данное урав-не-ние опи-сы-ва-ет слож-ную пространственно-временную
  []
 
-
-Underfull \hbox (badness 2547) in paragraph at lines 175--188
-\T2A/Tempora-TLF/m/n/14.4 ди-на-ми-ку и вклю-ча-ет несколь-ко фи-зи-че-ских ме-ха-низ-мов. Нели-ней-ный
- []
-
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 192.
+(Font)              scaled to size 10.0pt on input line 191.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 192.
+(Font)              scaled to size 7.0pt on input line 191.
 
-Overfull \hbox (39.45285pt too wide) detected at line 196
-\OML/cmm/m/it/14.4 u[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x; t\OT1/cmr/m/n/14.4 ) = \OML/cmm/m/it/14.4 b \OT1/cmr/m/n/14.4 + [][] []  (2)\OML/cmm/m/it/14.4 ;
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 204--205
+Underfull \hbox (badness 2181) in paragraph at lines 205--206
 []\T2A/Tempora-TLF/m/n/14.4 Данное ре-ше-ние по-лу-че-но пу-тјм ре-дук-ции ис-ход-но-го урав-не-ния в
  []
 
-[4
+[3
 
 ]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 228.
+(Font)              scaled to size 14.4pt on input line 229.
 
-Underfull \hbox (badness 6016) in paragraph at lines 228--229
+Underfull \hbox (badness 6016) in paragraph at lines 229--230
 []\T2A/Tempora-TLF/m/n/14.4 Здесь пер-вое вы-ра-же-ние пред-став-ля-ет со-бой \T2A/Tempora-TLF/m/it/14.4 на-чаль-ное усло-вие\T2A/Tempora-TLF/m/n/14.4 ,
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 236--237
+Underfull \hbox (badness 3078) in paragraph at lines 237--238
 \T2A/Tempora-TLF/m/n/14.4 ди-на-ми-ку од-но-мер-но-го урав-не-ния Ку-ра-мо-то^^UСивашинского в усло-ви-ях
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 239--240
+Underfull \hbox (badness 1874) in paragraph at lines 240--241
 []\T2A/Tempora-TLF/m/n/14.4 Метод Physics-Informed Neural Networks (PINN) пред-став-ля-ет со-бой
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 239--240
+Underfull \hbox (badness 3849) in paragraph at lines 240--241
 \T2A/Tempora-TLF/m/n/14.4 под-ход, в ко-то-ром ней-рон-ная сеть ис-поль-зу-ет-ся для ап-прок-си-ма-ции
  []
 
-[5]
-Underfull \hbox (badness 4341) in paragraph at lines 241--242
-\T2A/Tempora-TLF/m/n/14.4 вклю-ча-ю-ще-го вклад невяз-ки диф-фе-рен-ци-аль-но-го урав-не-ния, а так-же
+
+Underfull \hbox (badness 1817) in paragraph at lines 240--241
+\T2A/Tempora-TLF/m/n/14.4 за-да-ва-е-мых этим урав-не-ни-ем. В ба-зо-вой по-ста-нов-ке ис-ко-мая функ-ция
+ []
+
+[4]
+Underfull \hbox (badness 4120) in paragraph at lines 242--243
+[]\T2A/Tempora-TLF/m/n/14.4 Реализация вы-пол-не-на в сре-де Python с при-ме-не-ни-ем биб-лио-тек
  []
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 241--242
-\T2A/Tempora-TLF/m/n/14.4 от-кло-не-ния от на-чаль-ных и гра-нич-ных усло-вий. Невяз-ка урав-не-ния
+Underfull \hbox (badness 7273) in paragraph at lines 242--243
+\T2A/Tempora-TLF/m/n/14.4 ме-то-до-ло-гия обу-че-ния не за-ви-сит от кон-крет-но-го вы-чис-ли-тель-но-го
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+Tempora-TLF on input line 244.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tempora/TS1Tempora-TLF.fd
+File: TS1Tempora-TLF.fd 2016/02/02 (autoinst) Font definitions for TS1/Tempora-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 244.
+
+Underfull \hbox (badness 1648) in paragraph at lines 244--245
+[]\T2A/Tempora-TLF/m/n/14.4 формирование то-чек на-чаль-но-го усло-вия (IC), гра-нич-ных усло-вий
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 241--242
-\T2A/Tempora-TLF/m/n/14.4 диф-фе-рен-ци-аль-ное урав-не-ние, что поз-во-ля-ет учи-ты-вать его струк-ту-ру
- []
-
-
-Underfull \hbox (badness 1584) in paragraph at lines 241--242
-\T2A/Tempora-TLF/m/n/14.4 непо-сред-ствен-но в про-цес-се обу-че-ния. Та-ким об-ра-зом, ней-рон-ная сеть
- []
-
-
-Underfull \hbox (badness 1436) in paragraph at lines 241--242
-\T2A/Tempora-TLF/m/n/14.4 за-да-чи, что де-ла-ет дан-ный под-ход осо-бен-но эф-фек-тив-ным в усло-ви-ях
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 243--244
-[]\T2A/Tempora-TLF/m/n/14.4 Реализация вы-пол-не-на в сре-де Python с при-ме-не-ни-ем со-вре-мен-ных
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
-\T2A/Tempora-TLF/m/n/14.4 биб-лио-тек ма-шин-но-го обу-че-ния, обес-пе-чи-ва-ю-щих ав-то-ма-ти-че-ское
- []
-
-
-Underfull \hbox (badness 2126) in paragraph at lines 245--246
+Underfull \hbox (badness 2126) in paragraph at lines 249--250
 []\T2A/Tempora-TLF/m/n/14.4 Искомая функ-ция ап-прок-си-ми-ру-ет-ся пол-но-связ-ной ней-рон-ной се-тью
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 \T2A/Tempora-TLF/m/n/14.4 нели-ней-но-го ре-ше-ния с вы-ра-жен-ны-ми пространственно-временными
  []
 
 
-Underfull \hbox (badness 1325) in paragraph at lines 253--254
-\T2A/Tempora-TLF/m/n/14.4 за-да-чи. В част-но-сти, фор-ми-ру-ют-ся точ-ки, со-от-вет-ству-ю-щие на-чаль-но-му
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+\T2A/Tempora-TLF/m/n/14.4 рас-пре-де-лјн-ных в об-ла-сти опре-де-ле-ния за-да-чи. Ис-поль-зу-ют-ся три
  []
 
-<stage_1/dataset.png, id=48, 681.5061pt x 501.5538pt>
+
+Underfull \hbox (badness 3547) in paragraph at lines 257--258
+\T2A/Tempora-TLF/m/n/14.4 ти-па то-чек: точ-ки на-чаль-но-го усло-вия, точ-ки гра-нич-ных усло-вий и
+ []
+
+[5{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/tmp_ac5xuc.enc}]
+<stage_1/dataset.png, id=56, 681.5061pt x 501.5538pt>
 File: stage_1/dataset.png Graphic file (type png)
 <use stage_1/dataset.png>
-Package pdftex.def Info: stage_1/dataset.png  used on input line 257.
+Package pdftex.def Info: stage_1/dataset.png  used on input line 261.
 (pdftex.def)             Requested size: 386.95897pt x 284.77895pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 []\T2A/Tempora-TLF/m/n/14.4 Внутренние точ-ки ис-поль-зу-ют-ся для ми-ни-ми-за-ции невяз-ки
  []
 
-[6] [7 <./stage_1/dataset.png>]
-Underfull \hbox (badness 1371) in paragraph at lines 305--306
-[]\T2A/Tempora-TLF/m/n/14.4 В хо-де чис-лен-но-го экс-пе-ри-мен-та про-во-дит-ся срав-не-ние по-лу-чен-но-го
+[6 <./stage_1/dataset.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+\T2A/Tempora-TLF/m/n/14.4 ком-по-нент и ло-каль-ных пе-ре-па-дов ре-ше-ния. Од-на-ко клас-си-че-ские
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 305--306
-\T2A/Tempora-TLF/m/n/14.4 оце-нить точ-ность ме-то-да, его устой-чи-вость и спо-соб-ность кор-рект-но
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+[]\T2A/Tempora-TLF/m/n/14.4 Конкретные па-ра-мет-ры вы-чис-ли-тель-но-го экс-пе-ри-мен-та,
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 305--306
-\T2A/Tempora-TLF/m/n/14.4 пе-ре-мен-ных и ис-поль-зо-ва-ни-ем Fourier-признаков обес-пе-чи-ва-ет вы-со-кое
+Underfull \hbox (badness 5578) in paragraph at lines 315--316
+\T2A/Tempora-TLF/m/n/14.4 пространственно-временная об-ласть, дли-тель-ность обу-че-ния и де-та-ли
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 308--308
-|[]\T2A/Tempora-TLF/b/n/20.74 Этап 1. Чис-лен-ный экс-пе-ри-мент:
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
+|[]\T2A/Tempora-TLF/b/n/20.74 Этап 1: ба-зо-вый вы-чис-ли-тель-ный
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 []\T2A/Tempora-TLF/m/n/14.4 Вычислительный экс-пе-ри-мент для ре-ше-ния урав-не-ния
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
-\T2A/Tempora-TLF/m/n/14.4 Ку-ра-мо-то^^UСивашинского (КС) про-во-дил-ся в пря-мо-уголь-ной
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
+\T2A/Tempora-TLF/m/n/14.4 Ку-ра-мо-то^^UСивашинского про-во-дил-ся в пря-мо-уголь-ной
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 316--317
-[]\T2A/Tempora-TLF/m/it/14.4 Точки на-чаль-но-го усло-вия (IC): \T2A/Tempora-TLF/m/n/14.4 Фор-ми-ру-ют-ся при фик-си-ро-ван-ном
+Underfull \hbox (badness 5802) in paragraph at lines 322--323
+\T2A/Tempora-TLF/m/n/14.4 об-ла-сти опре-де-ле-ния.Схематически рас-пре-де-ле-ние то-чек по-ка-за-но на
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 316--317
-\OML/cmm/m/it/14.4 x \OMS/cmsy/m/n/14.4 2 \OT1/cmr/m/n/14.4 [\OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/m/n/14.4 30\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 30]$\T2A/Tempora-TLF/m/n/14.4 . В этих точ-ках це-ле-вое зна-че-ние $\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.4 (0\OML/cmm/m/it/14.4 ; x\OT1/cmr/m/n/14.4 )$ \T2A/Tempora-TLF/m/n/14.4 за-да-ет-ся
+Underfull \hbox (badness 1360) in paragraph at lines 326--327
+\T2A/Tempora-TLF/m/n/14.4 вы-ход-ной функ-ции и по-вы-сить спо-соб-ность се-ти пе-ре-да-вать ло-каль-ные
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 316--317
-\T2A/Tempora-TLF/m/n/14.4 ана-ли-ти-че-ским про-фи-лем точ-но-го ре-ше-ния. Дан-ный на-бор дан-ных
+Underfull \hbox (badness 1810) in paragraph at lines 328--329
+\T2A/Tempora-TLF/m/n/14.4 схо-ди-мо-сти и эво-лю-ции ап-прок-си-ма-ции до-пол-ни-тель-но рас-смат-ри-ва-лись
  []
 
 
-Underfull \hbox (badness 5091) in paragraph at lines 318--318
-[]\T2A/Tempora-TLF/m/it/14.4 Коллокационные точ-ки (PDE residual)\T2A/Tempora-TLF/m/n/14.4 : Плот-ное об-ла-ко то-чек,
+Underfull \hbox (badness 2626) in paragraph at lines 328--329
+\T2A/Tempora-TLF/m/n/14.4 про-ме-жу-точ-ные со-сто-я-ния по-сле $\OT1/cmr/m/n/14.4 3000$ \T2A/Tempora-TLF/m/n/14.4 ,$\OT1/cmr/m/n/14.4 7000$ \T2A/Tempora-TLF/m/n/14.4 и $\OT1/cmr/m/n/14.4 10000$ \T2A/Tempora-TLF/m/n/14.4 эпох. Ка-че-ство
  []
 
-[9
+[8
 
 ]
-Underfull \hbox (badness 3503) in paragraph at lines 330--331
-\T2A/Tempora-TLF/m/n/14.4 при ре-ше-нии диф-фе-рен-ци-аль-ных урав-не-ний яв-ля-ет-ся так на-зы-ва-е-мое
- []
-
-
-Underfull \hbox (badness 5681) in paragraph at lines 332--333
-\T2A/Tempora-TLF/m/n/14.4 ко-ор-ди-на-ты $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14.4 )$ \T2A/Tempora-TLF/m/n/14.4 пе-ред по-да-чей в скры-тые слои отоб-ра-жа-ют-ся в
- []
-
-[10]
-<stage_1/aprox1.png, id=83, 859.2903pt x 245.718pt>
+<stage_1/aprox1.png, id=82, 859.2903pt x 245.718pt>
 File: stage_1/aprox1.png Graphic file (type png)
 <use stage_1/aprox1.png>
-Package pdftex.def Info: stage_1/aprox1.png  used on input line 348.
+Package pdftex.def Info: stage_1/aprox1.png  used on input line 340.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
 
-Underfull \hbox (badness 6188) in paragraph at lines 353--354
+Underfull \hbox (badness 6188) in paragraph at lines 345--346
 []\T2A/Tempora-TLF/m/n/14.4 На стар-те обу-че-ния сеть ини-ци-а-ли-зи-ро-ва-на слу-чай-ны-ми ве-са-ми.
  []
 
 
-LaTeX Warning: Reference `fig:stage1_aprox3)' on page 1 undefined on input line 355.
+Underfull \hbox (badness 2608) in paragraph at lines 347--348
+[]\T2A/Tempora-TLF/m/n/14.4 Вторая фа-за ^^V струк-тур-ное вы-рав-ни-ва-ние (про-ме-жу-точ-ные эпо-хи,
+ []
 
 <stage_1/aprox3.png, id=86, 859.2903pt x 245.718pt>
 File: stage_1/aprox3.png Graphic file (type png)
 <use stage_1/aprox3.png>
-Package pdftex.def Info: stage_1/aprox3.png  used on input line 359.
+Package pdftex.def Info: stage_1/aprox3.png  used on input line 351.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
 <stage_1/aprox7.png, id=87, 859.2903pt x 245.718pt>
 File: stage_1/aprox7.png Graphic file (type png)
 <use stage_1/aprox7.png>
-Package pdftex.def Info: stage_1/aprox7.png  used on input line 366.
+Package pdftex.def Info: stage_1/aprox7.png  used on input line 358.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
 <stage_1/aprox13.png, id=88, 859.2903pt x 245.718pt>
 File: stage_1/aprox13.png Graphic file (type png)
 <use stage_1/aprox13.png>
-Package pdftex.def Info: stage_1/aprox13.png  used on input line 373.
+Package pdftex.def Info: stage_1/aprox13.png  used on input line 365.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
-[11 <./stage_1/aprox1.png> <./stage_1/aprox3.png>]
+[9 <./stage_1/aprox1.png> <./stage_1/aprox3.png>]
 <stage_1/aprox14.png, id=100, 859.2903pt x 245.718pt>
 File: stage_1/aprox14.png Graphic file (type png)
 <use stage_1/aprox14.png>
-Package pdftex.def Info: stage_1/aprox14.png  used on input line 383.
+Package pdftex.def Info: stage_1/aprox14.png  used on input line 375.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
- [12 <./stage_1/aprox7.png> <./stage_1/aprox13.png> <./stage_1/aprox14.png>]
-Underfull \hbox (badness 1596) in paragraph at lines 397--398
+ [10 <./stage_1/aprox7.png> <./stage_1/aprox13.png> <./stage_1/aprox14.png>]
+Underfull \hbox (badness 2980) in paragraph at lines 389--390
+\T2A/Tempora-TLF/m/n/14.4 ап-прок-си-ма-ция на-чаль-но-го усло-вия ста-но-вит-ся ме-нее ста-биль-ной, что
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 389--390
 \T2A/Tempora-TLF/m/n/14.4 по-ве-де-ние мо-жет сви-де-тель-ство-вать о пе-ре-обу-че-нии мо-де-ли по дан-ной
  []
 
 <stage_1/lossComponets.png, id=110, 642.4803pt x 281.853pt>
 File: stage_1/lossComponets.png Graphic file (type png)
 <use stage_1/lossComponets.png>
-Package pdftex.def Info: stage_1/lossComponets.png  used on input line 401.
+Package pdftex.def Info: stage_1/lossComponets.png  used on input line 393.
 (pdftex.def)             Requested size: 386.95897pt x 169.75821pt.
 
-Underfull \hbox (badness 2027) in paragraph at lines 406--408
+Underfull \hbox (badness 2027) in paragraph at lines 398--400
 \T2A/Tempora-TLF/m/n/14.4 эта-пе обу-че-ния на-блю-да-ет-ся рост чис-ла ос-цил-ля-ций, что обу-слов-ле-но
  []
 
 <stage_1/total_loss.png, id=112, 570.933pt x 281.853pt>
 File: stage_1/total_loss.png Graphic file (type png)
 <use stage_1/total_loss.png>
-Package pdftex.def Info: stage_1/total_loss.png  used on input line 412.
+Package pdftex.def Info: stage_1/total_loss.png  used on input line 404.
 (pdftex.def)             Requested size: 386.95897pt x 191.0382pt.
-[13 <./stage_1/lossComponets.png>] [14 <./stage_1/total_loss.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[11 <./stage_1/lossComponets.png>] [12 <./stage_1/total_loss.png>]
+Underfull \hbox (badness 1072) in paragraph at lines 409--409
+|[]\T2A/Tempora-TLF/b/n/20.74 Этап 2: по-ни-же-ние по-ряд-ка и ана-лиз
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 |[]\T2A/Tempora-TLF/b/n/17.28 Модификация по-ста-нов-ки за-да-чи и ва-ри-ан-ты
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 425--426
-\T2A/Tempora-TLF/m/n/14.4 чет-вер-то-го по-ряд-ка в си-сте-му урав-не-ний не вы-ше вто-ро-го по-ряд-ка.
+Underfull \hbox (badness 2980) in paragraph at lines 422--424
+\T2A/Tempora-TLF/m/n/14.4 ав-то-ма-ти-че-ское диф-фе-рен-ци-ро-ва-ние вы-со-ких по-ряд-ков ча-сто при-во-дит
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+Tempora-TLF on input line 429.
-(/usr/local/texlive/2026/texmf-dist/tex/latex/tempora/TS1Tempora-TLF.fd
-File: TS1Tempora-TLF.fd 2016/02/02 (autoinst) Font definitions for TS1/Tempora-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 429.
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 429.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+
+Underfull \hbox (badness 5388) in paragraph at lines 422--424
+\T2A/Tempora-TLF/m/n/14.4 к вы-чис-ли-тель-ной неста-биль-но-сти, за-ту-ха-нию гра-ди-ен-тов и вы-со-кой
+ []
+
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 431.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 429.
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 431.
 
-Underfull \hbox (badness 1019) in paragraph at lines 429--430
+Underfull \hbox (badness 1019) in paragraph at lines 431--432
 \T2A/Tempora-TLF/m/n/14.4 про-стран-ства вхо-дов в дву-мер-ный вы-ход $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 u; v\OT1/cmr/m/n/14.4 )$ \T2A/Tempora-TLF/m/n/14.4 с об-щим скры-тым
  []
 
-[15
+[13
 
-{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/tmp_ac5xuc.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 []\T2A/Tempora-TLF/m/n/14.4 Эмпирическая про-вер-ка пред-ло-жен-ных под-хо-дов вы-яви-ла ряд
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 439--440
+Underfull \hbox (badness 2245) in paragraph at lines 441--442
 []\T2A/Tempora-TLF/b/n/14.4 Компоненты функ-ции по-терь: \T2A/Tempora-TLF/m/n/14.4 Ана-лиз гра-фи-ка \T2A/Tempora-TLF/m/it/14.4 loss components
  []
 
-<stage_2/all_error.png, id=136, 892.33376pt x 391.4625pt>
+<stage_2/all_error.png, id=135, 892.33376pt x 391.4625pt>
 File: stage_2/all_error.png Graphic file (type png)
 <use stage_2/all_error.png>
-Package pdftex.def Info: stage_2/all_error.png  used on input line 445.
+Package pdftex.def Info: stage_2/all_error.png  used on input line 447.
 (pdftex.def)             Requested size: 386.95897pt x 169.75916pt.
+[14]
+Underfull \hbox (badness 1264) in paragraph at lines 458--459
+\T2A/Tempora-TLF/m/n/14.4 пы-та-ет-ся ѕпод-стро-итьї $\OML/cmm/m/it/14.4 u$ \T2A/Tempora-TLF/m/n/14.4 под уже неточ-ную ап-прок-си-ма-цию $\OML/cmm/m/it/14.4 v$\T2A/Tempora-TLF/m/n/14.4 . Ины-ми
+ []
 
-Underfull \hbox (badness 1838) in paragraph at lines 452--453
+[15 <./stage_2/all_error.png>]
+Underfull \hbox (badness 1838) in paragraph at lines 462--463
 []\T2A/Tempora-TLF/m/n/14.4 Опираясь на ко-ли-че-ствен-ные мет-ри-ки и ви-зу-аль-ный ана-лиз, мож-но
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 452--453
-\T2A/Tempora-TLF/m/n/14.4 кон-ста-ти-ро-вать, что ме-тод по-ни-же-ния по-ряд-ка про-из-вод-ной за счет
+Underfull \hbox (badness 4048) in paragraph at lines 462--463
+\T2A/Tempora-TLF/m/n/14.4 кон-ста-ти-ро-вать, что ме-тод по-ни-же-ния по-ряд-ка про-из-вод-ной за счјт
  []
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
-[]\T2A/Tempora-TLF/b/n/14.4 Конкуренция гра-ди-ен-тов: \T2A/Tempora-TLF/m/n/14.4 Вве-де-ние до-пол-ни-тель-но-го усло-вия
+
+Underfull \hbox (badness 3250) in paragraph at lines 464--465
+[]\T2A/Tempora-TLF/b/n/14.4 Конкуренция гра-ди-ен-тов и жјст-кость оп-ти-ми-за-ции: \T2A/Tempora-TLF/m/n/14.4 Вве-де-ние
  []
 
-[17 <./stage_2/all_error.png>] [18
 
-] [19] (./cursach.aux
+Underfull \hbox (badness 1430) in paragraph at lines 464--465
+\T2A/Tempora-TLF/m/n/14.4 до-пол-ни-тель-но-го усло-вия со-гла-со-ва-ния $\OML/cmm/m/it/14.4 v \OMS/cmsy/m/n/14.4 ^^@ [] \OT1/cmr/m/n/14.4 = 0$ \T2A/Tempora-TLF/m/n/14.4 зна-чи-тель-но
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 464--465
+\T2A/Tempora-TLF/m/n/14.4 услож-ни-ло ланд-шафт функ-ции по-терь. Мо-дель бы-ла вы-нуж-де-на
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 464--465
+\T2A/Tempora-TLF/m/n/14.4 ба-лан-си-ро-вать меж-ду ми-ни-ми-за-ци-ей невяз-ки са-мо-го урав-не-ния и
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 465--466
+\T2A/Tempora-TLF/m/n/14.4 быст-рее и на-чи-на-ет до-ми-ни-ро-вать в со-став-ной функ-ции по-терь.
+ []
+
+[16] [17
+
+] (./cursach.aux
 Package cleveref Info: loaded `russian' language definitions on input line 10.
 )
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package logreq Info: Writing requests to 'cursach.run.xml'.
 \openout1 = `cursach.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49133 strings out of 467525
- 1082164 string characters out of 5418982
- 2170530 words of memory out of 5000000
- 77292 multiletter control sequences out of 15000+600000
+ 49137 strings out of 467525
+ 1082953 string characters out of 5418982
+ 2170872 words of memory out of 5000000
+ 77309 multiletter control sequences out of 15000+600000
  658152 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,117p,1604b,3209s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,117p,1207b,3209s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Italic.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on cursach.pdf (19 pages, 1086359 bytes).
+Output written on cursach.pdf (17 pages, 1084023 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 281 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 
