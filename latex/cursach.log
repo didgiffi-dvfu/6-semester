@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  14 APR 2026 20:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  15 APR 2026 00:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/zasmina/Study/6-semester/cursach.tex
-(/Users/zasmina/Study/6-semester/cursach.tex
+**/Users/zasmina/Study/6-semester/latex/cursach.tex
+(/Users/zasmina/Study/6-semester/latex/cursach.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/local/texlive/2026/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -2224,13 +2224,6 @@ LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
 (Font)              scaled to size 20.74pt on input line 153.
 
-
-LaTeX Warning: Citation 'krizhevsky2012imagenet' on page 2 undefined on input line 154.
-
-
-LaTeX Warning: Citation 'alipanahi2015predicting' on page 2 undefined on input line 154.
-
-
 Underfull \hbox (badness 2781) in paragraph at lines 154--155
 []\T2A/Tempora-TLF/m/n/14.4 За по-след-ние пол-ве-ка раз-ра-бо-та-но зна-чи-тель-ное чис-ло ал-го-рит-мов
  []
@@ -2380,7 +2373,7 @@ Underfull \hbox (badness 1325) in paragraph at lines 253--254
 \T2A/Tempora-TLF/m/n/14.4 за-да-чи. В част-но-сти, фор-ми-ру-ют-ся точ-ки, со-от-вет-ству-ю-щие на-чаль-но-му
  []
 
-<stage_1/dataset.png, id=44, 681.5061pt x 501.5538pt>
+<stage_1/dataset.png, id=48, 681.5061pt x 501.5538pt>
 File: stage_1/dataset.png Graphic file (type png)
 <use stage_1/dataset.png>
 Package pdftex.def Info: stage_1/dataset.png  used on input line 257.
@@ -2453,7 +2446,7 @@ Underfull \hbox (badness 5681) in paragraph at lines 332--333
  []
 
 [10]
-<stage_1/aprox1.png, id=79, 859.2903pt x 245.718pt>
+<stage_1/aprox1.png, id=83, 859.2903pt x 245.718pt>
 File: stage_1/aprox1.png Graphic file (type png)
 <use stage_1/aprox1.png>
 Package pdftex.def Info: stage_1/aprox1.png  used on input line 348.
@@ -2466,23 +2459,23 @@ Underfull \hbox (badness 6188) in paragraph at lines 353--354
 
 LaTeX Warning: Reference `fig:stage1_aprox3)' on page 1 undefined on input line 355.
 
-<stage_1/aprox3.png, id=82, 859.2903pt x 245.718pt>
+<stage_1/aprox3.png, id=86, 859.2903pt x 245.718pt>
 File: stage_1/aprox3.png Graphic file (type png)
 <use stage_1/aprox3.png>
 Package pdftex.def Info: stage_1/aprox3.png  used on input line 359.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
-<stage_1/aprox7.png, id=83, 859.2903pt x 245.718pt>
+<stage_1/aprox7.png, id=87, 859.2903pt x 245.718pt>
 File: stage_1/aprox7.png Graphic file (type png)
 <use stage_1/aprox7.png>
 Package pdftex.def Info: stage_1/aprox7.png  used on input line 366.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
-<stage_1/aprox13.png, id=84, 859.2903pt x 245.718pt>
+<stage_1/aprox13.png, id=88, 859.2903pt x 245.718pt>
 File: stage_1/aprox13.png Graphic file (type png)
 <use stage_1/aprox13.png>
 Package pdftex.def Info: stage_1/aprox13.png  used on input line 373.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
 [11 <./stage_1/aprox1.png> <./stage_1/aprox3.png>]
-<stage_1/aprox14.png, id=96, 859.2903pt x 245.718pt>
+<stage_1/aprox14.png, id=100, 859.2903pt x 245.718pt>
 File: stage_1/aprox14.png Graphic file (type png)
 <use stage_1/aprox14.png>
 Package pdftex.def Info: stage_1/aprox14.png  used on input line 383.
@@ -2492,7 +2485,7 @@ Underfull \hbox (badness 1596) in paragraph at lines 397--398
 \T2A/Tempora-TLF/m/n/14.4 по-ве-де-ние мо-жет сви-де-тель-ство-вать о пе-ре-обу-че-нии мо-де-ли по дан-ной
  []
 
-<stage_1/lossComponets.png, id=106, 642.4803pt x 281.853pt>
+<stage_1/lossComponets.png, id=110, 642.4803pt x 281.853pt>
 File: stage_1/lossComponets.png Graphic file (type png)
 <use stage_1/lossComponets.png>
 Package pdftex.def Info: stage_1/lossComponets.png  used on input line 401.
@@ -2502,111 +2495,73 @@ Underfull \hbox (badness 2027) in paragraph at lines 406--408
 \T2A/Tempora-TLF/m/n/14.4 эта-пе обу-че-ния на-блю-да-ет-ся рост чис-ла ос-цил-ля-ций, что обу-слов-ле-но
  []
 
-<stage_1/total_loss.png, id=108, 570.933pt x 281.853pt>
+<stage_1/total_loss.png, id=112, 570.933pt x 281.853pt>
 File: stage_1/total_loss.png Graphic file (type png)
 <use stage_1/total_loss.png>
 Package pdftex.def Info: stage_1/total_loss.png  used on input line 412.
 (pdftex.def)             Requested size: 386.95897pt x 191.0382pt.
 [13 <./stage_1/lossComponets.png>] [14 <./stage_1/total_loss.png>]
-Underfull \hbox (badness 2617) in paragraph at lines 427--428
-[]\T2A/Tempora-TLF/m/n/14.4 В ре-зуль-та-те ис-ход-ная за-да-ча пре-об-ра-зу-ет-ся в си-сте-му урав-не-ний
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+|[]\T2A/Tempora-TLF/b/n/17.28 Модификация по-ста-нов-ки за-да-чи и ва-ри-ан-ты
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 430--432
-\T2A/Tempora-TLF/m/n/14.4 Тем са-мым до-пол-ни-тель-ная пе-ре-мен-ная (v) не яв-ля-ет-ся неза-ви-си-мой в
+Underfull \hbox (badness 2903) in paragraph at lines 425--426
+\T2A/Tempora-TLF/m/n/14.4 чет-вер-то-го по-ряд-ка в си-сте-му урав-не-ний не вы-ше вто-ро-го по-ряд-ка.
  []
 
+LaTeX Font Info:    Trying to load font information for TS1+Tempora-TLF on input line 429.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tempora/TS1Tempora-TLF.fd
+File: TS1Tempora-TLF.fd 2016/02/02 (autoinst) Font definitions for TS1/Tempora-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 429.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 429.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 429.
 
-Underfull \hbox (badness 6412) in paragraph at lines 438--440
-\T2A/Tempora-TLF/m/n/14.4 С ма-те-ма-ти-че-ской точ-ки зре-ния это озна-ча-ет по-стро-е-ние еди-но-го
+Underfull \hbox (badness 1019) in paragraph at lines 429--430
+\T2A/Tempora-TLF/m/n/14.4 про-стран-ства вхо-дов в дву-мер-ный вы-ход $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 u; v\OT1/cmr/m/n/14.4 )$ \T2A/Tempora-TLF/m/n/14.4 с об-щим скры-тым
  []
 
 [15
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 445--446
-\T2A/Tempora-TLF/m/n/14.4 с по-мо-щью фурье-признаков, что поз-во-ля-ет луч-ше пред-став-лять
+{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/tmp_ac5xuc.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
+[]\T2A/Tempora-TLF/m/n/14.4 Эмпирическая про-вер-ка пред-ло-жен-ных под-хо-дов вы-яви-ла ряд
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 447--448
-[]\T2A/Tempora-TLF/m/n/14.4 Преимущество та-ко-го под-хо-да со-сто-ит в ком-пакт-но-сти мо-де-ли и в
+Underfull \hbox (badness 2245) in paragraph at lines 439--440
+[]\T2A/Tempora-TLF/b/n/14.4 Компоненты функ-ции по-терь: \T2A/Tempora-TLF/m/n/14.4 Ана-лиз гра-фи-ка \T2A/Tempora-TLF/m/it/14.4 loss components
+ []
+
+<stage_2/all_error.png, id=136, 892.33376pt x 391.4625pt>
+File: stage_2/all_error.png Graphic file (type png)
+<use stage_2/all_error.png>
+Package pdftex.def Info: stage_2/all_error.png  used on input line 445.
+(pdftex.def)             Requested size: 386.95897pt x 169.75916pt.
+
+Underfull \hbox (badness 1838) in paragraph at lines 452--453
+[]\T2A/Tempora-TLF/m/n/14.4 Опираясь на ко-ли-че-ствен-ные мет-ри-ки и ви-зу-аль-ный ана-лиз, мож-но
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 458--459
-\T2A/Tempora-TLF/m/n/14.4 каж-дая сеть мо-жет адап-ти-ро-вать-ся к осо-бен-но-стям сво-ей функ-ции без
- []
-
-
-Underfull \hbox (badness 3449) in paragraph at lines 458--459
-\T2A/Tempora-TLF/m/n/14.4 Это осо-бен-но по-лез-но в слу-ча-ях, ко-гда функ-ции (u) и (v) име-ют
+Underfull \hbox (badness 4048) in paragraph at lines 452--453
+\T2A/Tempora-TLF/m/n/14.4 кон-ста-ти-ро-вать, что ме-тод по-ни-же-ния по-ряд-ка про-из-вод-ной за счет
  []
 
 [16]
-Underfull \hbox (badness 2368) in paragraph at lines 474--475
-\T2A/Tempora-TLF/m/n/14.4 сво-бо-ду для уче-та ин-ди-ви-ду-аль-ных осо-бен-но-стей каж-дой функ-ции. В
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+[]\T2A/Tempora-TLF/b/n/14.4 Конкуренция гра-ди-ен-тов: \T2A/Tempora-TLF/m/n/14.4 Вве-де-ние до-пол-ни-тель-но-го усло-вия
  []
 
+[17 <./stage_2/all_error.png>] [18
 
-Underfull \hbox (badness 2042) in paragraph at lines 474--475
-\T2A/Tempora-TLF/m/n/14.4 ар-хи-тек-ту-ра: об-щие слои из-вле-ка-ют уни-вер-саль-ные при-зна-ки ре-ше-ния,
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 474--475
-\T2A/Tempora-TLF/m/n/14.4 а спе-ци-а-ли-зи-ро-ван-ные вет-ви адап-ти-ру-ют-ся к кон-крет-ным огра-ни-че-ни-ям,
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 480--481
-[]\T2A/Tempora-TLF/m/n/14.4 Для оцен-ки эф-фек-тив-но-сти ука-зан-ных под-хо-дов бы-ли со-по-став-ле-ны
- []
-
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 482.
-(/usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-Underfull \hbox (badness 1014) in paragraph at lines 489--490
-[]\T2A/Tempora-TLF/m/n/14.4 Из при-ве-ден-ных дан-ных сле-ду-ет, что наи-луч-ший ре-зуль-тат по-ка-за-ла
- []
-
-
-Underfull \hbox (badness 6477) in paragraph at lines 489--490
-\T2A/Tempora-TLF/m/n/14.4 ис-ход-ная по-ста-нов-ка без вве-де-ния до-пол-ни-тель-ной пе-ре-мен-ной (v):
- []
-
-[17{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
-Underfull \hbox (badness 1189) in paragraph at lines 491--492
-\T2A/Tempora-TLF/m/n/14.4 до-бав-ле-ние но-вой неиз-вест-ной и до-пол-ни-тель-но-го усло-вия со-гла-со-ва-ния
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 491--492
-\T2A/Tempora-TLF/m/n/14.4 уве-ли-чи-ло слож-ность оп-ти-ми-за-ци-он-ной за-да-чи. Ве-ро-ят-но, вы-иг-рыш от
- []
-
-
-Underfull \hbox (badness 2735) in paragraph at lines 491--492
-\T2A/Tempora-TLF/m/n/14.4 умень-ше-ния по-ряд-ка про-из-вод-ной был ком-пен-си-ро-ван необ-хо-ди-мо-стью
- []
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 496--497
-\T2A/Tempora-TLF/m/n/14.4 а даль-ней-шая на-строй-ка ис-ход-ной ар-хи-тек-ту-ры, вы-бор ве-сов от-дель-ных
- []
-
-
-Underfull \hbox (badness 1354) in paragraph at lines 496--497
-\T2A/Tempora-TLF/m/n/14.4 сла-га-е-мых функ-ции по-терь, а так-же при-ме-не-ние ме-то-дов ста-би-ли-за-ции
- []
-
-[18]
-
-LaTeX Warning: Empty bibliography on input line 500.
-
-[19] [20] (./cursach.aux
+] [19] (./cursach.aux
 Package cleveref Info: loaded `russian' language definitions on input line 10.
 )
  ***********
@@ -2617,28 +2572,23 @@ L3 programming layer <2026-01-19>
 
 LaTeX Warning: There were undefined references.
 
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                cursach
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'cursach.run.xml'.
 \openout1 = `cursach.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49036 strings out of 467525
- 1079630 string characters out of 5418982
- 2169972 words of memory out of 5000000
- 77206 multiletter control sequences out of 15000+600000
- 658107 words of font info for 67 fonts, out of 8000000 for 9000
+ 49133 strings out of 467525
+ 1082164 string characters out of 5418982
+ 2170530 words of memory out of 5000000
+ 77292 multiletter control sequences out of 15000+600000
+ 658152 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,117p,1598b,3209s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Italic.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on cursach.pdf (20 pages, 1040909 bytes).
+ 102i,12n,117p,1604b,3209s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Italic.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on cursach.pdf (19 pages, 1086359 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 56 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 286 PDF objects out of 1000 (max. 8388607)
+ 217 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
