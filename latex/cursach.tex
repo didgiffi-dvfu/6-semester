@@ -467,12 +467,82 @@ v - \frac{\partial^2 u}{\partial x^2} = 0.
     \item \textbf{Эволюция аппроксимации ($u$ и $v$):} Визуальный анализ предсказаний на различных временных шагах $t=0.00$, $t=2.00$ и $t=4.00$ демонстрирует причину этой стагнации. Если профиль основной функции $u(t,x)$ сеть улавливает сравнительно неплохо, то аппроксимация вспомогательной переменной $v(t,x)$ сталкивается с серьёзными проблемами. На графиках видно расхождение между предсказанием и точным решением: нейронная сеть генерирует паразитные осцилляции и сглаживает острые пики $v(t,x)$ даже на поздних этапах обучения, вплоть до $13000$-й эпохи.
 \end{itemize}
 
+
+
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=0.8\linewidth]{stage_2/all_error.png}
 \caption{Сравнение ошибок аппроксимации четырёх моделей}
 \label{fig:stage_2_all_error}
 \end{figure}
+
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.8\linewidth]{stage_2/tow_model_total_loss.png}
+\caption{Общая ошибка  модели с двумя выходами}
+\label{fig:stage_2_tow_model_total_loss}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.8\linewidth]{stage_2/tow_model_loss_components.png}
+\caption{Ошибка компонент апроксимации модели с двумя выходами}
+\label{fig:stage_2/tow_model_loss_components}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.8\linewidth]{stage_2/tow_model_aprox_evalution.png}
+\caption{Эволюция обучения  модели с двумя выходами}
+\label{fig:stage_2/tow_model_aprox_evalution}
+\end{figure}
+
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.8\linewidth]{stage_2/tow_output_total_loss.png}
+\caption{Общая ошибка модели с двумя нейронными сетями}
+\label{fig:stage_2/tow_output_total_loss}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.8\linewidth]{stage_2/tow_output_loss_components.png}
+\caption{Ошибка компонент апроксимации модели с двумя нейронными сетями}
+\label{fig:stage_2/tow_output_loss_components}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.8\linewidth]{stage_2/tow_output_aprox_evolution.png}
+\caption{Эволюция обучения  модели  с двумя нейронными сетями}
+\label{fig:stage_2/tow_output_aprox_evolution}
+\end{figure}
+
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.8\linewidth]{stage_2/shared_trunk_total_loss.png}
+\caption{Общая ошибка модели  гибридной модели }
+\label{fig:stage_2/shared_trunk_total_loss}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.8\linewidth]{stage_2/shared_trunk_loss_components.png}
+\caption{Ошибка компонент апроксимации  гибридной модели}
+\label{fig:stage_2/shared_trunk_loss_components}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.8\linewidth]{stage_2/shared_trunk_aprox_evalution.png}
+\caption{Эволюция обучения гибридной модели}
+\label{fig:stage_2/shared_trunk_aprox_evalution}
+\end{figure}
+
+
 
 \subsection{Почему введение вспомогательной переменной привело к осцилляциям}
 

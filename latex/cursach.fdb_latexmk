@@ -1,15 +1,15 @@
 # Fdb version 4
-["biber cursach"] 1776179874.03141 "cursach.bcf" "cursach.bbl" "cursach" 1776179948.96012 0
-  "cursach.bcf" 1776179948.65491 157754 e3d8057331777fdea2594f356fa3d0c8 "pdflatex"
+["biber cursach"] 1776256343.39204 "cursach.bcf" "cursach.bbl" "cursach" 1776257720.53524 0
+  "cursach.bcf" 1776257720.23462 157754 e3d8057331777fdea2594f356fa3d0c8 "pdflatex"
   "literature.bib" 1776177912.10699 3664 cd6410a72402cd95add5cd27623a7bf5 ""
   (generated)
   "cursach.bbl"
   "cursach.blg"
   (rewritten before read)
-["pdflatex"] 1776179944.66414 "/Users/zasmina/Study/6-semester/latex/cursach.tex" "cursach.pdf" "cursach" 1776179948.9607 0
+["pdflatex"] 1776257715.15323 "/Users/zasmina/Study/6-semester/latex/cursach.tex" "cursach.pdf" "cursach" 1776257720.53582 0
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1776163255.13452 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/latt1440.tfm" 1776163260.22273 1272 e3abe42d6bdbd8626fffa22fcb43f669 ""
-  "/Users/zasmina/Study/6-semester/latex/cursach.tex" 1776179827.12977 47123 5afec9108bfbf0e210e461e52bdd025a ""
+  "/Users/zasmina/Study/6-semester/latex/cursach.tex" 1776257712.70204 49502 ce8c623d03e24871aab50ea86d69e338 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1136849721 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc" 1442533853 3023 c4581b906237349b927d8aa9ff8a2b60 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/tmp_ac5xuc.enc" 1454715823 3362 5293928c6d94ec9cfd8489a657361948 ""
@@ -273,10 +273,10 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1776162630 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1776162512 3636778 6925ab35a6e199589a5d52b3eef864c9 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "cursach.aux" 1776179948.62968 21927 0989919aa98006ca56d8c04bdf06b4ed "pdflatex"
-  "cursach.bbl" 1776179876.57338 13427 372d2e62a6a7fe8c29bf1c1cce98036d "biber cursach"
-  "cursach.run.xml" 1776179948.65615 2523 2f2f69384d918c90309ef90b2e1f592d "pdflatex"
-  "cursach.tex" 1776179827.12977 47123 5afec9108bfbf0e210e461e52bdd025a ""
+  "cursach.aux" 1776257720.20855 26115 dfb5e5e318664e8efad20534ad406097 "pdflatex"
+  "cursach.bbl" 1776256348.96574 13427 372d2e62a6a7fe8c29bf1c1cce98036d "biber cursach"
+  "cursach.run.xml" 1776257720.23577 2523 2f2f69384d918c90309ef90b2e1f592d "pdflatex"
+  "cursach.tex" 1776257712.70204 49502 ce8c623d03e24871aab50ea86d69e338 ""
   "dvfu.png" 1776163389.2729 17669 e92731096b71a1807d870b1370da4bba ""
   "stage_1/aprox1.png" 1776146840.61406 35044 ee0639aaec8fce3ec6b655e76887e02f ""
   "stage_1/aprox13.png" 1776147015.14801 42076 d6b1dbbe1c7e007f8c5dcd56768b0212 ""
@@ -286,7 +286,16 @@
   "stage_1/dataset.png" 1776148757.7811 636670 62ac71b7da0f37225473cea0f9dccc85 ""
   "stage_1/lossComponets.png" 1776147091.19878 78548 a61fa937371f236b6780b0861a665b41 ""
   "stage_1/total_loss.png" 1776147069.46487 36907 c95a0b10858498d9aec869d095e5032d ""
-  "stage_2/all_error.png" 1776176161.72889 72256 2b2777b96419aa12da3c5b268330f4ad ""
+  "stage_2/all_error.png" 1776255203.44725 63508 2c0691acff31b2c23d09a0d071b7342c ""
+  "stage_2/shared_trunk_aprox_evalution.png" 1776255831.37237 161435 222f571a96133e3390ab90761e0c901d ""
+  "stage_2/shared_trunk_loss_components.png" 1776255785.44147 67604 c2dcd61e7ca3c4e69a698bc2e1ce0cee ""
+  "stage_2/shared_trunk_total_loss.png" 1776255672.88837 30296 28fcfbd44d58d677877f460a82112fe9 ""
+  "stage_2/tow_model_aprox_evalution.png" 1776255542.79156 152143 3a50e8d84647cfc3c00a902ee4f5c77d ""
+  "stage_2/tow_model_loss_components.png" 1776255501.72937 93400 39b328aed3e68c98b4ff62236e0ce7ef ""
+  "stage_2/tow_model_total_loss.png" 1776255414.34323 38050 91e04024e8f877f4ecd48b257241382d ""
+  "stage_2/tow_output_aprox_evolution.png" 1776255377.09067 149935 3488b8ecedd91fc296f78fa8bf12bfeb ""
+  "stage_2/tow_output_loss_components.png" 1776255352.47741 80582 b96de51c035c30199cb28f53160b6d94 ""
+  "stage_2/tow_output_total_loss.png" 1776255309.36113 33558 f8a8ede2972e2fbbaa0fda4293d8053a ""
   (generated)
   "cursach.aux"
   "cursach.bcf"
