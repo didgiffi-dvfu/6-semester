@@ -3546,8 +3546,6 @@
     <bcf:citekey order="5" intorder="2">tancik2020fourier</bcf:citekey>
     <bcf:citekey order="6" intorder="1">wang2021gradient</bcf:citekey>
     <bcf:citekey order="6" intorder="2">wang2022ntk</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">wang2021gradient</bcf:citekey>
-    <bcf:citekey order="7" intorder="2">wang2022ntk</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  16 APR 2026 00:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  16 APR 2026 01:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2399,8 +2399,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 348--349
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 348--349
-\T2A/Tempora-TLF/m/n/14.4 об-ла-сти опре-де-ле-ния.Схематически рас-пре-де-ле-ние то-чек по-ка-за-но на
+Underfull \hbox (badness 2735) in paragraph at lines 348--349
+\T2A/Tempora-TLF/m/n/14.4 об-ла-сти опре-де-ле-ния. Схе-ма-ти-че-ски рас-пре-де-ле-ние то-чек по-ка-за-но на
  []
 
 
@@ -2414,271 +2414,218 @@ Underfull \hbox (badness 1810) in paragraph at lines 354--355
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 354--355
-\T2A/Tempora-TLF/m/n/14.4 про-ме-жу-точ-ные со-сто-я-ния по-сле $\OT1/cmr/m/n/14.4 3000$ \T2A/Tempora-TLF/m/n/14.4 ,$\OT1/cmr/m/n/14.4 7000$ \T2A/Tempora-TLF/m/n/14.4 и $\OT1/cmr/m/n/14.4 10000$ \T2A/Tempora-TLF/m/n/14.4 эпох. Ка-че-ство
+Underfull \hbox (badness 2617) in paragraph at lines 354--355
+\T2A/Tempora-TLF/m/n/14.4 про-ме-жу-точ-ные со-сто-я-ния по-сле $\OT1/cmr/m/n/14.4 3000$\T2A/Tempora-TLF/m/n/14.4 , $\OT1/cmr/m/n/14.4 7000$ \T2A/Tempora-TLF/m/n/14.4 и $\OT1/cmr/m/n/14.4 10000$ \T2A/Tempora-TLF/m/n/14.4 эпох. Ка-че-ство
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 358--359
+\T2A/Tempora-TLF/m/n/14.4 и су-ще-ствен-но от-ли-ча-ет-ся от точ-но-го ре-ше-ния как по ам-пли-ту-де, так
  []
 
 [9
 
 ]
-<stage_1/aprox1.png, id=123, 859.2903pt x 245.718pt>
+<stage_1/aprox1.png, id=126, 859.2903pt x 245.718pt>
 File: stage_1/aprox1.png Graphic file (type png)
 <use stage_1/aprox1.png>
-Package pdftex.def Info: stage_1/aprox1.png  used on input line 366.
+Package pdftex.def Info: stage_1/aprox1.png  used on input line 362.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
-
-Underfull \hbox (badness 6188) in paragraph at lines 371--372
-[]\T2A/Tempora-TLF/m/n/14.4 На стар-те обу-че-ния сеть ини-ци-а-ли-зи-ро-ва-на слу-чай-ны-ми ве-са-ми.
- []
-
-
-Underfull \hbox (badness 2608) in paragraph at lines 373--374
-[]\T2A/Tempora-TLF/m/n/14.4 Вторая фа-за ^^V струк-тур-ное вы-рав-ни-ва-ние (про-ме-жу-точ-ные эпо-хи,
- []
-
 <stage_1/aprox3.png, id=127, 859.2903pt x 245.718pt>
 File: stage_1/aprox3.png Graphic file (type png)
 <use stage_1/aprox3.png>
-Package pdftex.def Info: stage_1/aprox3.png  used on input line 377.
+Package pdftex.def Info: stage_1/aprox3.png  used on input line 371.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
 <stage_1/aprox7.png, id=128, 859.2903pt x 245.718pt>
 File: stage_1/aprox7.png Graphic file (type png)
 <use stage_1/aprox7.png>
-Package pdftex.def Info: stage_1/aprox7.png  used on input line 384.
+Package pdftex.def Info: stage_1/aprox7.png  used on input line 378.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
 <stage_1/aprox13.png, id=129, 859.2903pt x 245.718pt>
 File: stage_1/aprox13.png Graphic file (type png)
 <use stage_1/aprox13.png>
-Package pdftex.def Info: stage_1/aprox13.png  used on input line 391.
+Package pdftex.def Info: stage_1/aprox13.png  used on input line 385.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
-[10 <./stage_1/aprox1.png> <./stage_1/aprox3.png>]
-<stage_1/aprox14.png, id=141, 859.2903pt x 245.718pt>
+<stage_1/aprox14.png, id=130, 859.2903pt x 245.718pt>
 File: stage_1/aprox14.png Graphic file (type png)
 <use stage_1/aprox14.png>
-Package pdftex.def Info: stage_1/aprox14.png  used on input line 401.
+Package pdftex.def Info: stage_1/aprox14.png  used on input line 393.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
- [11 <./stage_1/aprox7.png> <./stage_1/aprox13.png> <./stage_1/aprox14.png>]
-Underfull \hbox (badness 2980) in paragraph at lines 413--414
-\T2A/Tempora-TLF/m/n/14.4 ап-прок-си-ма-ция на-чаль-но-го усло-вия ста-но-вит-ся ме-нее ста-биль-ной, что
+
+Underfull \hbox (badness 3657) in paragraph at lines 390--397
+[]\T2A/Tempora-TLF/m/n/14.4 На за-клю-чи-тель-ной ста-дии пред-ска-за-ние прак-ти-че-ски сов-па-да-ет с
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 413--414
-\T2A/Tempora-TLF/m/n/14.4 по-ве-де-ние мо-жет сви-де-тель-ство-вать о пе-ре-обу-че-нии мо-де-ли по дан-ной
+Underfull \hbox (badness 1163) in paragraph at lines 399--400
+[]\T2A/Tempora-TLF/m/n/14.4 Как по-ка-зы-ва-ет []ри-су-нок 7[], ком-по-нен-ты функ-ции по-терь убы-ва-ют с
  []
 
-<stage_1/lossComponets.png, id=152, 642.4803pt x 281.853pt>
+
+Underfull \hbox (badness 4582) in paragraph at lines 399--400
+\T2A/Tempora-TLF/m/n/14.4 На позд-ней ста-дии ком-по-нент, со-от-вет-ству-ю-щий усло-ви-ям Ней-ма-на,
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 399--400
+\T2A/Tempora-TLF/m/n/14.4 де-мон-стри-ру-ет бо-лее ров-ную ди-на-ми-ку и мень-шую чув-стви-тель-ность к
+ []
+
+[10 <./stage_1/aprox1.png> <./stage_1/aprox3.png> <./stage_1/aprox7.png>]
+<stage_1/lossComponets.png, id=141, 642.4803pt x 281.853pt>
 File: stage_1/lossComponets.png Graphic file (type png)
 <use stage_1/lossComponets.png>
-Package pdftex.def Info: stage_1/lossComponets.png  used on input line 417.
+Package pdftex.def Info: stage_1/lossComponets.png  used on input line 403.
 (pdftex.def)             Requested size: 386.95897pt x 169.75821pt.
 
-Underfull \hbox (badness 2027) in paragraph at lines 422--424
-\T2A/Tempora-TLF/m/n/14.4 эта-пе обу-че-ния на-блю-да-ет-ся рост чис-ла ос-цил-ля-ций, что обу-слов-ле-но
+Underfull \hbox (badness 1314) in paragraph at lines 408--410
+\T2A/Tempora-TLF/m/n/14.4 ча-сти про-цес-са обу-че-ния и до-сти-га-ет по-ряд-ка $\OT1/cmr/m/n/14.4 10[]$\T2A/Tempora-TLF/m/n/14.4 , что со-от-вет-ству-ет
  []
 
-<stage_1/total_loss.png, id=154, 570.933pt x 281.853pt>
+
+Underfull \hbox (badness 3746) in paragraph at lines 408--410
+\T2A/Tempora-TLF/m/n/14.4 ка-че-ствен-ной ап-прок-си-ма-ции. На за-клю-чи-тель-ном участ-ке по-яв-ля-ют-ся
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 408--410
+\T2A/Tempora-TLF/m/n/14.4 ком-по-нент. Это ука-зы-ва-ет на дис-ба-ланс меж-ду от-дель-ны-ми ча-стя-ми
+ []
+
+<stage_1/total_loss.png, id=143, 570.933pt x 281.853pt>
 File: stage_1/total_loss.png Graphic file (type png)
 <use stage_1/total_loss.png>
-Package pdftex.def Info: stage_1/total_loss.png  used on input line 428.
+Package pdftex.def Info: stage_1/total_loss.png  used on input line 414.
 (pdftex.def)             Requested size: 386.95897pt x 191.0382pt.
-[12 <./stage_1/lossComponets.png>] [13 <./stage_1/total_loss.png>]
-Underfull \hbox (badness 1072) in paragraph at lines 433--433
+[11 <./stage_1/aprox13.png> <./stage_1/aprox14.png>] [12 <./stage_1/lossComponets.png> <./stage_1/total_loss.png>]
+Underfull \hbox (badness 1072) in paragraph at lines 419--419
 |[]\T2A/Tempora-TLF/b/n/20.74 Этап 2: по-ни-же-ние по-ряд-ка и ана-лиз
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 |[]\T2A/Tempora-TLF/b/n/17.28 Модификация по-ста-нов-ки за-да-чи и ва-ри-ан-ты
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 450--452
-\T2A/Tempora-TLF/m/n/14.4 ав-то-ма-ти-че-ское диф-фе-рен-ци-ро-ва-ние вы-со-ких по-ряд-ков ча-сто при-во-дит
+Underfull \hbox (badness 1231) in paragraph at lines 436--438
+\T2A/Tempora-TLF/m/n/14.4 чет-вјр-то-го по-ряд-ка, ко-то-рое в PINN ча-сто со-про-вож-да-ет-ся жјст-ко-стью
  []
 
 
-Underfull \hbox (badness 5388) in paragraph at lines 450--452
-\T2A/Tempora-TLF/m/n/14.4 к вы-чис-ли-тель-ной неста-биль-но-сти, за-ту-ха-нию гра-ди-ен-тов и вы-со-кой
+Underfull \hbox (badness 4543) in paragraph at lines 439--440
+[]\T2A/Tempora-TLF/m/n/14.4 Для ре-ше-ния мо-ди-фи-ци-ро-ван-ной си-сте-мы бы-ли рас-смот-ре-ны три
  []
 
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 455.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 441.
 (/usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 455.
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 441.
 
-Underfull \hbox (badness 1019) in paragraph at lines 455--456
+Underfull \hbox (badness 1019) in paragraph at lines 441--442
 \T2A/Tempora-TLF/m/n/14.4 про-стран-ства вхо-дов в дву-мер-ный вы-ход $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 u; v\OT1/cmr/m/n/14.4 )$ \T2A/Tempora-TLF/m/n/14.4 с об-щим скры-тым
  []
 
-[14
+[13
 
 {/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
-[]\T2A/Tempora-TLF/m/n/14.4 Эмпирическая про-вер-ка пред-ло-жен-ных под-хо-дов вы-яви-ла ряд
- []
-
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 465.
-
-Underfull \hbox (badness 2245) in paragraph at lines 465--466
-[]\T2A/Tempora-TLF/b/n/14.4 Компоненты функ-ции по-терь: \T2A/Tempora-TLF/m/n/14.4 Ана-лиз гра-фи-ка \T2A/Tempora-TLF/m/it/14.4 loss components
- []
-
-<stage_2/all_error.png, id=184, 642.4803pt x 281.853pt>
+<stage_2/all_error.png, id=177, 642.4803pt x 281.853pt>
 File: stage_2/all_error.png Graphic file (type png)
 <use stage_2/all_error.png>
-Package pdftex.def Info: stage_2/all_error.png  used on input line 473.
+Package pdftex.def Info: stage_2/all_error.png  used on input line 452.
 (pdftex.def)             Requested size: 386.95897pt x 169.75821pt.
-[15]
-Underfull \hbox (badness 1448) in paragraph at lines 484--485
-[] []\T2A/Tempora-TLF/b/n/14.4 Ди-на-ми-ка обу-че-ния и струк-ту-ра функ-ции по-терь.[] \T2A/Tempora-TLF/m/n/14.4 Свод-ный гра-фик
+
+Underfull \hbox (badness 1810) in paragraph at lines 458--459
+\T2A/Tempora-TLF/m/n/14.4 ар-хи-тек-тур вто-ро-го эта-па наи-бо-лее ров-ную тра-ек-то-рию и наи-мень-ший
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 484--485
-\T2A/Tempora-TLF/m/n/14.4 быст-ро-го сни-же-ния total loss на ран-них ите-ра-ци-ях обу-че-ние вы-хо-дит
+Underfull \hbox (badness 2050) in paragraph at lines 458--459
+\T2A/Tempora-TLF/m/n/14.4 фи-наль-ный уро-вень ошиб-ки де-мон-стри-ру-ет \T2A/cmtt/m/n/14.4 shared_-trunk\T2A/Tempora-TLF/m/n/14.4 . Ар-хи-тек-ту-ра
  []
 
-
-Underfull \hbox (badness 4673) in paragraph at lines 484--485
-\T2A/Tempora-TLF/m/n/14.4 на вы-ра-жен-ное пла-то при-мер-но по-сле $\OT1/cmr/m/n/14.4 3 \OMS/cmsy/m/n/14.4 ^^A \OT1/cmr/m/n/14.4 10[]$\T2A/Tempora-TLF/m/n/14.4 --$\OT1/cmr/m/n/14.4 4 \OMS/cmsy/m/n/14.4 ^^A \OT1/cmr/m/n/14.4 10[]$ \T2A/Tempora-TLF/m/n/14.4 ша-гов. При
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 484--485
-\T2A/Tempora-TLF/m/n/14.4 этом луч-шую схо-ди-мость сре-ди мо-де-лей вто-ро-го эта-па де-мон-стри-ру-ет
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 484--485
-\T2A/Tempora-TLF/m/n/14.4 ар-хи-тек-ту-ра \T2A/cmtt/m/n/14.4 shared_-trunk\T2A/Tempora-TLF/m/n/14.4 : еј фи-наль-ный уро-вень ошиб-ки ока-зы-ва-ет-ся
- []
-
-<stage_2/shared_trunk_total_loss.png, id=193, 570.933pt x 281.853pt>
+<stage_2/shared_trunk_total_loss.png, id=180, 570.933pt x 281.853pt>
 File: stage_2/shared_trunk_total_loss.png Graphic file (type png)
 <use stage_2/shared_trunk_total_loss.png>
-Package pdftex.def Info: stage_2/shared_trunk_total_loss.png  used on input line 488.
+Package pdftex.def Info: stage_2/shared_trunk_total_loss.png  used on input line 462.
 (pdftex.def)             Requested size: 386.95897pt x 191.0382pt.
-<stage_2/tow_output_total_loss.png, id=194, 570.933pt x 281.853pt>
+<stage_2/tow_output_total_loss.png, id=181, 570.933pt x 281.853pt>
 File: stage_2/tow_output_total_loss.png Graphic file (type png)
 <use stage_2/tow_output_total_loss.png>
-Package pdftex.def Info: stage_2/tow_output_total_loss.png  used on input line 495.
+Package pdftex.def Info: stage_2/tow_output_total_loss.png  used on input line 469.
 (pdftex.def)             Requested size: 386.95897pt x 191.0382pt.
-<stage_2/tow_model_total_loss.png, id=195, 570.933pt x 281.853pt>
+<stage_2/tow_model_total_loss.png, id=182, 570.933pt x 281.853pt>
 File: stage_2/tow_model_total_loss.png Graphic file (type png)
 <use stage_2/tow_model_total_loss.png>
-Package pdftex.def Info: stage_2/tow_model_total_loss.png  used on input line 502.
+Package pdftex.def Info: stage_2/tow_model_total_loss.png  used on input line 476.
 (pdftex.def)             Requested size: 386.95897pt x 191.0382pt.
-[16 <./stage_2/all_error.png>]
+[14 <./stage_2/all_error.png>]
 
-LaTeX Warning: Text page 17 contains only floats.
+LaTeX Warning: Text page 15 contains only floats.
 
-[17 <./stage_2/shared_trunk_total_loss.png> <./stage_2/tow_output_total_loss.png> <./stage_2/tow_model_total_loss.png>]
-<stage_2/shared_trunk_loss_components.png, id=217, 642.4803pt x 281.853pt>
+[15 <./stage_2/shared_trunk_total_loss.png> <./stage_2/tow_output_total_loss.png> <./stage_2/tow_model_total_loss.png>]
+<stage_2/shared_trunk_loss_components.png, id=204, 642.4803pt x 281.853pt>
 File: stage_2/shared_trunk_loss_components.png Graphic file (type png)
 <use stage_2/shared_trunk_loss_components.png>
-Package pdftex.def Info: stage_2/shared_trunk_loss_components.png  used on input line 511.
+Package pdftex.def Info: stage_2/shared_trunk_loss_components.png  used on input line 485.
 (pdftex.def)             Requested size: 386.95897pt x 169.75821pt.
-<stage_2/tow_output_loss_components.png, id=218, 642.4803pt x 281.853pt>
+<stage_2/tow_output_loss_components.png, id=205, 642.4803pt x 281.853pt>
 File: stage_2/tow_output_loss_components.png Graphic file (type png)
 <use stage_2/tow_output_loss_components.png>
-Package pdftex.def Info: stage_2/tow_output_loss_components.png  used on input line 518.
+Package pdftex.def Info: stage_2/tow_output_loss_components.png  used on input line 492.
 (pdftex.def)             Requested size: 386.95897pt x 169.75821pt.
-<stage_2/tow_model_loss_components.png, id=219, 642.4803pt x 281.853pt>
+<stage_2/tow_model_loss_components.png, id=206, 642.4803pt x 281.853pt>
 File: stage_2/tow_model_loss_components.png Graphic file (type png)
 <use stage_2/tow_model_loss_components.png>
-Package pdftex.def Info: stage_2/tow_model_loss_components.png  used on input line 525.
+Package pdftex.def Info: stage_2/tow_model_loss_components.png  used on input line 499.
 (pdftex.def)             Requested size: 386.95897pt x 169.75821pt.
 
-Underfull \hbox (badness 1817) in paragraph at lines 530--531
-[]\T2A/Tempora-TLF/m/n/14.4 Осцилляции на гра-фи-ках сле-ду-ет ин-тер-пре-ти-ро-вать как про-яв-ле-ние
+Underfull \hbox (badness 1755) in paragraph at lines 504--505
+[]\T2A/Tempora-TLF/m/n/14.4 Пики на кри-вых total loss и от-дель-ных ком-по-нент воз-ни-ка-ют при
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 530--531
-\T2A/Tempora-TLF/m/n/14.4 от-кло-не-ни-ям в про-из-вод-ных и в по-ле $\OML/cmm/m/it/14.4 v$\T2A/Tempora-TLF/m/n/14.4 . С дру-гой сто-ро-ны, раз-ли-чия
+Underfull \hbox (badness 3098) in paragraph at lines 504--505
+\T2A/Tempora-TLF/m/n/14.4 об-щие пространственно-временные при-зна-ки из-вле-ка-ют-ся сов-мест-но, а
  []
 
-
-Underfull \hbox (badness 1152) in paragraph at lines 530--531
-\T2A/Tempora-TLF/m/n/14.4 к фи-зи-че-ской жјст-ко-сти. В \T2A/cmtt/m/n/14.4 two_-models \T2A/Tempora-TLF/m/n/14.4 пи-ки вы-ра-же-ны силь-нее все-го,
- []
-
-
-Underfull \hbox (badness 1817) in paragraph at lines 530--531
-\T2A/Tempora-TLF/m/n/14.4 В \T2A/cmtt/m/n/14.4 two_-output \T2A/Tempora-TLF/m/n/14.4 пи-ки мень-ше, но всј же ре-гу-ляр-ны, по-сколь-ку еди-ное
- []
-
-[18 <./stage_2/shared_trunk_loss_components.png> <./stage_2/tow_output_loss_components.png>]
-Underfull \hbox (badness 1603) in paragraph at lines 535--536
-\T2A/Tempora-TLF/m/n/14.4 ите-ра-ций до-ста-точ-но точ-но вос-ста-нав-ли-ва-ют ис-ход-ный про-филь $\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14.4 )$\T2A/Tempora-TLF/m/n/14.4 ,
- []
-
-
-Underfull \hbox (badness 4967) in paragraph at lines 537--538
-[]\T2A/Tempora-TLF/m/n/14.4 Для по-ля $\OML/cmm/m/it/14.4 v\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14.4 )$ \T2A/Tempora-TLF/m/n/14.4 си-ту-а-ция су-ще-ствен-но слож-нее. На всех трјх
- []
-
-[19 <./stage_2/tow_model_loss_components.png>]
-<stage_2/shared_trunk_aprox_evalution.png, id=234, 1076.823pt x 495.0495pt>
+[16 <./stage_2/shared_trunk_loss_components.png> <./stage_2/tow_output_loss_components.png>]
+<stage_2/shared_trunk_aprox_evalution.png, id=216, 1076.823pt x 495.0495pt>
 File: stage_2/shared_trunk_aprox_evalution.png Graphic file (type png)
 <use stage_2/shared_trunk_aprox_evalution.png>
-Package pdftex.def Info: stage_2/shared_trunk_aprox_evalution.png  used on input line 541.
+Package pdftex.def Info: stage_2/shared_trunk_aprox_evalution.png  used on input line 514.
 (pdftex.def)             Requested size: 483.69687pt x 222.36986pt.
-<stage_2/tow_output_aprox_evolution.png, id=235, 1076.1003pt x 495.0495pt>
+<stage_2/tow_output_aprox_evolution.png, id=217, 1076.1003pt x 495.0495pt>
 File: stage_2/tow_output_aprox_evolution.png Graphic file (type png)
 <use stage_2/tow_output_aprox_evolution.png>
-Package pdftex.def Info: stage_2/tow_output_aprox_evolution.png  used on input line 548.
+Package pdftex.def Info: stage_2/tow_output_aprox_evolution.png  used on input line 521.
 (pdftex.def)             Requested size: 483.69687pt x 222.51338pt.
-<stage_2/tow_model_aprox_evalution.png, id=236, 1082.6046pt x 495.0495pt>
+<stage_2/tow_model_aprox_evalution.png, id=218, 1082.6046pt x 495.0495pt>
 File: stage_2/tow_model_aprox_evalution.png Graphic file (type png)
 <use stage_2/tow_model_aprox_evalution.png>
-Package pdftex.def Info: stage_2/tow_model_aprox_evalution.png  used on input line 555.
+Package pdftex.def Info: stage_2/tow_model_aprox_evalution.png  used on input line 528.
 (pdftex.def)             Requested size: 483.69687pt x 221.1839pt.
- [20 <./stage_2/shared_trunk_aprox_evalution.png> <./stage_2/tow_output_aprox_evolution.png>]
-Underfull \hbox (badness 1264) in paragraph at lines 568--569
-\T2A/Tempora-TLF/m/n/14.4 пы-та-ет-ся ѕпод-стро-итьї $\OML/cmm/m/it/14.4 u$ \T2A/Tempora-TLF/m/n/14.4 под уже неточ-ную ап-прок-си-ма-цию $\OML/cmm/m/it/14.4 v$\T2A/Tempora-TLF/m/n/14.4 . Ины-ми
- []
-
-[21 <./stage_2/tow_model_aprox_evalution.png>]
-Underfull \hbox (badness 1838) in paragraph at lines 572--573
-[]\T2A/Tempora-TLF/m/n/14.4 Опираясь на ко-ли-че-ствен-ные мет-ри-ки и ви-зу-аль-ный ана-лиз, мож-но
+ [17 <./stage_2/tow_model_loss_components.png>]
+Underfull \hbox (badness 1033) in paragraph at lines 540--541
+\T2A/Tempora-TLF/m/n/14.4 пред-став-ле-ни-ем, но оно долж-но од-но-вре-мен-но ко-ди-ро-вать по-ля раз-но-го
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 572--573
-\T2A/Tempora-TLF/m/n/14.4 кон-ста-ти-ро-вать, что ме-тод по-ни-же-ния по-ряд-ка про-из-вод-ной за счјт
+Underfull \hbox (badness 2237) in paragraph at lines 540--541
+\T2A/Tempora-TLF/m/n/14.4 мас-шта-ба. Ар-хи-тек-ту-ра \T2A/cmtt/m/n/14.4 shared_-trunk \T2A/Tempora-TLF/m/n/14.4 обес-пе-чи-ва-ет ком-про-мисс меж-ду
  []
 
-
-Underfull \hbox (badness 3250) in paragraph at lines 574--575
-[]\T2A/Tempora-TLF/b/n/14.4 Конкуренция гра-ди-ен-тов и жјст-кость оп-ти-ми-за-ции: \T2A/Tempora-TLF/m/n/14.4 Вве-де-ние
+[18 <./stage_2/shared_trunk_aprox_evalution.png> <./stage_2/tow_output_aprox_evolution.png>] [19 <./stage_2/tow_model_aprox_evalution.png>]
+Underfull \hbox (badness 5637) in paragraph at lines 548--549
+\T2A/Tempora-TLF/m/n/14.4 ар-хи-тек-ту-ра \T2A/cmtt/m/n/14.4 two_-output \T2A/Tempora-TLF/m/n/14.4 за-ни-ма-ет про-ме-жу-точ-ное по-ло-же-ние, а
  []
 
-
-Underfull \hbox (badness 2150) in paragraph at lines 574--575
-\T2A/Tempora-TLF/m/n/14.4 до-пол-ни-тель-но-го усло-вия со-гла-со-ва-ния []фор-му-ла (3.3)[] зна-чи-тель-но
- []
-
-
-Underfull \hbox (badness 3492) in paragraph at lines 574--575
-\T2A/Tempora-TLF/m/n/14.4 услож-ни-ло ланд-шафт функ-ции по-терь. Мо-дель бы-ла вы-нуж-де-на
- []
-
-
-Underfull \hbox (badness 2142) in paragraph at lines 574--575
-\T2A/Tempora-TLF/m/n/14.4 ба-лан-си-ро-вать меж-ду ми-ни-ми-за-ци-ей невяз-ки са-мо-го урав-не-ния и
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 575--576
-\T2A/Tempora-TLF/m/n/14.4 быст-рее и на-чи-на-ет до-ми-ни-ро-вать в со-став-ной функ-ции по-терь.
- []
-
-[22] [23
+[20]
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
+(Font)              scaled to size 14.4pt on input line 554.
+ [21
 
 ] (./cursach.aux
 Package cleveref Info: loaded `russian' language definitions on input line 10.
@@ -2692,18 +2639,18 @@ Package logreq Info: Writing requests to 'cursach.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49327 strings out of 467525
- 1088535 string characters out of 5418982
- 2176703 words of memory out of 5000000
- 77457 multiletter control sequences out of 15000+600000
+ 49319 strings out of 467525
+ 1088441 string characters out of 5418982
+ 2176716 words of memory out of 5000000
+ 77454 multiletter control sequences out of 15000+600000
  658152 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,117p,2199b,3209s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Italic.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on cursach.pdf (23 pages, 1765591 bytes).
+Output written on cursach.pdf (21 pages, 1758965 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
- 306 compressed objects within 4 object streams
- 88 named destinations out of 1000 (max. 500000)
- 220 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 378 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 212 words of extra memory for PDF output out of 10000 (max. 10000000)
 
