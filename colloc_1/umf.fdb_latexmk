@@ -1,8 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1776407932.23425 "umf.tex" "umf.pdf" "umf" 1776407933.72893 0
+["pdflatex"] 1776409922.15013 "/Users/zasmina/Study/6-semester/colloc_1/umf.tex" "umf.pdf" "umf" 1776409923.19227 0
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1776405611.90577 3304 6a543c07045572737981351171e0505e ""
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1776163255.13452 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/larm2074.tfm" 1776405606.96293 3264 03c2b9e4787a40d3b9c197c38b93b558 ""
+  "/Users/zasmina/Study/6-semester/colloc_1/umf.tex" 1776408767.65411 58517 15a98fe85517f0f4e117b5346dda7f98 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1136849721 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -90,8 +91,8 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1776162630 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1776162512 3636778 6925ab35a6e199589a5d52b3eef864c9 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "umf.aux" 1776407933.44692 171 d68cf58fbe840c83e8e2b5dcbfefefc4 "pdflatex"
-  "umf.tex" 1776407921.44815 46780 ddef9054bee964873fd0ce67f0957d1d ""
+  "umf.aux" 1776409923.02382 171 42d7f85569166f4a873fcd13411076ae "pdflatex"
+  "umf.tex" 1776408767.65411 58517 15a98fe85517f0f4e117b5346dda7f98 ""
   (generated)
   "umf.aux"
   "umf.log"
