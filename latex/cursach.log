@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  22 APR 2026 10:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  22 APR 2026 11:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2686,11 +2686,11 @@ File: ../ntk_report_assets/ntk_heatmap_before.png Graphic file (type png)
 <use ../ntk_report_assets/ntk_heatmap_before.png>
 Package pdftex.def Info: ../ntk_report_assets/ntk_heatmap_before.png  used on input line 749.
 (pdftex.def)             Requested size: 348.26233pt x 294.80574pt.
-<../ntk_report_assets/ntk_heatmap_after.png, id=325, 435.42674pt x 368.577pt>
+<../ntk_report_assets/ntk_heatmap_after.png, id=325, 436.33012pt x 368.577pt>
 File: ../ntk_report_assets/ntk_heatmap_after.png Graphic file (type png)
 <use ../ntk_report_assets/ntk_heatmap_after.png>
 Package pdftex.def Info: ../ntk_report_assets/ntk_heatmap_after.png  used on input line 756.
-(pdftex.def)             Requested size: 348.26233pt x 294.80574pt.
+(pdftex.def)             Requested size: 348.26233pt x 294.19272pt.
 
 Underfull \hbox (badness 1584) in paragraph at lines 761--762
 []\T2A/Tempora-TLF/m/n/14.4 ¬се об-суж-да-е-мые ни-же ви-зу-а-ли-за-ции бы-ли по-лу-че-ны в \T2A/cmtt/m/n/14.4 TensorFlow
@@ -2712,11 +2712,11 @@ File: ../ntk_report_assets/ntk_eigenspectrum_before_after.png Graphic file (type
 Package pdftex.def Info: ../ntk_report_assets/ntk_eigenspectrum_before_after.png  used on input line 767.
 (pdftex.def)             Requested size: 483.69687pt x 182.44644pt.
 [28 <../ntk_report_assets/ntk_heatmap_before.png>]
-<../ntk_report_assets/ntk_heatmaps_before_after.png, id=349, 822.07124pt x 339.669pt>
+<../ntk_report_assets/ntk_heatmaps_before_after.png, id=349, 822.52293pt x 339.669pt>
 File: ../ntk_report_assets/ntk_heatmaps_before_after.png Graphic file (type png)
 <use ../ntk_report_assets/ntk_heatmaps_before_after.png>
 Package pdftex.def Info: ../ntk_report_assets/ntk_heatmaps_before_after.png  used on input line 776.
-(pdftex.def)             Requested size: 483.69687pt x 199.85876pt.
+(pdftex.def)             Requested size: 483.69687pt x 199.74992pt.
 
 Underfull \hbox (badness 1194) in paragraph at lines 781--782
 \T2A/Tempora-TLF/m/n/14.4 раз-ре-ша-ю-щую спо-соб-ность NTK в тех об-ла-ст€х, ко-то-рые зна-чи-мы дл€
@@ -2785,7 +2785,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  102i,12n,117p,2199b,3209s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Italic.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on cursach.pdf (35 pages, 2118979 bytes).
+Output written on cursach.pdf (35 pages, 2112009 bytes).
 PDF statistics:
  587 PDF objects out of 1000 (max. 8388607)
  468 compressed objects within 5 object streams

@@ -35,6 +35,7 @@ import json
 import math
 import os
 import re
+import tempfile
 import warnings
 from dataclasses import dataclass
 from pathlib import Path
@@ -42,6 +43,15 @@ from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 
 os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "2")
 os.environ.setdefault("TF_ENABLE_ONEDNN_OPTS", "0")
+_CACHE_ROOT = Path(tempfile.gettempdir()) / "ntk_analysis_tensorflow_cache"
+os.environ.setdefault("XDG_CACHE_HOME", str(_CACHE_ROOT / "xdg"))
+os.environ.setdefault("MPLCONFIGDIR", str(_CACHE_ROOT / "mpl"))
+for _cache_dir in (
+    Path(os.environ["XDG_CACHE_HOME"]),
+    Path(os.environ["MPLCONFIGDIR"]),
+    Path(os.environ["XDG_CACHE_HOME"]) / "fontconfig",
+):
+    _cache_dir.mkdir(parents=True, exist_ok=True)
 
 import matplotlib
 
@@ -761,10 +771,25 @@ def analyze_ntk(ntk: np.ndarray, eigen_tol: float = 1e-12) -> Dict[str, object]:
 
 def pca_project_rows(matrix: np.ndarray, n_components: int = 2) -> Tuple[np.ndarray, np.ndarray]:
     """Project NTK rows to 2D with plain NumPy PCA."""
+    if matrix.ndim != 2:
+        raise ValueError(f"Expected a 2D matrix for PCA projection, got shape {matrix.shape}.")
+
     centered = matrix - matrix.mean(axis=0, keepdims=True)
+    max_components = min(n_components, centered.shape[0], centered.shape[1])
+    if max_components <= 0:
+        return np.zeros((matrix.shape[0], n_components), dtype=np.float64), np.zeros(n_components, dtype=np.float64)
+
     u, s, _ = np.linalg.svd(centered, full_matrices=False)
-    coordinates = u[:, :n_components] * s[:n_components]
+    coordinates = u[:, :max_components] * s[:max_components]
     explained_variance = (s ** 2) / max(np.sum(s ** 2), 1e-12)
+
+    if max_components < n_components:
+        padded_coordinates = np.zeros((matrix.shape[0], n_components), dtype=coordinates.dtype)
+        padded_coordinates[:, :max_components] = coordinates
+        padded_variance = np.zeros(n_components, dtype=explained_variance.dtype)
+        padded_variance[:max_components] = explained_variance[:max_components]
+        return padded_coordinates, padded_variance
+
     return coordinates, explained_variance[:n_components]
 
 
@@ -849,6 +874,16 @@ def plot_row_projection(
     path: Path,
 ) -> None:
     """Plot a 2D PCA projection of NTK rows."""
+    if row_coordinates.ndim != 2 or row_coordinates.shape[1] < 2:
+        padded = np.zeros((row_coordinates.shape[0], 2), dtype=np.float64)
+        padded[:, : row_coordinates.shape[1]] = row_coordinates
+        row_coordinates = padded
+
+    if explained_variance.shape[0] < 2:
+        padded_variance = np.zeros(2, dtype=np.float64)
+        padded_variance[: explained_variance.shape[0]] = explained_variance
+        explained_variance = padded_variance
+
     fig, ax = plt.subplots(figsize=(7.5, 6.0), dpi=160)
 
     if batch.shape[1] >= 1:
@@ -1024,6 +1059,13 @@ def main() -> None:
 
     batch = np.asarray(batch_info.array, dtype=np.float64)
     batch = maybe_transpose_batch(batch)
+
+    expected_input_dim = 2 if args.builder == "recovered_pinn" else args.input_dim
+    if batch.ndim != 2 or batch.shape[1] != expected_input_dim:
+        raise ValueError(
+            f"Input batch shape {batch.shape} is incompatible with builder `{args.builder}`. "
+            f"Expected shape [batch, {expected_input_dim}]."
+        )
 
     predictions = model(tf.convert_to_tensor(batch, dtype=args.dtype), training=False).numpy()
     ntk_matrix, full_jacobian = compute_empirical_ntk(model=model, batch=batch)

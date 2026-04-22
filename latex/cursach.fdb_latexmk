@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber cursach"] 1776783374.68411 "cursach.bcf" "cursach.bbl" "cursach" 1776816174.48738 0
-  "cursach.bcf" 1776816174.17145 157617 e147fd0290f68d38e4efe2314c6e34c1 "pdflatex"
+["biber cursach"] 1776783374.68411 "cursach.bcf" "cursach.bbl" "cursach" 1776821400.20989 0
+  "cursach.bcf" 1776821399.89326 157617 e147fd0290f68d38e4efe2314c6e34c1 "pdflatex"
   "literature.bib" 1776747966.33016 3664 cd6410a72402cd95add5cd27623a7bf5 ""
   (generated)
   "cursach.bbl"
   "cursach.blg"
   (rewritten before read)
-["pdflatex"] 1776816168.18071 "/Users/zasmina/Study/6-semester/latex/cursach.tex" "cursach.pdf" "cursach" 1776816174.48796 0
+["pdflatex"] 1776821394.0201 "/Users/zasmina/Study/6-semester/latex/cursach.tex" "cursach.pdf" "cursach" 1776821400.21046 0
   "../ntk_analysis_output_test3/ntk_clustered_heatmap.png" 1776781429.74014 47494 fb6ed33374c4a8c1af7ec706ca8a18b8 ""
   "../ntk_analysis_output_test3/ntk_rows_pca.png" 1776781429.74218 48850 cf00890ddb7f6669519c6c407e2b3918 ""
-  "../ntk_report_assets/ntk_eigenspectrum_before_after.png" 1776781429.74289 79639 8a5202757ac1bc5302803c85d9c07f64 ""
-  "../ntk_report_assets/ntk_heatmap_after.png" 1776781429.74332 37950 0d14a5191db6a7fb0076ea4497795ce4 ""
-  "../ntk_report_assets/ntk_heatmap_before.png" 1776781429.74373 36074 9f0472fb3943283272b4907356400e8c ""
-  "../ntk_report_assets/ntk_heatmaps_before_after.png" 1776781429.74422 51012 823612400ccdd1440022ed281b2bdecb ""
+  "../ntk_report_assets/ntk_eigenspectrum_before_after.png" 1776821387.97557 74089 0752dcaf3af7ce8c74a4841f7b88ed91 ""
+  "../ntk_report_assets/ntk_heatmap_after.png" 1776821387.30423 35985 36c63ff013c0b4ff98dd76fe6bbb69a3 ""
+  "../ntk_report_assets/ntk_heatmap_before.png" 1776821387.14813 35564 8ce474f27d2b47bc8b649a43066b1953 ""
+  "../ntk_report_assets/ntk_heatmaps_before_after.png" 1776821387.59768 48786 e74caae3716b7e9fa4dbf9c487aa2f44 ""
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1776163255.13452 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/latt1440.tfm" 1776163260.22273 1272 e3abe42d6bdbd8626fffa22fcb43f669 ""
   "/Users/zasmina/Study/6-semester/latex/cursach.tex" 1776816163.32215 83925 b620986ef4aa1fa6d54a5db517cc01b2 ""
@@ -281,9 +281,9 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1776162630 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1776162512 3636778 6925ab35a6e199589a5d52b3eef864c9 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "cursach.aux" 1776816174.14014 47928 195876acdbc3d73233af69d4a4054338 "pdflatex"
+  "cursach.aux" 1776821399.86355 47928 195876acdbc3d73233af69d4a4054338 "pdflatex"
   "cursach.bbl" 1776783377.19207 13427 372d2e62a6a7fe8c29bf1c1cce98036d "biber cursach"
-  "cursach.run.xml" 1776816174.17262 2523 2f2f69384d918c90309ef90b2e1f592d "pdflatex"
+  "cursach.run.xml" 1776821399.89444 2523 2f2f69384d918c90309ef90b2e1f592d "pdflatex"
   "cursach.tex" 1776816163.32215 83925 b620986ef4aa1fa6d54a5db517cc01b2 ""
   "dvfu.png" 1776747966.32971 17669 e92731096b71a1807d870b1370da4bba ""
   "stage_1/aprox1.png" 1776747966.33112 35044 ee0639aaec8fce3ec6b655e76887e02f ""
