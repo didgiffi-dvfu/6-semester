@@ -1,0 +1,41 @@
+{
+  "batch_label": "ntk_multi_batches_000",
+  "batch_shape": [
+    4,
+    2
+  ],
+  "cluster_order": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "metrics": {
+    "trace": 190.87663709159057,
+    "rank": 4,
+    "effective_rank": 3.289634566109673,
+    "condition_number": 12.935628035444674,
+    "min_eigenvalue": 5.567937410929684,
+    "max_eigenvalue": 72.02476727242325,
+    "num_positive_eigenvalues": 4,
+    "symmetry_error_max_abs": 0.0,
+    "diagonal_min": 45.19119260435464,
+    "diagonal_max": 49.98477388418205,
+    "diagonal_mean": 47.71915927289764,
+    "eigenvalues_desc": [
+      72.02476727242325,
+      60.103566286329816,
+      53.18036612190781,
+      5.567937410929684
+    ]
+  },
+  "artifacts": {
+    "heatmap": "/Users/zasmina/Study/6-semester/ntk_analysis_output_multi_check/batches/000_ntk_multi_batches_000/ntk_heatmap.png",
+    "eigenvalues": "/Users/zasmina/Study/6-semester/ntk_analysis_output_multi_check/batches/000_ntk_multi_batches_000/ntk_eigenvalues.png",
+    "rows_pca": "/Users/zasmina/Study/6-semester/ntk_analysis_output_multi_check/batches/000_ntk_multi_batches_000/ntk_rows_pca.png",
+    "clustered_heatmap": "/Users/zasmina/Study/6-semester/ntk_analysis_output_multi_check/batches/000_ntk_multi_batches_000/ntk_clustered_heatmap.png",
+    "ntk_matrix": "/Users/zasmina/Study/6-semester/ntk_analysis_output_multi_check/batches/000_ntk_multi_batches_000/ntk_matrix.npy",
+    "predictions": "/Users/zasmina/Study/6-semester/ntk_analysis_output_multi_check/batches/000_ntk_multi_batches_000/model_predictions.npy",
+    "jacobian": "/Users/zasmina/Study/6-semester/ntk_analysis_output_multi_check/batches/000_ntk_multi_batches_000/jacobian_tensor.npy"
+  }
+}
