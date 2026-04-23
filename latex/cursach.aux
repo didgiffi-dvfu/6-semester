@@ -181,31 +181,29 @@
 \BKM@entry{id=23,dest={73756273656374696F6E2E342E35},srcline={696}}{5C3337365C3337375C3030345C3032325C3030345C3037305C3030345C3036375C3030345C3130335C3030345C3036305C3030345C3037335C3030345C3037305C3030345C3036375C3030345C3036305C3030345C3130365C3030345C3037305C3030345C3037305C3030305C3034305C3030345C3037305C3030305C3034305C3030345C3036305C3030345C3037355C3030345C3036305C3030345C3037335C3030345C3037305C3030345C3036375C3030305C3034305C3030345C3130305C3030345C3036355C3030345C3036375C3030345C3130335C3030345C3037335C3030345C3131345C3030345C3130325C3030345C3036305C3030345C3130325C3030345C3037365C3030345C303632}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Практический пример: вычисление NTK для MLP в TensorFlow}{26}{subsection.4.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Визуализации и анализ результатов}{26}{subsection.4.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Эмпирическая матрица NTK до обучения. Гладкая и сравнительно слабо контрастная структура указывает на то, что попарные взаимодействия между объектами на этом этапе определяются главным образом архитектурой сети и случайной инициализацией параметров.}}{27}{figure.caption.19}\protected@file@percent }
-\newlabel{fig:ntk_heatmap_before}{{19}{27}{Эмпирическая матрица NTK до обучения. Гладкая и сравнительно слабо контрастная структура указывает на то, что попарные взаимодействия между объектами на этом этапе определяются главным образом архитектурой сети и случайной инициализацией параметров}{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Эмпирическая матрица NTK до обучения.}}{27}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:ntk_heatmap_before}{{19}{27}{Эмпирическая матрица NTK до обучения}{figure.caption.19}{}}
 \newlabel{fig:ntk_heatmap_before@cref}{{[figure][19][]19}{[1][26][]27}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Эмпирическая матрица NTK после обучения MLP на модельной задаче одномерной регрессии. Яркая диагональ отражает сильную чувствительность предсказания в каждой точке к собственным градиентным направлениям, а выраженная вне диагональная структура показывает, что близкие входы оказываются связанными и обучаются не независимо, а согласованно.}}{28}{figure.caption.20}\protected@file@percent }
-\newlabel{fig:ntk_heatmap_after}{{20}{28}{Эмпирическая матрица NTK после обучения MLP на модельной задаче одномерной регрессии. Яркая диагональ отражает сильную чувствительность предсказания в каждой точке к собственным градиентным направлениям, а выраженная вне диагональная структура показывает, что близкие входы оказываются связанными и обучаются не независимо, а согласованно}{figure.caption.20}{}}
-\newlabel{fig:ntk_heatmap_after@cref}{{[figure][20][]20}{[1][26][]28}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Спектр собственных значений NTK до и после обучения. Левая панель показывает спектр в линейном масштабе, правая --- в логарифмическом. После обучения доминирующие собственные значения возрастают, а сам спектр становится более протяжённым, что указывает на увеличение числа направлений в функциональном пространстве, по которым сеть активно адаптируется к данным.}}{29}{figure.caption.21}\protected@file@percent }
-\newlabel{fig:ntk_spectrum}{{21}{29}{Спектр собственных значений NTK до и после обучения. Левая панель показывает спектр в линейном масштабе, правая --- в логарифмическом. После обучения доминирующие собственные значения возрастают, а сам спектр становится более протяжённым, что указывает на увеличение числа направлений в функциональном пространстве, по которым сеть активно адаптируется к данным}{figure.caption.21}{}}
-\newlabel{fig:ntk_spectrum@cref}{{[figure][21][]21}{[1][28][]29}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Сравнение матриц NTK до и после обучения. До обучения ядро определяется в основном архитектурой и случайной инициализацией; после обучения структура NTK становится более контрастной, что отражает перераспределение чувствительности модели в соответствии с геометрией данных и целевой функцией.}}{29}{figure.caption.22}\protected@file@percent }
-\newlabel{fig:ntk_compare}{{22}{29}{Сравнение матриц NTK до и после обучения. До обучения ядро определяется в основном архитектурой и случайной инициализацией; после обучения структура NTK становится более контрастной, что отражает перераспределение чувствительности модели в соответствии с геометрией данных и целевой функцией}{figure.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Эмпирическая матрица NTK после обучения на задаче одномерной регрессии.}}{27}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:ntk_heatmap_after}{{20}{27}{Эмпирическая матрица NTK после обучения на задаче одномерной регрессии}{figure.caption.20}{}}
+\newlabel{fig:ntk_heatmap_after@cref}{{[figure][20][]20}{[1][26][]27}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Спектр собственных значений NTK до и после обучения (слева — линейный масштаб, справа — логарифмический).}}{28}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:ntk_spectrum}{{21}{28}{Спектр собственных значений NTK до и после обучения (слева — линейный масштаб, справа — логарифмический)}{figure.caption.21}{}}
+\newlabel{fig:ntk_spectrum@cref}{{[figure][21][]21}{[1][28][]28}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Сравнение глобальной и локальной структуры матриц NTK до и после обучения.}}{29}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:ntk_compare}{{22}{29}{Сравнение глобальной и локальной структуры матриц NTK до и после обучения}{figure.caption.22}{}}
 \newlabel{fig:ntk_compare@cref}{{[figure][22][]22}{[1][28][]29}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces PCA-проекция строк матрицы NTK. Каждая точка соответствует строке Gram-матрицы, то есть профилю взаимодействия одного объекта со всей выборкой. Пространственное разделение точек отражает неоднородность геометрии данных в индуцированном ядром представлении.}}{30}{figure.caption.23}\protected@file@percent }
-\newlabel{fig:ntk_rows_pca}{{23}{30}{PCA-проекция строк матрицы NTK. Каждая точка соответствует строке Gram-матрицы, то есть профилю взаимодействия одного объекта со всей выборкой. Пространственное разделение точек отражает неоднородность геометрии данных в индуцированном ядром представлении}{figure.caption.23}{}}
-\newlabel{fig:ntk_rows_pca@cref}{{[figure][23][]23}{[1][29][]30}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Кластеризованная матрица NTK. Перестановка строк и столбцов в соответствии с иерархической кластеризацией выявляет блоки объектов с близкими профилями попарных взаимодействий.}}{31}{figure.caption.24}\protected@file@percent }
-\newlabel{fig:ntk_clustered}{{24}{31}{Кластеризованная матрица NTK. Перестановка строк и столбцов в соответствии с иерархической кластеризацией выявляет блоки объектов с близкими профилями попарных взаимодействий}{figure.caption.24}{}}
-\newlabel{fig:ntk_clustered@cref}{{[figure][24][]24}{[1][30][]31}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Карта чувствительности всех обучаемых блоков модели. По строкам отложены объекты батча, по столбцам --- обучаемые блоки сети, а цвет кодирует величину \(\|\partial f(x_i)/\partial \theta _{\ell }\|_2\), то есть вклад соответствующего блока параметров в локальную градиентную чувствительность модели.}}{32}{figure.caption.25}\protected@file@percent }
-\newlabel{fig:ntk_model_blocks}{{25}{32}{Карта чувствительности всех обучаемых блоков модели. По строкам отложены объекты батча, по столбцам --- обучаемые блоки сети, а цвет кодирует величину \(\|\partial f(x_i)/\partial \theta _{\ell }\|_2\), то есть вклад соответствующего блока параметров в локальную градиентную чувствительность модели}{figure.caption.25}{}}
-\newlabel{fig:ntk_model_blocks@cref}{{[figure][25][]25}{[1][30][]32}{}{}{}}
-\BKM@entry{id=24,dest={73756273656374696F6E2E342E36},srcline={765}}{5C3337365C3337375C3030345C3033305C3030345C3037355C3030345C3130325C3030345C3036355C3030345C3130305C3030345C3037375C3030345C3130305C3030345C3036355C3030345C3130325C3030345C3036305C3030345C3130365C3030345C3037305C3030345C3131375C3030305C3034305C3030345C3130305C3030345C3036355C3030345C3036375C3030345C3130335C3030345C3037335C3030345C3131345C3030345C3130325C3030345C3036305C3030345C3130325C3030345C3037365C3030345C303632}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Интерпретация результатов}{33}{subsection.4.6}\protected@file@percent }
-\BKM@entry{id=25,dest={73756273656374696F6E2E342E37},srcline={778}}{5C3337365C3337375C3030345C3032325C3030345C3131335C3030345C3036325C3030345C3037365C3030345C3036345C3030345C3131335C3030305C3034305C3030345C3037375C3030345C3037365C3030305C3034305C3030345C3130305C3030345C3036305C3030345C3036375C3030345C3036345C3030345C3036355C3030345C3037335C3030345C313033}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Выводы по разделу}{35}{subsection.4.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces PCA-проекция строк матрицы NTK.}}{29}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:ntk_rows_pca}{{23}{29}{PCA-проекция строк матрицы NTK}{figure.caption.23}{}}
+\newlabel{fig:ntk_rows_pca@cref}{{[figure][23][]23}{[1][29][]29}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Матрица NTK после иерархической кластеризации строк и столбцов.}}{30}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:ntk_clustered}{{24}{30}{Матрица NTK после иерархической кластеризации строк и столбцов}{figure.caption.24}{}}
+\newlabel{fig:ntk_clustered@cref}{{[figure][24][]24}{[1][30][]30}{}{}{}}
+\BKM@entry{id=24,dest={73756273656374696F6E2E342E36},srcline={763}}{5C3337365C3337375C3030345C3033305C3030345C3037355C3030345C3130325C3030345C3036355C3030345C3130305C3030345C3037375C3030345C3130305C3030345C3036355C3030345C3130325C3030345C3036305C3030345C3130365C3030345C3037305C3030345C3131375C3030305C3034305C3030345C3130305C3030345C3036355C3030345C3036375C3030345C3130335C3030345C3037335C3030345C3131345C3030345C3130325C3030345C3036305C3030345C3130325C3030345C3037365C3030345C303632}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Карта градиентной чувствительности обучаемых блоков модели.}}{31}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:ntk_model_blocks}{{25}{31}{Карта градиентной чувствительности обучаемых блоков модели}{figure.caption.25}{}}
+\newlabel{fig:ntk_model_blocks@cref}{{[figure][25][]25}{[1][30][]31}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Интерпретация результатов}{32}{subsection.4.6}\protected@file@percent }
 \abx@aux@read@bbl@mdfivesum{372D2E62A6A7FE8C29BF1C1CCE98036D}
 \abx@aux@defaultrefcontext{0}{tancik2020fourier}{nty/global//global/global/global}
 \abx@aux@defaultrefcontext{0}{kuramoto1978diffusion}{nty/global//global/global/global}
@@ -214,4 +212,4 @@
 \abx@aux@defaultrefcontext{0}{sivashinsky1977nonlinear}{nty/global//global/global/global}
 \abx@aux@defaultrefcontext{0}{wang2021gradient}{nty/global//global/global/global}
 \abx@aux@defaultrefcontext{0}{wang2022ntk}{nty/global//global/global/global}
-\gdef \@abspage@last{36}
+\gdef \@abspage@last{33}

@@ -1,0 +1,15 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'cursach.blg'
+[35] biber-darwin:342> INFO - === Thu Apr 23, 2026, 15:16:40
+[43] Biber.pm:421> INFO - Reading 'cursach.bcf'
+[102] Biber.pm:1002> INFO - Found 7 citekeys in bib section 0
+[112] Biber.pm:4487> INFO - Processing section 0
+[118] Biber.pm:4678> INFO - Looking for bibtex file 'literature.bib' for section 0
+[120] bibtex.pm:1713> INFO - LaTeX decoding ...
+[128] bibtex.pm:1519> INFO - Found BibTeX data source 'literature.bib'
+[175] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[175] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[175] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'ru-RU'
+[175] Biber.pm:4313> INFO - No sort tailoring available for locale 'ru-RU'
+[180] bbl.pm:676> INFO - Writing 'cursach.bbl' with encoding 'UTF-8'
+[182] bbl.pm:779> INFO - Output to cursach.bbl
