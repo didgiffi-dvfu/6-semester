@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  23 APR 2026 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  23 APR 2026 14:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2640,186 +2640,247 @@ Underfull \hbox (badness 10000) in paragraph at lines 630--631
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 638--640
-\T2A/Tempora-TLF/m/n/14.4 зна-че-ний NTK меж-ду точ-кой $\OML/cmm/m/it/14.4 x$ \T2A/Tempora-TLF/m/n/14.4 и обу-ча-ю-щим на-бо-ром, а $\OT1/cmr/m/n/14.4 ^^B(\OML/cmm/m/it/14.4 X; X\OT1/cmr/m/n/14.4 )$ \T2A/Tempora-TLF/m/n/14.4 ---
+Underfull \hbox (badness 1331) in paragraph at lines 634--635
+[]\T2A/Tempora-TLF/m/n/14.4 В ре-жи-ме ли-не-а-ри-зо-ван-но-го (так на-зы-ва-е-мо-го ѕле-ни-во-гої) обу-че-ния
  []
 
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 641.
+
+Underfull \hbox (badness 1577) in paragraph at lines 634--635
+\T2A/Tempora-TLF/m/n/14.4 ди-на-ми-ка ней-рон-ной се-ти боль-шой ши-ри-ны ана-ли-ти-че-ски эк-ви-ва-лент-на
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 634--635
+\T2A/Tempora-TLF/m/n/14.4 ме-то-дам ядер-ной ре-грес-сии. Ес-ли про-цесс оп-ти-ми-за-ции про-дол-жа-ет-ся
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 634--635
+\T2A/Tempora-TLF/m/n/14.4 до пол-ной ин-тер-по-ля-ции дан-ных обу-ча-ю-щей вы-бор-ки при усло-вии
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--646
+\T2A/Tempora-TLF/m/n/14.4 Визуально мат-ри-ца Гра-ма ха-рак-те-ри-зу-ет гео-мет-рию при-зна-ко-во-го
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 644--646
+\T2A/Tempora-TLF/m/n/14.4 про-стран-ства, по-рож-ден-ное ар-хи-тек-ту-рой се-ти: диа-го-наль-ные эле-мен-ты
+ []
+
 [23]
-Underfull \hbox (badness 4229) in paragraph at lines 659--660
-\T2A/Tempora-TLF/m/n/14.4 как ло-каль-ное ис-прав-ле-ние ошиб-ки пе-ре-но-сит-ся на дру-гие объ-ек-ты
+Underfull \hbox (badness 1436) in paragraph at lines 647--648
+\T2A/Tempora-TLF/m/n/14.4 за-ко-ном боль-ших чи-сел. По-сколь-ку вклад каж-до-го от-дель-но-го ней-ро-на
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 653--654
+\T2A/Tempora-TLF/m/n/14.4 се-ти. Ес-ли гра-ди-ен-ты $\OMS/cmsy/m/n/14.4 r[]\OML/cmm/m/it/14.4 f\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x; ^^R\OT1/cmr/m/n/14.4 )$ \T2A/Tempora-TLF/m/n/14.4 и $\OMS/cmsy/m/n/14.4 r[]\OML/cmm/m/it/14.4 f\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; ^^R\OT1/cmr/m/n/14.4 )$ \T2A/Tempora-TLF/m/n/14.4 ха-рак-те-ри-зу-ют-ся вы-со-кой
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 660--661
+\T2A/Tempora-TLF/m/n/14.4 гра-ди-ен-тов функ-ции по па-ра-мет-рам, мат-ри-ца $\OT1/cmr/m/n/14.4 ^^B(\OML/cmm/m/it/14.4 X; X\OT1/cmr/m/n/14.4 )$ \T2A/Tempora-TLF/m/n/14.4 для лю-бой
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 660--661
+\T2A/Tempora-TLF/m/n/14.4 по-лу-опре-де-лен-ной. Свой-ство сим-мет-рич-но-сти $\OML/cmm/m/it/14.4 K\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x; x[]\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 ^^R\OT1/cmr/m/n/14.4 ) = \OML/cmm/m/it/14.4 K\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; x\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 ^^R\OT1/cmr/m/n/14.4 )$
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 660--661
+\T2A/Tempora-TLF/m/n/14.4 сле-ду-ет из ком-му-та-тив-но-сти ска-ляр-но-го про-из-ве-де-ния. По-ло-жи-тель-ная
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 660--661
+\T2A/Tempora-TLF/m/n/14.4 по-лу-опре-де-лен-ность под-твер-жда-ет-ся ана-ли-зом квад-ра-тич-ной фор-мы для
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 675--677
-\T2A/Tempora-TLF/m/n/14.4 Следовательно, соб-ствен-ные зна-че-ния NTK в точ-ной ариф-ме-ти-ке
+Underfull \hbox (badness 1152) in paragraph at lines 668--669
+\T2A/Tempora-TLF/m/n/14.4 и $\OML/cmm/m/it/14.4 ^^U[] \OMS/cmsy/m/n/14.4 ^^U \OML/cmm/m/it/14.4 ^^U[] \OMS/cmsy/m/n/14.4 ^^U [] ^^U \OT1/cmr/m/n/14.4 0$\T2A/Tempora-TLF/m/n/14.4 ) поз-во-ля-ет оце-нить ко-ли-че-ство неза-ви-си-мых
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 694--696
-\T2A/Tempora-TLF/m/n/14.4 а так-же effective rank, опре-де-ля-е-мый че-рез эн-тро-пию нор-ми-ро-ван-ных
+Underfull \hbox (badness 2837) in paragraph at lines 668--669
+\T2A/Tempora-TLF/m/n/14.4 под-про-стран-ства в про-цес-се обу-че-ния. Для ко-ли-че-ствен-но-го опи-са-ния
+ []
+
+
+Underfull \hbox (badness 4366) in paragraph at lines 668--669
+\T2A/Tempora-TLF/m/n/14.4 струк-ту-ры мат-ри-цы ис-поль-зу-ют-ся след ($[]\OT1/cmr/m/n/14.4 (^^B)$\T2A/Tempora-TLF/m/n/14.4 ), ранг ($[]\OT1/cmr/m/n/14.4 (^^B)$\T2A/Tempora-TLF/m/n/14.4 ) и
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 668--669
+\T2A/Tempora-TLF/m/n/14.4 эф-фек-тив-ный ранг ($\OML/cmm/m/it/14.4 r[]$\T2A/Tempora-TLF/m/n/14.4 ), вы-чис-ля-е-мый че-рез эн-тро-пию нор-ми-ро-ван-но-го
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 680--682
+\T2A/Tempora-TLF/m/n/14.4 ком-по-нен-ты ошиб-ки, со-от-вет-ству-ю-щие стар-шим соб-ствен-ным чис-лам,
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 680--682
+\T2A/Tempora-TLF/m/n/14.4 ди-на-ми-ка по-вы-ша-ет чув-стви-тель-ность мо-де-ли к шу-мо-вым ком-по-нен-там
  []
 
 [25]
-Underfull \hbox (badness 3503) in paragraph at lines 711--712
-\T2A/Tempora-TLF/m/n/14.4 рас-пре-де-ле-ние еј вы-хо-дов на ко-неч-ном на-бо-ре вхо-дов стре-мит-ся к
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 713--714
-[]\T2A/Tempora-TLF/m/n/14.4 Режим lazy training со-от-вет-ству-ет си-ту-а-ции, ко-гда па-ра-мет-ры се-ти
- []
-
-[26]
-Underfull \hbox (badness 2173) in paragraph at lines 731--732
+Underfull \hbox (badness 2173) in paragraph at lines 694--695
 []\T2A/Tempora-TLF/m/n/14.4 В дан-ной ра-бо-те все вы-чис-ле-ния про-во-ди-лись в \T2A/cmtt/m/n/14.4 TensorFlow\T2A/Tempora-TLF/m/n/14.4 . Для
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 731--732
+Underfull \hbox (badness 1515) in paragraph at lines 694--695
 \T2A/Tempora-TLF/m/n/14.4 фик-си-ро-ван-ной вы-бор-ки эм-пи-ри-че-ская мат-ри-ца NTK стро-и-лась как на
  []
 
-<../ntk_report_assets/ntk_heatmap_before.png, id=323, 435.42674pt x 368.577pt>
+<../ntk_report_assets/ntk_heatmap_before.png, id=304, 435.42674pt x 368.577pt>
 File: ../ntk_report_assets/ntk_heatmap_before.png Graphic file (type png)
 <use ../ntk_report_assets/ntk_heatmap_before.png>
-Package pdftex.def Info: ../ntk_report_assets/ntk_heatmap_before.png  used on input line 737.
+Package pdftex.def Info: ../ntk_report_assets/ntk_heatmap_before.png  used on input line 700.
 (pdftex.def)             Requested size: 348.26233pt x 294.80574pt.
-<../ntk_report_assets/ntk_heatmap_after.png, id=324, 436.33012pt x 368.577pt>
+<../ntk_report_assets/ntk_heatmap_after.png, id=305, 436.33012pt x 368.577pt>
 File: ../ntk_report_assets/ntk_heatmap_after.png Graphic file (type png)
 <use ../ntk_report_assets/ntk_heatmap_after.png>
-Package pdftex.def Info: ../ntk_report_assets/ntk_heatmap_after.png  used on input line 744.
+Package pdftex.def Info: ../ntk_report_assets/ntk_heatmap_after.png  used on input line 707.
 (pdftex.def)             Requested size: 348.26233pt x 294.19272pt.
 
-Underfull \hbox (badness 1584) in paragraph at lines 749--750
+Underfull \hbox (badness 1584) in paragraph at lines 712--713
 []\T2A/Tempora-TLF/m/n/14.4 Все об-суж-да-е-мые ни-же ви-зу-а-ли-за-ции бы-ли по-лу-че-ны в \T2A/cmtt/m/n/14.4 TensorFlow
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 749--750
+Underfull \hbox (badness 1622) in paragraph at lines 712--713
 \T2A/Tempora-TLF/m/n/14.4 для од-ной и той же вы-бор-ки до и по-сле обу-че-ния. На []ри-су-нок 19[]
  []
 
-[27 <../ntk_report_assets/ntk_heatmap_before.png>]
-Underfull \hbox (badness 2134) in paragraph at lines 751--752
+
+Underfull \hbox (badness 2134) in paragraph at lines 714--715
 \T2A/Tempora-TLF/m/n/14.4 диа-го-наль, а вне диа-го-на-ли про-яв-ля-ют-ся ло-каль-ные за-ви-си-мо-сти. Для
  []
 
-
-Underfull \hbox (badness 2772) in paragraph at lines 753--754
+[26]
+Underfull \hbox (badness 2772) in paragraph at lines 716--717
 []\T2A/Tempora-TLF/m/n/14.4 При чте-нии теп-ло-вых карт NTK сле-ду-ет учи-ты-вать, что эле-мент
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 753--754
+Underfull \hbox (badness 4621) in paragraph at lines 716--717
 \OT1/cmr/m/n/14.4 ^^B[]$ \T2A/Tempora-TLF/m/n/14.4 ха-рак-те-ри-зу-ет сте-пень со-гла-со-ван-но-сти гра-ди-ент-ных на-прав-ле-ний,
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 753--754
+Underfull \hbox (badness 1102) in paragraph at lines 716--717
 \T2A/Tempora-TLF/m/n/14.4 на пред-ска-за-ния со-гла-со-ван-но; на-про-тив, тјм-ные участ-ки со-от-вет-ству-ют
  []
 
-[28 <../ntk_report_assets/ntk_heatmap_after.png>]
-<../ntk_report_assets/ntk_eigenspectrum_before_after.png, id=342, 823.878pt x 310.761pt>
+[27 <../ntk_report_assets/ntk_heatmap_before.png>]
+<../ntk_report_assets/ntk_eigenspectrum_before_after.png, id=325, 823.878pt x 310.761pt>
 File: ../ntk_report_assets/ntk_eigenspectrum_before_after.png Graphic file (type png)
 <use ../ntk_report_assets/ntk_eigenspectrum_before_after.png>
-Package pdftex.def Info: ../ntk_report_assets/ntk_eigenspectrum_before_after.png  used on input line 757.
+Package pdftex.def Info: ../ntk_report_assets/ntk_eigenspectrum_before_after.png  used on input line 720.
 (pdftex.def)             Requested size: 483.69687pt x 182.44644pt.
-<../ntk_report_assets/ntk_heatmaps_before_after.png, id=344, 822.52293pt x 339.669pt>
+<../ntk_report_assets/ntk_heatmaps_before_after.png, id=327, 822.52293pt x 339.669pt>
 File: ../ntk_report_assets/ntk_heatmaps_before_after.png Graphic file (type png)
 <use ../ntk_report_assets/ntk_heatmaps_before_after.png>
-Package pdftex.def Info: ../ntk_report_assets/ntk_heatmaps_before_after.png  used on input line 766.
+Package pdftex.def Info: ../ntk_report_assets/ntk_heatmaps_before_after.png  used on input line 729.
 (pdftex.def)             Requested size: 483.69687pt x 199.74992pt.
 
-Underfull \hbox (badness 1194) in paragraph at lines 771--772
+Underfull \hbox (badness 1194) in paragraph at lines 734--735
 \T2A/Tempora-TLF/m/n/14.4 раз-ре-ша-ю-щую спо-соб-ность NTK в тех об-ла-стях, ко-то-рые зна-чи-мы для
  []
 
-[29 <../ntk_report_assets/ntk_eigenspectrum_before_after.png>]
-<../ntk_analysis_output_full_model/ntk_rows_pca.png, id=353, 517.18219pt x 426.393pt>
+[28 <../ntk_report_assets/ntk_heatmap_after.png>]
+<../ntk_analysis_output_full_model/ntk_rows_pca.png, id=336, 517.18219pt x 426.393pt>
 File: ../ntk_analysis_output_full_model/ntk_rows_pca.png Graphic file (type png)
 <use ../ntk_analysis_output_full_model/ntk_rows_pca.png>
-Package pdftex.def Info: ../ntk_analysis_output_full_model/ntk_rows_pca.png  used on input line 775.
+Package pdftex.def Info: ../ntk_analysis_output_full_model/ntk_rows_pca.png  used on input line 738.
 (pdftex.def)             Requested size: 386.95897pt x 319.03923pt.
 
-Underfull \hbox (badness 1210) in paragraph at lines 780--781
+Underfull \hbox (badness 1210) in paragraph at lines 743--744
 \T2A/Tempora-TLF/m/n/14.4 мат-ри-цы за-да-јт век-тор сход-ства од-но-го объ-ек-та со все-ми осталь-ны-ми,
  []
 
-<../ntk_analysis_output_full_model/ntk_clustered_heatmap.png, id=355, 553.76888pt x 462.07631pt>
+[29 <../ntk_report_assets/ntk_eigenspectrum_before_after.png> <../ntk_report_assets/ntk_heatmaps_before_after.png>]
+<../ntk_analysis_output_full_model/ntk_clustered_heatmap.png, id=345, 553.76888pt x 462.07631pt>
 File: ../ntk_analysis_output_full_model/ntk_clustered_heatmap.png Graphic file (type png)
 <use ../ntk_analysis_output_full_model/ntk_clustered_heatmap.png>
-Package pdftex.def Info: ../ntk_analysis_output_full_model/ntk_clustered_heatmap.png  used on input line 784.
+Package pdftex.def Info: ../ntk_analysis_output_full_model/ntk_clustered_heatmap.png  used on input line 747.
 (pdftex.def)             Requested size: 411.14528pt x 343.07333pt.
 
-Underfull \hbox (badness 1152) in paragraph at lines 789--790
+Underfull \hbox (badness 1152) in paragraph at lines 752--753
 []\T2A/Tempora-TLF/m/n/14.4 Кластеризованная мат-ри-ца на []ри-су-нок 24[] под-твер-жда-ет этот вы-вод:
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 789--790
+Underfull \hbox (badness 1748) in paragraph at lines 752--753
 \T2A/Tempora-TLF/m/n/14.4 в ин-ду-ци-ро-ван-ном функ-ци-о-наль-ном про-стран-стве. Вме-сто это-го в них
  []
 
-[30 <../ntk_report_assets/ntk_heatmaps_before_after.png>]
-<../ntk_analysis_output_full_model/ntk_model_block_heatmap.png, id=364, 534.34631pt x 1047.915pt>
+<../ntk_analysis_output_full_model/ntk_model_block_heatmap.png, id=347, 534.34631pt x 1047.915pt>
 File: ../ntk_analysis_output_full_model/ntk_model_block_heatmap.png Graphic file (type png)
 <use ../ntk_analysis_output_full_model/ntk_model_block_heatmap.png>
-Package pdftex.def Info: ../ntk_analysis_output_full_model/ntk_model_block_heatmap.png  used on input line 793.
+Package pdftex.def Info: ../ntk_analysis_output_full_model/ntk_model_block_heatmap.png  used on input line 756.
 (pdftex.def)             Requested size: 268.4689pt x 526.4986pt.
-
-Underfull \hbox (badness 1400) in paragraph at lines 800--801
+[30 <../ntk_analysis_output_full_model/ntk_rows_pca.png>]
+Underfull \hbox (badness 1400) in paragraph at lines 763--764
 \T2A/Tempora-TLF/m/n/14.4 NTK опре-де-ля-ет-ся про-из-вод-ны-ми по обу-ча-е-мым па-ра-мет-рам, в дан-ной
  []
 
-[31 <../ntk_analysis_output_full_model/ntk_rows_pca.png>]
-Underfull \hbox (badness 1199) in paragraph at lines 804--805
+[31 <../ntk_analysis_output_full_model/ntk_clustered_heatmap.png>] [32 <../ntk_analysis_output_full_model/ntk_model_block_heatmap.png>]
+Underfull \hbox (badness 1199) in paragraph at lines 767--768
 \T2A/Tempora-TLF/m/n/14.4 гео-мет-ри-че-ски близ-ких то-чек, что непо-сред-ствен-но вид-но по уси-ле-нию
  []
 
-[32 <../ntk_analysis_output_full_model/ntk_clustered_heatmap.png>] [33 <../ntk_analysis_output_full_model/ntk_model_block_heatmap.png>]
-Underfull \hbox (badness 1102) in paragraph at lines 808--809
+
+Underfull \hbox (badness 1102) in paragraph at lines 771--772
 \T2A/Tempora-TLF/m/n/14.4 и по-ка-зы-ва-ет, что ин-тер-пре-та-цию ма-лых соб-ствен-ных зна-че-ний сле-ду-ет
  []
 
-
-Underfull \hbox (badness 2057) in paragraph at lines 810--812
+[33]
+Underfull \hbox (badness 2057) in paragraph at lines 773--775
 \T2A/Tempora-TLF/m/n/14.4 часть вкла-да в $\OT1/cmr/m/n/14.4 ^^B$ \T2A/Tempora-TLF/m/n/14.4 со-сре-до-то-че-на лишь в неболь-шом чис-ле столб-цов,
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 810--812
+Underfull \hbox (badness 1874) in paragraph at lines 773--775
 \T2A/Tempora-TLF/m/n/14.4 то фак-ти-че-ская адап-та-ция рас-пре-де-ля-ет-ся по мо-де-ли нерав-но-мер-но, а
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 810--812
+Underfull \hbox (badness 3029) in paragraph at lines 773--775
 \T2A/Tempora-TLF/m/n/14.4 чис-лом па-ра-мет-ри-че-ских под-си-стем. Бо-лее рав-но-мер-ное рас-пре-де-ле-ние
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 810--812
+Underfull \hbox (badness 1755) in paragraph at lines 773--775
 \T2A/Tempora-TLF/m/n/14.4 опи-ра-ет-ся на со-гла-со-ван-ную ра-бо-ту несколь-ких сло-јв. Та-ким об-ра-зом,
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 810--812
+Underfull \hbox (badness 1112) in paragraph at lines 773--775
 \T2A/Tempora-TLF/m/n/14.4 обу-ча-ю-щей вы-бор-ке, но и то, на-сколь-ко струк-ту-ра NTK со-гла-со-ва-на с
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 810--812
+Underfull \hbox (badness 2229) in paragraph at lines 773--775
 \T2A/Tempora-TLF/m/n/14.4 гео-мет-ри-ей дан-ных. Ес-ли по-лез-ный сиг-нал про-ек-ти-ру-ет-ся на ве-ду-щие
  []
 
-[34]
-Underfull \hbox (badness 3514) in paragraph at lines 813--814
+
+Underfull \hbox (badness 3514) in paragraph at lines 776--777
 \T2A/Tempora-TLF/m/n/14.4 сеть ра-бо-та-ет в про-ме-жу-точ-ном ре-жи-ме: яд-ро-вое опи-са-ние оста-јт-ся
  []
 
-[35] [36
+[34] [35]
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
+(Font)              scaled to size 14.4pt on input line 783.
+ [36
 
 ] (./cursach.aux
 Package cleveref Info: loaded `russian' language definitions on input line 10.
@@ -2833,18 +2894,18 @@ Package logreq Info: Writing requests to 'cursach.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49480 strings out of 467525
- 1092871 string characters out of 5418982
- 2181499 words of memory out of 5000000
- 77549 multiletter control sequences out of 15000+600000
+ 49465 strings out of 467525
+ 1092691 string characters out of 5418982
+ 2181577 words of memory out of 5000000
+ 77544 multiletter control sequences out of 15000+600000
  658152 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,117p,2199b,3209s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Italic.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on cursach.pdf (36 pages, 2223093 bytes).
+Output written on cursach.pdf (36 pages, 2217065 bytes).
 PDF statistics:
- 586 PDF objects out of 1000 (max. 8388607)
- 464 compressed objects within 5 object streams
- 149 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 558 PDF objects out of 1000 (max. 8388607)
+ 436 compressed objects within 5 object streams
+ 139 named destinations out of 1000 (max. 500000)
+ 343 words of extra memory for PDF output out of 10000 (max. 10000000)
 
