@@ -16,11 +16,8 @@
 \contentsline {section}{\numberline {4}Анализ нейронного касательного ядра базовой модели первого этапа}{22}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Описание нейронного касательного ядра}{22}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Математическое обоснование}{23}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Определение NTK}{23}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Переход к линейной динамике обучения}{23}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Связь с ядерной регрессией и предел бесконечной ширины}{24}{subsubsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.3}Спектральные и алгебраические свойства NTK}{26}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Обусловленность и устойчивость динамики}{27}{subsubsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3}Спектральные и алгебраические свойства NTK}{25}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Обусловленность и устойчивость динамики}{26}{subsubsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.4}Практическая схема вычисления NTK для базовой PINN-модели}{27}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}Визуализации и анализ результатов}{28}{subsection.4.5}%
 \contentsline {subsection}{\numberline {4.6}Интерпретация результатов}{32}{subsection.4.6}%

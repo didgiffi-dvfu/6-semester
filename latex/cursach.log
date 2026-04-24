@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  23 APR 2026 17:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  24 APR 2026 15:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2336,7 +2336,7 @@ Underfull \hbox (badness 3547) in paragraph at lines 273--274
 \T2A/Tempora-TLF/m/n/14.4 ти-па то-чек: точ-ки на-чаль-но-го усло-вия, точ-ки гра-нич-ных усло-вий и
  []
 
-<stage_1/dataset.png, id=124, 681.5061pt x 501.5538pt>
+<stage_1/dataset.png, id=118, 681.5061pt x 501.5538pt>
 File: stage_1/dataset.png Graphic file (type png)
 <use stage_1/dataset.png>
 Package pdftex.def Info: stage_1/dataset.png  used on input line 277.
@@ -2429,27 +2429,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 357--358
 [10
 
 ]
-<stage_1/aprox1.png, id=176, 859.2903pt x 245.718pt>
+<stage_1/aprox1.png, id=170, 859.2903pt x 245.718pt>
 File: stage_1/aprox1.png Graphic file (type png)
 <use stage_1/aprox1.png>
 Package pdftex.def Info: stage_1/aprox1.png  used on input line 361.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
-<stage_1/aprox3.png, id=177, 859.2903pt x 245.718pt>
+<stage_1/aprox3.png, id=171, 859.2903pt x 245.718pt>
 File: stage_1/aprox3.png Graphic file (type png)
 <use stage_1/aprox3.png>
 Package pdftex.def Info: stage_1/aprox3.png  used on input line 370.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
-<stage_1/aprox7.png, id=178, 859.2903pt x 245.718pt>
+<stage_1/aprox7.png, id=172, 859.2903pt x 245.718pt>
 File: stage_1/aprox7.png Graphic file (type png)
 <use stage_1/aprox7.png>
 Package pdftex.def Info: stage_1/aprox7.png  used on input line 377.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
-<stage_1/aprox13.png, id=179, 859.2903pt x 245.718pt>
+<stage_1/aprox13.png, id=173, 859.2903pt x 245.718pt>
 File: stage_1/aprox13.png Graphic file (type png)
 <use stage_1/aprox13.png>
 Package pdftex.def Info: stage_1/aprox13.png  used on input line 384.
 (pdftex.def)             Requested size: 386.95897pt x 110.6508pt.
-<stage_1/aprox14.png, id=180, 859.2903pt x 245.718pt>
+<stage_1/aprox14.png, id=174, 859.2903pt x 245.718pt>
 File: stage_1/aprox14.png Graphic file (type png)
 <use stage_1/aprox14.png>
 Package pdftex.def Info: stage_1/aprox14.png  used on input line 392.
@@ -2479,7 +2479,7 @@ Underfull \hbox (badness 1484) in paragraph at lines 398--399
 \T2A/Tempora-TLF/m/n/14.4 де-мон-стри-ру-ет бо-лее ров-ную ди-на-ми-ку и мень-шую чув-стви-тель-ность к
  []
 
-<stage_1/lossComponets.png, id=191, 642.4803pt x 281.853pt>
+<stage_1/lossComponets.png, id=185, 642.4803pt x 281.853pt>
 File: stage_1/lossComponets.png Graphic file (type png)
 <use stage_1/lossComponets.png>
 Package pdftex.def Info: stage_1/lossComponets.png  used on input line 402.
@@ -2505,7 +2505,7 @@ Underfull \hbox (badness 1715) in paragraph at lines 407--408
  []
 
 [12 <./stage_1/aprox13.png> <./stage_1/aprox14.png>]
-<stage_1/total_loss.png, id=202, 570.933pt x 281.853pt>
+<stage_1/total_loss.png, id=196, 570.933pt x 281.853pt>
 File: stage_1/total_loss.png Graphic file (type png)
 <use stage_1/total_loss.png>
 Package pdftex.def Info: stage_1/total_loss.png  used on input line 412.
@@ -2544,7 +2544,7 @@ Underfull \hbox (badness 1019) in paragraph at lines 439--440
 [14
 
 {/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
-<stage_2/all_error.png, id=223, 642.4803pt x 281.853pt>
+<stage_2/all_error.png, id=217, 642.4803pt x 281.853pt>
 File: stage_2/all_error.png Graphic file (type png)
 <use stage_2/all_error.png>
 Package pdftex.def Info: stage_2/all_error.png  used on input line 450.
@@ -2559,17 +2559,17 @@ Underfull \hbox (badness 2050) in paragraph at lines 456--457
 \T2A/Tempora-TLF/m/n/14.4 фи-наль-ный уро-вень ошиб-ки де-мон-стри-ру-ет \T2A/cmtt/m/n/14.4 shared_-trunk\T2A/Tempora-TLF/m/n/14.4 . Ар-хи-тек-ту-ра
  []
 
-<stage_2/shared_trunk_total_loss.png, id=226, 570.933pt x 281.853pt>
+<stage_2/shared_trunk_total_loss.png, id=220, 570.933pt x 281.853pt>
 File: stage_2/shared_trunk_total_loss.png Graphic file (type png)
 <use stage_2/shared_trunk_total_loss.png>
 Package pdftex.def Info: stage_2/shared_trunk_total_loss.png  used on input line 460.
 (pdftex.def)             Requested size: 386.95897pt x 191.0382pt.
-<stage_2/tow_output_total_loss.png, id=227, 570.933pt x 281.853pt>
+<stage_2/tow_output_total_loss.png, id=221, 570.933pt x 281.853pt>
 File: stage_2/tow_output_total_loss.png Graphic file (type png)
 <use stage_2/tow_output_total_loss.png>
 Package pdftex.def Info: stage_2/tow_output_total_loss.png  used on input line 467.
 (pdftex.def)             Requested size: 386.95897pt x 191.0382pt.
-<stage_2/tow_model_total_loss.png, id=228, 570.933pt x 281.853pt>
+<stage_2/tow_model_total_loss.png, id=222, 570.933pt x 281.853pt>
 File: stage_2/tow_model_total_loss.png Graphic file (type png)
 <use stage_2/tow_model_total_loss.png>
 Package pdftex.def Info: stage_2/tow_model_total_loss.png  used on input line 474.
@@ -2579,17 +2579,17 @@ Package pdftex.def Info: stage_2/tow_model_total_loss.png  used on input line 47
 LaTeX Warning: Text page 16 contains only floats.
 
 [16 <./stage_2/shared_trunk_total_loss.png> <./stage_2/tow_output_total_loss.png> <./stage_2/tow_model_total_loss.png>]
-<stage_2/shared_trunk_loss_components.png, id=249, 642.4803pt x 281.853pt>
+<stage_2/shared_trunk_loss_components.png, id=243, 642.4803pt x 281.853pt>
 File: stage_2/shared_trunk_loss_components.png Graphic file (type png)
 <use stage_2/shared_trunk_loss_components.png>
 Package pdftex.def Info: stage_2/shared_trunk_loss_components.png  used on input line 483.
 (pdftex.def)             Requested size: 386.95897pt x 169.75821pt.
-<stage_2/tow_output_loss_components.png, id=250, 642.4803pt x 281.853pt>
+<stage_2/tow_output_loss_components.png, id=244, 642.4803pt x 281.853pt>
 File: stage_2/tow_output_loss_components.png Graphic file (type png)
 <use stage_2/tow_output_loss_components.png>
 Package pdftex.def Info: stage_2/tow_output_loss_components.png  used on input line 490.
 (pdftex.def)             Requested size: 386.95897pt x 169.75821pt.
-<stage_2/tow_model_loss_components.png, id=251, 642.4803pt x 281.853pt>
+<stage_2/tow_model_loss_components.png, id=245, 642.4803pt x 281.853pt>
 File: stage_2/tow_model_loss_components.png Graphic file (type png)
 <use stage_2/tow_model_loss_components.png>
 Package pdftex.def Info: stage_2/tow_model_loss_components.png  used on input line 497.
@@ -2605,21 +2605,21 @@ Underfull \hbox (badness 3098) in paragraph at lines 502--503
  []
 
 [17 <./stage_2/shared_trunk_loss_components.png> <./stage_2/tow_output_loss_components.png>]
-<stage_2/shared_trunk_aprox_evalution.png, id=261, 1076.823pt x 495.0495pt>
-File: stage_2/shared_trunk_aprox_evalution.png Graphic file (type png)
-<use stage_2/shared_trunk_aprox_evalution.png>
-Package pdftex.def Info: stage_2/shared_trunk_aprox_evalution.png  used on input line 512.
+<stage_2/shared_trunk_aprox_evolution.png, id=255, 1076.823pt x 495.0495pt>
+File: stage_2/shared_trunk_aprox_evolution.png Graphic file (type png)
+<use stage_2/shared_trunk_aprox_evolution.png>
+Package pdftex.def Info: stage_2/shared_trunk_aprox_evolution.png  used on input line 512.
 (pdftex.def)             Requested size: 483.69687pt x 222.36986pt.
-<stage_2/tow_output_aprox_evolution.png, id=262, 1076.1003pt x 495.0495pt>
+<stage_2/tow_output_aprox_evolution.png, id=256, 1076.823pt x 495.0495pt>
 File: stage_2/tow_output_aprox_evolution.png Graphic file (type png)
 <use stage_2/tow_output_aprox_evolution.png>
 Package pdftex.def Info: stage_2/tow_output_aprox_evolution.png  used on input line 519.
-(pdftex.def)             Requested size: 483.69687pt x 222.51338pt.
-<stage_2/tow_model_aprox_evalution.png, id=263, 1082.6046pt x 495.0495pt>
-File: stage_2/tow_model_aprox_evalution.png Graphic file (type png)
-<use stage_2/tow_model_aprox_evalution.png>
-Package pdftex.def Info: stage_2/tow_model_aprox_evalution.png  used on input line 526.
-(pdftex.def)             Requested size: 483.69687pt x 221.1839pt.
+(pdftex.def)             Requested size: 483.69687pt x 222.36986pt.
+<stage_2/tow_models_aprox_evolution.png, id=257, 1076.823pt x 495.0495pt>
+File: stage_2/tow_models_aprox_evolution.png Graphic file (type png)
+<use stage_2/tow_models_aprox_evolution.png>
+Package pdftex.def Info: stage_2/tow_models_aprox_evolution.png  used on input line 526.
+(pdftex.def)             Requested size: 483.69687pt x 222.36986pt.
 
 Underfull \hbox (badness 1178) in paragraph at lines 534--535
 \T2A/Tempora-TLF/m/n/14.4 но-вой за-да-чи оп-ти-ми-за-ции. По-ни-же-ние по-ряд-ка про-из-вод-ной ис-клю-ча-ет
@@ -2640,7 +2640,7 @@ Underfull \hbox (badness 3168) in paragraph at lines 538--539
 \T2A/Tempora-TLF/m/n/14.4 ошиб-кой [[]6[]; []7[]]. В со-во-куп-но-сти по-лу-чен-ные ре-зуль-та-ты по-ка-зы-ва-ют,
  []
 
-[19 <./stage_2/shared_trunk_aprox_evalution.png> <./stage_2/tow_output_aprox_evolution.png>] [20 <./stage_2/tow_model_aprox_evalution.png>]
+[19 <./stage_2/shared_trunk_aprox_evolution.png> <./stage_2/tow_output_aprox_evolution.png>] [20 <./stage_2/tow_models_aprox_evolution.png>]
 Underfull \hbox (badness 5637) in paragraph at lines 546--547
 \T2A/Tempora-TLF/m/n/14.4 ар-хи-тек-ту-ра \T2A/cmtt/m/n/14.4 two_-output \T2A/Tempora-TLF/m/n/14.4 за-ни-ма-ет про-ме-жу-точ-ное по-ло-же-ние, а
  []
@@ -2673,255 +2673,256 @@ Underfull \hbox (badness 1394) in paragraph at lines 558--559
 [22
 
 ]
-Underfull \hbox (badness 1147) in paragraph at lines 582--583
+Underfull \hbox (badness 1147) in paragraph at lines 581--582
 []\T2A/Tempora-TLF/m/n/14.4 Иначе го-во-ря, NTK из-ме-ря-ет сход-ство двух вхо-дов не в ис-ход-ном
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 631--632
+Underfull \hbox (badness 10000) in paragraph at lines 630--631
 []\T2A/Tempora-TLF/m/n/14.4 Таким об-ра-зом, ком-по-нен-ты ошиб-ки, со-от-вет-ству-ю-щие боль-шим
  []
 
-[24]
-Underfull \hbox (badness 1648) in paragraph at lines 642--643
+
+Underfull \hbox (badness 1648) in paragraph at lines 641--642
 \T2A/Tempora-TLF/m/n/14.4 по-ло-жи-тель-но по-лу-опре-де-лјн-ную мат-ри-цу, где $\OML/cmm/m/it/14.4 N$ \T2A/Tempora-TLF/m/n/14.4 --- чис-ло обу-ча-ю-щих
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 645--647
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 644--646
 \T2A/Tempora-TLF/m/n/14.4 Визуально мат-ри-ца Гра-ма ха-рак-те-ри-зу-ет гео-мет-рию при-зна-ко-во-го
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 645--647
+Underfull \hbox (badness 1708) in paragraph at lines 644--646
 \T2A/Tempora-TLF/m/n/14.4 про-стран-ства, по-рож-дјн-но-го ар-хи-тек-ту-рой се-ти: диа-го-наль-ные эле-мен-ты
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 648--649
+Underfull \hbox (badness 1436) in paragraph at lines 647--648
 \T2A/Tempora-TLF/m/n/14.4 за-ко-ном боль-ших чи-сел. По-сколь-ку вклад каж-до-го от-дель-но-го ней-ро-на
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 654--655
+Underfull \hbox (badness 1776) in paragraph at lines 653--654
 \T2A/Tempora-TLF/m/n/14.4 се-ти. Ес-ли гра-ди-ен-ты $\OMS/cmsy/m/n/14.4 r[]\OML/cmm/m/it/14.4 f\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x; ^^R\OT1/cmr/m/n/14.4 )$ \T2A/Tempora-TLF/m/n/14.4 и $\OMS/cmsy/m/n/14.4 r[]\OML/cmm/m/it/14.4 f\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; ^^R\OT1/cmr/m/n/14.4 )$ \T2A/Tempora-TLF/m/n/14.4 ха-рак-те-ри-зу-ют-ся вы-со-кой
  []
 
-[25]
-Underfull \hbox (badness 7613) in paragraph at lines 659--660
+
+Underfull \hbox (badness 7613) in paragraph at lines 658--659
 \T2A/Tempora-TLF/m/n/14.4 гра-ди-ен-тов функ-ции по па-ра-мет-рам мат-ри-ца $\OT1/cmr/m/n/14.4 ^^B(\OML/cmm/m/it/14.4 X; X\OT1/cmr/m/n/14.4 )$ \T2A/Tempora-TLF/m/n/14.4 для лю-бой
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 659--660
+Underfull \hbox (badness 3088) in paragraph at lines 658--659
 \T2A/Tempora-TLF/m/n/14.4 по-лу-опре-де-лјн-ной. Свой-ство сим-мет-рич-но-сти $\OML/cmm/m/it/14.4 K\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x; x[]\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 ^^R\OT1/cmr/m/n/14.4 ) = \OML/cmm/m/it/14.4 K\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; x\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 ^^R\OT1/cmr/m/n/14.4 )$
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 659--660
+Underfull \hbox (badness 3250) in paragraph at lines 658--659
 \T2A/Tempora-TLF/m/n/14.4 сле-ду-ет из ком-му-та-тив-но-сти ска-ляр-но-го про-из-ве-де-ния. По-ло-жи-тель-ная
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 659--660
+Underfull \hbox (badness 1817) in paragraph at lines 658--659
 \T2A/Tempora-TLF/m/n/14.4 по-лу-опре-де-лјн-ность под-твер-жда-ет-ся ана-ли-зом квад-ра-тич-ной фор-мы для
  []
 
-
-Underfull \hbox (badness 6725) in paragraph at lines 667--668
+[25]
+Underfull \hbox (badness 6725) in paragraph at lines 666--667
 \T2A/Tempora-TLF/m/n/14.4 из-ме-не-ния ап-прок-си-ми-ру-ю-щей функ-ции. Ско-рость убы-ва-ния спек-тра
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 667--668
+Underfull \hbox (badness 1043) in paragraph at lines 666--667
 \T2A/Tempora-TLF/m/n/14.4 зна-че-ний ука-зы-ва-ет на до-ми-ни-ро-ва-ние низ-ко-раз-мер-но-го под-про-стран-ства
  []
 
-[26]
-Underfull \hbox (badness 1009) in paragraph at lines 679--681
+
+Underfull \hbox (badness 1009) in paragraph at lines 678--680
 \T2A/Tempora-TLF/m/n/14.4 ком-по-нен-ты ошиб-ки, со-от-вет-ству-ю-щие стар-шим соб-ствен-ным зна-че-ни-ям,
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 679--681
+Underfull \hbox (badness 1577) in paragraph at lines 678--680
 \T2A/Tempora-TLF/m/n/14.4 тре-бу-ют зна-чи-тель-но боль-ше-го вре-ме-ни для кор-рек-ции. Та-кая жјст-кая
  []
 
-
-Underfull \hbox (badness 1735) in paragraph at lines 681--681
+[26]
+Underfull \hbox (badness 1735) in paragraph at lines 680--680
 |[]\T2A/Tempora-TLF/b/n/17.28 Практическая схе-ма вы-чис-ле-ния NTK для ба-зо-вой
  []
 
 
-Underfull \hbox (badness 5161) in paragraph at lines 695--696
+Underfull \hbox (badness 5161) in paragraph at lines 694--695
 \T2A/Tempora-TLF/m/n/14.4 зна-че-ний, след, ранг, эф-фек-тив-ный ранг и чис-ло обу-слов-лен-но-сти.
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 695--696
+Underfull \hbox (badness 6944) in paragraph at lines 694--695
 \T2A/Tempora-TLF/m/n/14.4 До-пол-ни-тель-но ана-ли-зи-ро-ва-лись теп-ло-вые кар-ты NTK до и по-сле
  []
 
 [27]
-<../ntk_report_assets/ntk_heatmap_before.png, id=347, 435.42674pt x 368.577pt>
+<../ntk_report_assets/ntk_heatmap_before.png, id=341, 435.42674pt x 368.577pt>
 File: ../ntk_report_assets/ntk_heatmap_before.png Graphic file (type png)
 <use ../ntk_report_assets/ntk_heatmap_before.png>
-Package pdftex.def Info: ../ntk_report_assets/ntk_heatmap_before.png  used on input line 703.
+Package pdftex.def Info: ../ntk_report_assets/ntk_heatmap_before.png  used on input line 702.
 (pdftex.def)             Requested size: 348.26233pt x 294.80574pt.
-<../ntk_report_assets/ntk_heatmap_after.png, id=348, 436.33012pt x 368.577pt>
+<../ntk_report_assets/ntk_heatmap_after.png, id=342, 436.33012pt x 368.577pt>
 File: ../ntk_report_assets/ntk_heatmap_after.png Graphic file (type png)
 <use ../ntk_report_assets/ntk_heatmap_after.png>
-Package pdftex.def Info: ../ntk_report_assets/ntk_heatmap_after.png  used on input line 710.
+Package pdftex.def Info: ../ntk_report_assets/ntk_heatmap_after.png  used on input line 709.
 (pdftex.def)             Requested size: 348.26233pt x 294.19272pt.
 
-Underfull \hbox (badness 3049) in paragraph at lines 715--716
+Underfull \hbox (badness 3049) in paragraph at lines 714--715
 []\T2A/Tempora-TLF/m/n/14.4 Тепловые кар-ты ри-сун-ки []19[] и []20[] по-ка-зы-ва-ют, что до обу-че-ния
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 715--716
+Underfull \hbox (badness 1067) in paragraph at lines 714--715
 \T2A/Tempora-TLF/m/n/14.4 пре-об-ла-да-ют круп-но-мас-штаб-ные кор-ре-ля-ции, за-да-ва-е-мые ар-хи-тек-ту-рой и
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 715--716
+Underfull \hbox (badness 3168) in paragraph at lines 714--715
 \T2A/Tempora-TLF/m/n/14.4 об-ла-сти по-ло-жи-тель-но-го вза-и-мо-дей-ствия. Од-но-вре-мен-но уси-ли-ва-ет-ся и
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 715--716
+Underfull \hbox (badness 1629) in paragraph at lines 714--715
 \T2A/Tempora-TLF/m/n/14.4 от-ри-ца-тель-ная кор-ре-ля-ция для уда-лјн-ных ин-дек-сов. Это озна-ча-ет, что
  []
 
-[28 <../ntk_report_assets/ntk_heatmap_before.png>]
-<../ntk_report_assets/ntk_eigenspectrum_before_after.png, id=358, 823.878pt x 310.761pt>
+<../ntk_report_assets/ntk_eigenspectrum_before_after.png, id=345, 823.878pt x 310.761pt>
 File: ../ntk_report_assets/ntk_eigenspectrum_before_after.png Graphic file (type png)
 <use ../ntk_report_assets/ntk_eigenspectrum_before_after.png>
-Package pdftex.def Info: ../ntk_report_assets/ntk_eigenspectrum_before_after.png  used on input line 719.
+Package pdftex.def Info: ../ntk_report_assets/ntk_eigenspectrum_before_after.png  used on input line 718.
 (pdftex.def)             Requested size: 483.69687pt x 182.44644pt.
 
-Underfull \hbox (badness 1715) in paragraph at lines 724--725
+Underfull \hbox (badness 1715) in paragraph at lines 723--724
 []\T2A/Tempora-TLF/m/n/14.4 Спектр соб-ствен-ных зна-че-ний NTK ([]ри-су-нок 21[]) под-твер-жда-ет эту
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 724--725
+Underfull \hbox (badness 3108) in paragraph at lines 723--724
 \T2A/Tempora-TLF/m/n/14.4 пе-ре-строй-ку. По-сле обу-че-ния ве-ду-щие соб-ствен-ные зна-че-ния за-мет-но
  []
 
-[29 <../ntk_report_assets/ntk_heatmap_after.png> <../ntk_report_assets/ntk_eigenspectrum_before_after.png>]
-<../ntk_report_assets/ntk_heatmaps_before_after.png, id=367, 822.52293pt x 339.669pt>
+[28 <../ntk_report_assets/ntk_heatmap_before.png>]
+<../ntk_report_assets/ntk_heatmaps_before_after.png, id=355, 822.52293pt x 339.669pt>
 File: ../ntk_report_assets/ntk_heatmaps_before_after.png Graphic file (type png)
 <use ../ntk_report_assets/ntk_heatmaps_before_after.png>
-Package pdftex.def Info: ../ntk_report_assets/ntk_heatmaps_before_after.png  used on input line 728.
+Package pdftex.def Info: ../ntk_report_assets/ntk_heatmaps_before_after.png  used on input line 727.
 (pdftex.def)             Requested size: 483.69687pt x 199.74992pt.
 
-Underfull \hbox (badness 1629) in paragraph at lines 733--734
+Underfull \hbox (badness 1629) in paragraph at lines 732--733
 \T2A/Tempora-TLF/m/n/14.4 не оста-јт-ся ста-тич-ным, а эво-лю-ци-о-ни-ру-ет вме-сте с мо-де-лью, от-ра-жая
  []
 
-<../ntk_analysis_output_full_model/ntk_rows_pca.png, id=369, 517.18219pt x 426.393pt>
+[29 <../ntk_report_assets/ntk_heatmap_after.png> <../ntk_report_assets/ntk_eigenspectrum_before_after.png>]
+<../ntk_analysis_output_full_model/ntk_rows_pca.png, id=363, 517.18219pt x 426.393pt>
 File: ../ntk_analysis_output_full_model/ntk_rows_pca.png Graphic file (type png)
 <use ../ntk_analysis_output_full_model/ntk_rows_pca.png>
-Package pdftex.def Info: ../ntk_analysis_output_full_model/ntk_rows_pca.png  used on input line 739.
+Package pdftex.def Info: ../ntk_analysis_output_full_model/ntk_rows_pca.png  used on input line 738.
 (pdftex.def)             Requested size: 386.95897pt x 319.03923pt.
-[30 <../ntk_report_assets/ntk_heatmaps_before_after.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
+
+Underfull \hbox (badness 10000) in paragraph at lines 743--744
 []\T2A/Tempora-TLF/m/n/14.4 Для пе-ре-хо-да от мат-рич-но-го пред-став-ле-ния к гео-мет-ри-че-ской
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 744--745
+Underfull \hbox (badness 1281) in paragraph at lines 743--744
 \T2A/Tempora-TLF/m/n/14.4 ком-по-нент ([]ри-су-нок 23[]). Пер-вые две ком-по-нен-ты объ-яс-ня-ют $\OT1/cmr/m/n/14.4 42\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 16%$ \T2A/Tempora-TLF/m/n/14.4 и
  []
 
-<../ntk_analysis_output_full_model/ntk_clustered_heatmap.png, id=377, 553.76888pt x 462.07631pt>
+[30 <../ntk_report_assets/ntk_heatmaps_before_after.png>]
+<../ntk_analysis_output_full_model/ntk_clustered_heatmap.png, id=372, 553.76888pt x 462.07631pt>
 File: ../ntk_analysis_output_full_model/ntk_clustered_heatmap.png Graphic file (type png)
 <use ../ntk_analysis_output_full_model/ntk_clustered_heatmap.png>
-Package pdftex.def Info: ../ntk_analysis_output_full_model/ntk_clustered_heatmap.png  used on input line 748.
+Package pdftex.def Info: ../ntk_analysis_output_full_model/ntk_clustered_heatmap.png  used on input line 747.
 (pdftex.def)             Requested size: 411.14528pt x 343.07333pt.
 
-Underfull \hbox (badness 3460) in paragraph at lines 753--754
+Underfull \hbox (badness 3460) in paragraph at lines 752--753
 \T2A/Tempora-TLF/m/n/14.4 об-мен ин-фор-ма-ци-ей. Та-кая струк-ту-ра хо-ро-шо со-гла-су-ет-ся с за-да-чей
  []
 
-<../ntk_analysis_output_full_model/ntk_model_block_heatmap.png, id=379, 534.34631pt x 1047.915pt>
+<../ntk_analysis_output_full_model/ntk_model_block_heatmap.png, id=374, 534.34631pt x 1047.915pt>
 File: ../ntk_analysis_output_full_model/ntk_model_block_heatmap.png Graphic file (type png)
 <use ../ntk_analysis_output_full_model/ntk_model_block_heatmap.png>
-Package pdftex.def Info: ../ntk_analysis_output_full_model/ntk_model_block_heatmap.png  used on input line 757.
+Package pdftex.def Info: ../ntk_analysis_output_full_model/ntk_model_block_heatmap.png  used on input line 756.
 (pdftex.def)             Requested size: 268.4689pt x 526.4986pt.
 [31 <../ntk_analysis_output_full_model/ntk_rows_pca.png>]
-Underfull \hbox (badness 1609) in paragraph at lines 766--767
+Underfull \hbox (badness 1609) in paragraph at lines 765--766
 \T2A/Tempora-TLF/m/n/14.4 пер-во-го эта-па свя-за-на не толь-ко с удач-ным под-бо-ром ар-хи-тек-ту-ры и
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 766--767
+Underfull \hbox (badness 1721) in paragraph at lines 765--766
 \T2A/Tempora-TLF/m/n/14.4 невы-рож-ден-ным, а его струк-ту-ра со-че-та-ет ло-каль-ную кла-сте-ри-за-цию с
  []
 
-[32 <../ntk_analysis_output_full_model/ntk_clustered_heatmap.png>]
-Underfull \hbox (badness 1648) in paragraph at lines 768--769
+
+Underfull \hbox (badness 1648) in paragraph at lines 767--768
 \T2A/Tempora-TLF/m/n/14.4 эпо-хах сеть осва-и-ва-ет до-ми-ни-ру-ю-щие мо-ды ре-ше-ния, со-от-вет-ству-ю-щие
  []
 
-[33 <../ntk_analysis_output_full_model/ntk_model_block_heatmap.png>]
-Underfull \hbox (badness 1609) in paragraph at lines 770--771
+[32 <../ntk_analysis_output_full_model/ntk_clustered_heatmap.png>]
+Underfull \hbox (badness 1609) in paragraph at lines 769--770
 []\T2A/Tempora-TLF/m/n/14.4 Хотя пря-мой NTK-анализ для мо-де-лей вто-ро-го эта-па в ра-бо-те не
  []
 
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 776--777
+[33 <../ntk_analysis_output_full_model/ntk_model_block_heatmap.png>] [34]
+Underfull \hbox (badness 10000) in paragraph at lines 775--776
 []\T2A/Tempora-TLF/m/n/14.4 В ра-бо-те ис-сле-до-ва-но ре-ше-ние од-но-мер-но-го урав-не-ния
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 776--777
+Underfull \hbox (badness 3108) in paragraph at lines 775--776
 \T2A/Tempora-TLF/m/n/14.4 чет-вјр-то-го по-ряд-ка и ап-прок-си-ма-ции эк-ви-ва-лент-ной си-сте-мы вто-ро-го
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 778--779
+Underfull \hbox (badness 3260) in paragraph at lines 777--778
 \T2A/Tempora-TLF/m/n/14.4 струк-ту-ру бе-гу-щей вол-ны и до-сти-га-ет зна-че-ния сум-мар-ной функ-ции
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 780--781
+Underfull \hbox (badness 1466) in paragraph at lines 779--780
 \T2A/Tempora-TLF/m/n/14.4 по-вы-ше-ния ка-че-ства. Во всех трјх ар-хи-тек-ту-рах на-блю-да-ют-ся быст-рое
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 780--781
+Underfull \hbox (badness 3861) in paragraph at lines 779--780
 \T2A/Tempora-TLF/m/n/14.4 на-чаль-ное умень-ше-ние ошиб-ки и по-сле-ду-ю-щий пе-ре-ход к пла-то, а
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 780--781
+Underfull \hbox (badness 1852) in paragraph at lines 779--780
 \T2A/Tempora-TLF/m/n/14.4 по-ка-зы-ва-ет ар-хи-тек-ту-ра \T2A/cmtt/m/n/14.4 shared_-trunk\T2A/Tempora-TLF/m/n/14.4 , од-на-ко и она усту-па-ет пря-мой
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 782--783
+Underfull \hbox (badness 2042) in paragraph at lines 781--782
 []\T2A/Tempora-TLF/m/n/14.4 NTK-анализ ба-зо-вой мо-де-ли пер-во-го эта-па поз-во-лил со-дер-жа-тель-но
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 782--783
+Underfull \hbox (badness 10000) in paragraph at lines 781--782
 \T2A/Tempora-TLF/m/n/14.4 объ-яс-нить это раз-ли-чие. Со-глас-но по-лу-чен-но-му NTK-отчјту, на
  []
 
 
-Underfull \hbox (badness 4096) in paragraph at lines 784--785
+Underfull \hbox (badness 4096) in paragraph at lines 783--784
 []\T2A/Tempora-TLF/m/n/14.4 Таким об-ра-зом, ос-нов-ным ре-зуль-та-том ра-бо-ты яв-ля-ет-ся вы-вод о
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 784--785
+Underfull \hbox (badness 1308) in paragraph at lines 783--784
 \T2A/Tempora-TLF/m/n/14.4 том, что для PINN ре-ша-ю-щим фак-то-ром яв-ля-ет-ся не толь-ко по-ря-док
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 784--785
+Underfull \hbox (badness 1852) in paragraph at lines 783--784
 \T2A/Tempora-TLF/m/n/14.4 диф-фе-рен-ци-аль-но-го опе-ра-то-ра, но и струк-ту-ра ин-ду-ци-ро-ван-ной за-да-чи
  []
 
@@ -2929,7 +2930,7 @@ Underfull \hbox (badness 1852) in paragraph at lines 784--785
 
 ] [36]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 787.
+(Font)              scaled to size 14.4pt on input line 786.
  [37
 
 ] (./cursach.aux
@@ -2944,18 +2945,18 @@ Package logreq Info: Writing requests to 'cursach.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49475 strings out of 467525
- 1092804 string characters out of 5418982
- 2178747 words of memory out of 5000000
- 77549 multiletter control sequences out of 15000+600000
+ 49469 strings out of 467525
+ 1092736 string characters out of 5418982
+ 2178696 words of memory out of 5000000
+ 77546 multiletter control sequences out of 15000+600000
  658152 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,117p,1613b,3209s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Italic.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on cursach.pdf (37 pages, 2217310 bytes).
+Output written on cursach.pdf (37 pages, 2352168 bytes).
 PDF statistics:
- 595 PDF objects out of 1000 (max. 8388607)
- 472 compressed objects within 5 object streams
- 141 named destinations out of 1000 (max. 500000)
- 351 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 579 PDF objects out of 1000 (max. 8388607)
+ 456 compressed objects within 5 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 327 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -509,12 +509,12 @@ v - \frac{\partial^2 u}{\partial x^2} = 0.
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=1\linewidth]{stage_2/shared_trunk_aprox_evalution.png}
+\includegraphics[width=1\linewidth]{stage_2/shared_trunk_aprox_evolution.png}
 \caption{Эволюция аппроксимации гибридной модели с общим стволом}
 \label{fig:stage_2/shared_trunk_aprox_evalution}
 \end{figure}
 
-\begin{figure}[ht!]
+\begin{figure}[ht!]z
 \centering
 \includegraphics[width=1\linewidth]{stage_2/tow_output_aprox_evolution.png}
 \caption{Эволюция аппроксимации модели с двумя выходами}
@@ -523,7 +523,7 @@ v - \frac{\partial^2 u}{\partial x^2} = 0.
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=1\linewidth]{stage_2/tow_model_aprox_evalution.png}
+\includegraphics[width=1\linewidth]{stage_2/tow_models_aprox_evolution.png}
 \caption{Эволюция аппроксимации модели с двумя независимыми нейронными сетями}
 \label{fig:stage_2/tow_model_aprox_evalution}
 \end{figure}
@@ -561,7 +561,6 @@ v - \frac{\partial^2 u}{\partial x^2} = 0.
 
 \subsection{Математическое обоснование}
 
-\subsubsection{Определение NTK}
 
 Пусть нейронная сеть задаёт скалярную функцию
 \begin{equation}
@@ -581,7 +580,7 @@ v - \frac{\partial^2 u}{\partial x^2} = 0.
 
 Иначе говоря, NTK измеряет сходство двух входов не в исходном пространстве признаков, а в пространстве чувствительности модели к своим параметрам.
 
-\subsubsection{Переход к линейной динамике обучения}
+
 
 Рассмотрим обучение по функции потерь среднеквадратичного отклонения
 \begin{equation}
@@ -630,7 +629,7 @@ v - \frac{\partial^2 u}{\partial x^2} = 0.
 
 Таким образом, компоненты ошибки, соответствующие большим собственным значениям NTK, затухают быстрее, тогда как направления, связанные с малыми собственными значениями, обучаются медленнее.
 
-\subsubsection{Связь с ядерной регрессией и предел бесконечной ширины}
+
 
 В режиме линеаризованного обучения динамика нейронной сети большой ширины аналитически эквивалентна методам ядерной регрессии. Если процесс оптимизации продолжается до полной интерполяции обучающей выборки при условии квазистационарности NTK, предельное решение для произвольного входа $x$ принимает вид
 \begin{equation}
