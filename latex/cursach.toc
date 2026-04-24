@@ -1,0 +1,27 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{Введение}{3}{section*.1}%
+\contentsline {section}{\numberline {1}Математическая постановка задачи и метод решения}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Математическая модель и ключевые свойства}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Описание метода Physics-Informed Neural Networks}{6}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Этап 1: базовый вычислительный эксперимент}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Формирование обучающего множества и коллокация}{10}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Параметры базовой модели}{10}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Анализ динамики обучения и эволюция аппроксимации}{10}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Анализ ошибки}{12}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Этап 2: понижение порядка и анализ деградации точности}{14}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Модификация постановки задачи и варианты архитектур PINN}{14}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Динамика обучения и сравнительный анализ архитектур}{15}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Причины деградации точности}{18}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Выводы: деградация эффективности при усложнении системы}{20}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Анализ нейронного касательного ядра базовой модели первого этапа}{22}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Описание нейронного касательного ядра}{22}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Математическое обоснование}{23}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Определение NTK}{23}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Переход к линейной динамике обучения}{23}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Связь с ядерной регрессией и предел бесконечной ширины}{24}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}Спектральные и алгебраические свойства NTK}{26}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Обусловленность и устойчивость динамики}{27}{subsubsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.4}Практическая схема вычисления NTK для базовой PINN-модели}{27}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Визуализации и анализ результатов}{28}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Интерпретация результатов}{32}{subsection.4.6}%
+\contentsline {section}{Заключение}{34}{section*.27}%

@@ -485,6 +485,10 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc
+INPUT ./cursach.toc
+INPUT ./cursach.toc
+INPUT cursach.toc
+OUTPUT cursach.toc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Regular-TLF-t2a.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Bold-TLF-t2a.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Regular-TLF-t2a.tfm
