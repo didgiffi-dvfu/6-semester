@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1777085544.25402 "/Users/zasmina/Study/6-semester/tex/lab3/lab_3.tex" "lab_3.pdf" "lab_3" 1777085547.53724 0
+["pdflatex"] 1777089171.33008 "/Users/zasmina/Study/6-semester/tex/lab3/lab_3.tex" "lab_3.pdf" "lab_3" 1777089174.03876 0
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1776163255.13452 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/latt1200.tfm" 1777024088.12424 1272 bf3bb5cc29880b269c8bcb412a1ac6e2 ""
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/latt1440.tfm" 1776163260.22273 1272 e3abe42d6bdbd8626fffa22fcb43f669 ""
-  "/Users/zasmina/Study/6-semester/tex/lab3/lab_3.tex" 1777085543.88674 11804 39ec2a02d298fe803dedcf1e0f0ab1d3 ""
+  "/Users/zasmina/Study/6-semester/tex/lab3/lab_3.tex" 1777088966.83499 8754 34ce8a5698cb5c6933984e23a3c8aad4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1136849721 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc" 1442533853 3023 c4581b906237349b927d8aa9ff8a2b60 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/tmp_ac5xuc.enc" 1454715823 3362 5293928c6d94ec9cfd8489a657361948 ""
@@ -146,14 +146,14 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1776162630 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1776162512 3636778 6925ab35a6e199589a5d52b3eef864c9 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "ecdf_table.tex" 1777085347.22127 777 9d5dc1154f67f110f75af70487c41266 ""
+  "ecdf_table.tex" 1777085751.33491 760 aca81c9b4c84b9e5d069ea9ad1ce1a11 ""
   "fefu.jpg" 1777084686.77747 54986 1dbb4d599b5104d8c23cd81eaf1496fc ""
-  "figures/custom_ecdf.png" 1777085430.77823 431311 db9c3976e76becbde56234f456282399 ""
+  "figures/custom_ecdf.png" 1777085765.68118 242213 ddf53022cc3e1ca5b3a4f67461111786 ""
   "figures/scipy_ecdf.png" 1777084764.90818 227100 df7967cc0144d240cb9c982fef4c5ff1 ""
-  "lab3_code.py" 1777085347.09567 7347 822e715d23774c5dee66e009c144363e ""
-  "lab_3.aux" 1777085547.30723 2085 02f17f2b290f59405025bf05f52b3d81 "pdflatex"
-  "lab_3.out" 1777085547.30831 1306 1aec5602a8526a0237345f90112de9a4 "pdflatex"
-  "lab_3.tex" 1777085543.88674 11804 39ec2a02d298fe803dedcf1e0f0ab1d3 ""
+  "lab3_code.py" 1777089171.41561 8781 725edceb6e5101a235427b90646b3dad ""
+  "lab_3.aux" 1777089173.7993 1930 e5ef4896c108c18cb558d86f211b74bf "pdflatex"
+  "lab_3.out" 1777089173.80039 1193 0425c350955c32b8fed674f73edc10d1 "pdflatex"
+  "lab_3.tex" 1777088966.83499 8754 34ce8a5698cb5c6933984e23a3c8aad4 ""
   (generated)
   "lab_3.aux"
   "lab_3.log"

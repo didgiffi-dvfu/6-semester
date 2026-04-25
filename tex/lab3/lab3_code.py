@@ -86,21 +86,31 @@ plot_config = [
 
 
 def empirical_cdf(sample, x, alpha=0.05):
+    # преобразуем выборку к numpy-массиву и сортируем,
+    # чтобы затем быстро считать долю элементов <= x.
     sample = np.sort(np.asarray(sample))
     n = sample.size
     x_array = np.atleast_1d(x)
 
+    # значение эфр сколько элементов выборки не превосходят x, делим на n.
     fn = np.searchsorted(sample, x_array, side="right") / n
+
+    # ссчитаем эпсилон  по формуле доверительного интервала
+    # и ограничиваем границы отрезком [0, 1].
     epsilon = np.sqrt(np.log(2 / alpha) / (2 * n))
     lower = np.clip(fn - epsilon, 0.0, 1.0)
     upper = np.clip(fn + epsilon, 0.0, 1.0)
 
+    # Если на вход подано одно число x, возвращаем обычные float,
+    # а не массивы из одного элемента.
     if np.ndim(x) == 0:
         return float(fn[0]), float(lower[0]), float(upper[0])
     return fn, lower, upper
 
 
 def make_x_grid(sample, kind, frozen_dist):
+    # строим сетку по x, на которой будем рисовать графики для непрерывных распределений берем плотную сетку,
+    # для дискретных — целочисленные значения.
     sample = np.asarray(sample)
     left, right = frozen_dist.support()
 
@@ -123,6 +133,8 @@ def make_x_grid(sample, kind, frozen_dist):
 
 
 def build_demo_table(config):
+    # собираем таблицу в точке медианы каждой выборки
+    # считаем значение ЭФР и границы доверительного интервала.
     rows = []
     for item in config:
         sample = samples[item["sample_name"]]
@@ -141,6 +153,8 @@ def build_demo_table(config):
 
 
 def plot_with_custom_ecdf(ax, sample, title, kind, frozen_dist):
+    # pисуем на одном графике ,
+    # собственную ЭФР и доверительный интервал.
     x_grid = make_x_grid(sample, kind, frozen_dist)
     true_cdf = frozen_dist.cdf(x_grid)
     emp_cdf, low, high = empirical_cdf(sample, x_grid)
@@ -164,6 +178,7 @@ def plot_with_custom_ecdf(ax, sample, title, kind, frozen_dist):
         linestyle="--",
         linewidth=1.5,
     )
+
     ax.set_title(title)
     ax.set_xlabel("x")
     ax.set_ylabel("F(x)")
@@ -171,6 +186,8 @@ def plot_with_custom_ecdf(ax, sample, title, kind, frozen_dist):
 
 
 def plot_with_scipy_ecdf(ax, sample, title, kind, frozen_dist):
+    # для сравнения строим график через готовую реализацию 
+    # берем ЭФР, а также ее доверительный интервал встроенными методами.
     x_grid = make_x_grid(sample, kind, frozen_dist)
     true_cdf = frozen_dist.cdf(x_grid)
 
