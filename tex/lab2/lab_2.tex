@@ -1,0 +1,315 @@
+\documentclass[a4paper,14pt]{extarticle}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T2A]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage[russian]{babel}
+  \usepackage{tempora}
+\else
+  \usepackage[russian]{babel}
+  \usepackage{fontspec}
+  \setmainfont{Times New Roman}
+\fi
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage[unicode, colorlinks=true, linkcolor=blue, urlcolor=magenta]{hyperref}
+\usepackage{listings}
+\usepackage{listingsutf8}
+
+\onehalfspacing
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstset{
+    language=Python,
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{blue},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\small,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2,
+    frame=single,
+    inputencoding=utf8,
+    extendedchars=true,
+    texcl=true,
+    literate={а}{{\cyra}}1 {б}{{\cyrb}}1 {в}{{\cyrv}}1 {г}{{\cyrg}}1 {д}{{\cyrd}}1 {е}{{\cyre}}1 {ё}{{\"e}}1 {ж}{{\cyrzh}}1 {з}{{\cyrz}}1 {и}{{\cyri}}1 {й}{{\cyrishrt}}1 {к}{{\cyrk}}1 {л}{{\cyrl}}1 {м}{{\cyrm}}1 {н}{{\cyrn}}1 {о}{{\cyro}}1 {п}{{\cyrp}}1 {р}{{\cyrr}}1 {с}{{\cyrs}}1 {т}{{\cyrt}}1 {у}{{\cyru}}1 {ф}{{\cyrf}}1 {х}{{\cyrh}}1 {ц}{{\cyrc}}1 {ч}{{\cyrch}}1 {ш}{{\cyrsh}}1 {щ}{{\cyrshch}}1 {ъ}{{\cyrhrdsn}}1 {ы}{{\cyry}}1 {ь}{{\cyrsftsn}}1 {э}{{\cyrerev}}1 {ю}{{\cyryu}}1 {я}{{\cyrya}}1 {А}{{\CYRA}}1 {Б}{{\CYRB}}1 {В}{{\CYRV}}1 {Г}{{\CYRG}}1 {Д}{{\CYRD}}1 {Е}{{\CYRE}}1 {Ё}{{\"E}}1 {Ж}{{\CYRZH}}1 {З}{{\CYRZ}}1 {И}{{\CYRI}}1 {Й}{{\CYRISHRT}}1 {К}{{\CYRK}}1 {Л}{{\CYRL}}1 {М}{{\CYRM}}1 {Н}{{\CYRN}}1 {О}{{\CYRO}}1 {П}{{\CYRP}}1 {Р}{{\CYRR}}1 {С}{{\CYRS}}1 {Т}{{\CYRT}}1 {У}{{\CYRU}}1 {Ф}{{\CYRF}}1 {Х}{{\CYRH}}1 {Ц}{{\CYRC}}1 {Ч}{{\CYRCH}}1 {Ш}{{\CYRSH}}1 {Щ}{{\CYRSHCH}}1 {Ъ}{{\CYRHRDSN}}1 {Ы}{{\CYRY}}1 {Ь}{{\CYRSFTSN}}1 {Э}{{\CYREREV}}1 {Ю}{{\CYRYU}}1 {Я}{{\CYRYA}}1
+}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+
+  \IfFileExists{fefu.jpg}{
+        \includegraphics[scale=0.15]{fefu.jpg}\\[0.4cm]
+    }{
+        \vspace*{1.8cm} 
+        }
+    \vspace*{1.8cm}
+
+    МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВАНИЯ\\
+    РОССИЙСКОЙ ФЕДЕРАЦИИ\\
+    Федеральное государственное автономное образовательное учреждение высшего образования\\
+    \textbf{«Дальневосточный федеральный университет»}\\
+    \textbf{(ДВФУ)}\\[0.3cm]
+    \rule{\linewidth}{0.7mm}\\[0.3cm]
+
+    \textbf{ИНСТИТУТ МАТЕМАТИКИ И КОМПЬЮТЕРНЫХ ТЕХНОЛОГИЙ}\\[0.3cm]
+    \textbf{Кафедра математического и компьютsрного моделирования}\\[0.9cm]
+
+    Избосарова Жасмина Олимжоновна\\
+    \textbf{ЛАБОРАТОРНАЯ РАБОТА №2:Методы моментов и максимального правдоподобия}\\[0.3cm]
+
+    Направление подготовки 02.03.01 СЦТ «Сквозные цифровые технологии»,\\
+    образовательная программа «Математика и компьютерные науки»,\\
+    очная форма обучения\\[1cm]
+
+    \raggedleft
+    \textbf{Студент группы Б9123-02.03.01сцт2}\\
+    \rule{4.5cm}{0.3mm} Ж.\,О.~Избосарова\\[1cm]
+
+    \textbf{Руководитель проекта}\\
+    \rule{4.2cm}{0.3mm} К.\,А.~Ганжа
+
+    \vfill
+    \centering
+    Владивосток\\
+    2026
+\end{titlepage}
+
+\section*{Выборварианта}
+
+Номер в списке 16 => вариант распределения под номером 4:
+\[
+Bin(k,p).
+\]
+
+
+\section*{Биномиальное распределение}
+
+
+\[
+X_1,\dots,X_n \sim Bin(k,p),
+\]
+где \(k \in \mathbb{N}\), \(0<p<1\), а функция вероятности имеет вид
+\[
+\operatorname{P}(X=x)=\operatorname{C}_{k}^{x}p^x(1-p)^{k-x}, \quad x=0,1,\dots,k.
+\]
+
+Для биномиального распределения математическое ожидание и дисперсия равны:
+\[
+\operatorname{E}X = kp,
+\qquad
+\operatorname{D}(X)=kp(1-p).
+\]
+
+\section*{Оценка параметров распеределения Биномиаль-
+ного методом  моментов}
+
+Обозначим выборочное среднее и выборочную дисперсию с делением на \(n\):
+\[
+\overline{X}=\frac{1}{n}\sum_{i=1}^{n}X_i,
+\qquad
+s_n^2=\frac{1}{n}\sum_{i=1}^{n}(X_i-\overline{X})^2.
+\]
+\[
+\overline{X}=kp,
+\qquad
+s_n^2=kp(1-p).
+\]
+
+Из первого равенства:
+\[
+k=\frac{\overline{X}}{p}.
+\]
+
+Подставим это во второе:
+\[
+s_n^2=\frac{\overline{X}}{p}p(1-p)=\overline{X}(1-p).
+\]
+
+Тогда
+\[
+\hat p_{\text{ММ}} = 1-\frac{s_n^2}{\overline{X}}.
+\]
+
+После этого
+\[
+\hat k_{\text{ММ}}=\frac{\overline{X}}{\hat p_{\text{ММ}}}
+=
+\frac{\overline{X}^2}{\overline{X}-s_n^2}.
+\]
+
+Итак оценки методом моментов:
+\[
+\boxed{
+\hat p_{\text{ММ}} = 1-\frac{s_n^2}{\overline{X}},
+\qquad
+\hat k_{\text{ММ}} = \frac{\overline{X}^2}{\overline{X}-s_n^2}
+}
+\]
+
+\section*{Оценка параметров распеределения Биномиального методом  максимального правдоподобия}
+
+\[
+L(k,p)=\prod_{i=1}^{n}\operatorname{C}_{k}^{x_i}p^{x_i}(1-p)^{k-x_i}.
+\]
+
+Логарифмическая функция правдоподобия:
+\[
+\ell(k,p)=
+\sum_{i=1}^{n}\ln\operatorname{C}_{k}^{x_i}
++
+\left(\sum_{i=1}^{n}x_i\right)\ln p
++
+\left(nk-\sum_{i=1}^{n}x_i\right)\ln(1-p).
+\]
+
+При фиксированном \(k\) найдём максимум по \(p\):
+\[
+\frac{\partial \ell}{\partial p}
+=
+\frac{\sum x_i}{p}
+-
+\frac{nk-\sum x_i}{1-p}=0.
+\]
+
+После преобразований получаем:
+\[
+\hat p(k)=\frac{\overline{X}}{k}.
+\]
+
+Следовательно, ММП-оценка параметра \(p\) при фиксированном \(k\) имеет явный вид:
+\[
+\boxed{\hat p_{\text{ММП}}(k)=\frac{\overline{X}}{k}.}
+\]
+
+Для параметра \(k\) явной формулы нет, так как \(k\) должен быть целым и входит в биномиальные коэффициенты. Поэтому его ищут по профильной логарифмической функции правдоподобия:
+\[
+\hat k_{\text{ММП}}=
+\arg\max_{k\in\mathbb{N},\,k\ge x_{\max}}
+\left[
+\sum_{i=1}^{n}\ln\operatorname{C}_{k}^{x_i}
++
+n\overline{X}\ln\left(\frac{\overline{X}}{k}\right)
++
+n(k-\overline{X})\ln\left(1-\frac{\overline{X}}{k}\right)
+\right].
+\]
+
+После нахождения \(\hat k_{\text{ММП}}\) параметр \(p\) вычисляется по формуле
+\[
+\hat p_{\text{ММП}}=\frac{\overline{X}}{\hat k_{\text{ММП}}}.
+\]
+
+\section*{Численный эксперимент}
+Пусть 
+\[
+k=10, \qquad p=0.43.
+\]
+
+
+\begin{table}[h!]
+\centering
+\caption{Сравнение истинных параметров и оценок}
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.2cm} >{\raggedright\arraybackslash}p{3.6cm} >{\raggedright\arraybackslash}p{4.7cm} >{\raggedright\arraybackslash}p{4.7cm}}
+\toprule
+Размер выборки & Истинные параметры & Оценка ММ & Оценка ММП \\
+\midrule
+100 &
+\(k=10,\ p=0.43\) &
+\(\hat k_{\text{ММ}} = 9.9101\), \(\hat p_{\text{ММ}} = 0.4238\) &
+\(\hat k_{\text{ММП}} = 10\), \(\hat p_{\text{ММП}} = 0.4200\) \\
+\addlinespace
+10000 &
+\(k=10,\ p=0.43\) &
+\(\hat k_{\text{ММ}} = 9.9799\), \(\hat p_{\text{ММ}} = 0.4318\) &
+\(\hat k_{\text{ММП}} = 10\), \(\hat p_{\text{ММП}} = 0.4309\) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+ Видно, что с ростом объёма выборки оценки  методов приближаются к заданным параметрам распределения
+
+
+\newpage
+
+\section*{Код программы}
+
+
+\begin{lstlisting}
+import math
+import numpy as np
+
+def mom_estimate(sample):
+    x = np.asarray(sample)
+    mean = x.mean()
+    var_n = ((x - mean) ** 2).mean()
+    p_hat = 1 - var_n / mean
+    k_hat = mean / p_hat
+    return k_hat, p_hat
+
+def mle_estimate(sample, k_max=100):
+    x = np.asarray(sample)
+    n = len(x)
+    s = int(x.sum())
+    mean = s / n
+    x_max = int(x.max())
+
+    best_k = None
+    best_ll = None
+
+    for k in range(x_max, k_max + 1):
+        p = mean / k
+        if not (0 < p < 1):
+            continue
+
+        ll = sum(
+            math.lgamma(k + 1)
+            - math.lgamma(int(xi) + 1)
+            - math.lgamma(k - int(xi) + 1)
+            for xi in x
+        )
+        ll += s * math.log(p) + (n * k - s) * math.log(1 - p)
+
+        if best_ll is None or ll > best_ll:
+            best_ll = ll
+            best_k = k
+
+    return best_k, mean / best_k
+
+rng = np.random.default_rng(7)
+k_true, p_true = 10, 0.43
+
+sample_100 = rng.binomial(k_true, p_true, 100)
+sample_10000 = rng.binomial(k_true, p_true, 10000)
+
+print("MM, n=100:", mom_estimate(sample_100))
+print("MLE, n=100:", mle_estimate(sample_100))
+print("MM, n=10000:", mom_estimate(sample_10000))
+print("MLE, n=10000:", mle_estimate(sample_10000))
+\end{lstlisting}
+
+
+\end{document}
