@@ -131,18 +131,13 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Bold-TLF-t2a.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Bold-TLF-t2a.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Italic-TLF-t2a.tfm
+OUTPUT speetch.pdf
+INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-OUTPUT speetch.pdf
-INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-INPUT /Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/latt1440.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 INPUT speetch.aux
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Italic.pfb
@@ -152,4 +147,3 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.p
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb
