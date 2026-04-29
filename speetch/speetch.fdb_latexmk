@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1777280226.99385 "/Users/zasmina/Study/6-semester/speetch/speetch.tex" "speetch.pdf" "speetch" 1777280227.5404 0
+["pdflatex"] 1777299912.05939 "/Users/zasmina/Study/6-semester/speetch/speetch.tex" "speetch.pdf" "speetch" 1777299912.91356 0
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1776163255.13452 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
-  "/Users/zasmina/Study/6-semester/speetch/speetch.tex" 1777280226.7978 8653 28ecb47d63990ea07093dffa306f63e4 ""
+  "/Users/zasmina/Study/6-semester/speetch/speetch.tex" 1777299911.81304 8469 fe2035d9aac7951b465bd3299fd59141 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc" 1442533853 3023 c4581b906237349b927d8aa9ff8a2b60 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm" 1136768653 3584 3169d30142b88a27d4ab0e3468e963a2 ""
@@ -73,8 +73,8 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1776162630 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1776162512 3636778 6925ab35a6e199589a5d52b3eef864c9 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "speetch.aux" 1777280227.42517 170 d10c2249b63a98b3fdd3409f7f5663f1 "pdflatex"
-  "speetch.tex" 1777280226.7978 8653 28ecb47d63990ea07093dffa306f63e4 ""
+  "speetch.aux" 1777299912.72388 170 d10c2249b63a98b3fdd3409f7f5663f1 "pdflatex"
+  "speetch.tex" 1777299911.81304 8469 fe2035d9aac7951b465bd3299fd59141 ""
   (generated)
   "speetch.aux"
   "speetch.log"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  27 APR 2026 18:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.14)  28 APR 2026 00:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1389,11 +1389,6 @@ LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
 (Font)              scaled to size 20.74pt on input line 17.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
 (Font)              scaled to size 14.4pt on input line 18.
-
-Overfull \hbox (13.7075pt too wide) in paragraph at lines 29--31
-\T2A/Tempora-TLF/m/n/14.4 де-ли-ру-ет слож-ные вол-но-вые про-цес-сы и ха-рак-те-ри-зу-ет-ся ба-лан-сом меж-ду неустой-
- []
-
 [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc}] [2] [3] (./speetch.aux)
@@ -1409,9 +1404,9 @@ Here is how much of TeX's memory you used:
  35461 multiletter control sequences out of 15000+600000
  643158 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,5n,73p,671b,303s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,5n,73p,776b,303s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Italic.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on speetch.pdf (3 pages, 130016 bytes).
+Output written on speetch.pdf (3 pages, 129873 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream

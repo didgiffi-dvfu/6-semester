@@ -131,13 +131,13 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Bold-TLF-t2a.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Bold-TLF-t2a.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Italic-TLF-t2a.tfm
-OUTPUT speetch.pdf
-INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+OUTPUT speetch.pdf
+INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc
 INPUT speetch.aux
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Italic.pfb
