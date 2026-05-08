@@ -1,0 +1,239 @@
+/* ===== ОСНОВА ===== */
+
+body {
+    background: linear-gradient(180deg, #fff7fb 0%, #f7f4ff 100%);
+    font-family: 'Segoe UI', sans-serif;
+    color: #4a4458;
+    margin: 0;
+}
+
+/* ===== КАРТОЧКИ ===== */
+
+.pony-card,
+.post-card,
+.create-post-area {
+    background: rgba(255,255,255,0.88);
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 28px;
+
+    box-shadow:
+        0 10px 30px rgba(180, 160, 220, 0.12),
+        0 2px 10px rgba(255,255,255,0.5) inset;
+
+    transition: 0.25s ease;
+}
+
+.pony-card:hover,
+.post-card:hover {
+    transform: translateY(-2px);
+}
+
+/* ===== LOGIN / REGISTER ===== */
+
+.auth-page {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px 20px;
+}
+
+.pony-card {
+    max-width: 420px;
+    width: 100%;
+
+    padding: 48px 32px 32px;
+    position: relative;
+    text-align: center;
+}
+
+/* ===== АВАТАР ===== */
+
+.pony-avatar {
+    width: 88px;
+    height: 88px;
+
+    object-fit: cover;
+    border-radius: 50%;
+
+    border: 4px solid white;
+
+    position: absolute;
+    top: -44px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    box-shadow: 0 8px 20px rgba(255, 182, 210, 0.25);
+}
+
+/* ===== ТЕКСТ ===== */
+
+h2, h3, h4 {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    color: #7b5ea7;
+}
+
+.text-muted {
+    color: #8f8a9f !important;
+}
+
+/* ===== INPUT ===== */
+
+.form-control {
+    border-radius: 18px;
+    border: 1.5px solid #ece7f5;
+    margin-bottom: 12px;
+
+    padding: 14px 18px;
+
+    background: rgba(255,255,255,0.9);
+
+    transition: 0.2s ease;
+
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #c8b6ff;
+    box-shadow: 0 0 0 4px rgba(200,182,255,0.18);
+}
+
+/* ===== BUTTON ===== */
+
+.btn-pink {
+    background: linear-gradient(135deg, #c8b6ff, #ffb7d5);
+
+    border: none;
+    border-radius: 18px;
+
+    color: white;
+    font-weight: 600;
+
+    padding: 12px 18px;
+
+    transition: 0.25s ease;
+}
+
+.btn-pink:hover {
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 8px 20px rgba(200,182,255,0.35);
+
+    color: white;
+}
+
+/* ===== LINKS ===== */
+
+.magic-link {
+    color: #8e7cc3;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.magic-link:hover {
+    color: #6f5aa8;
+}
+
+/* ===== FEED ===== */
+
+.feed-container {
+    max-width: 760px;
+    margin: 110px auto 50px;
+    padding: 0 20px;
+}
+
+.post-card,
+.create-post-area {
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+/* ===== КАРТИНКИ ===== */
+
+.post-img-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 22px;
+    margin-bottom: 18px;
+    background: #f4eefb;
+}
+
+.post-card .post-img-container {
+    height: clamp(190px, 32vw, 320px);
+}
+
+.pony-card .post-img-container {
+    height: clamp(240px, 40vw, 420px);
+}
+
+.post-img-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 22px;
+    object-fit: contain;
+    object-position: center;
+
+    transition: 0.35s ease;
+}
+
+.post-img-container img:hover {
+    transform: scale(1.02);
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar-custom {
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+
+    padding: 14px 0;
+}
+
+.navbar-brand {
+    color: #7b5ea7 !important;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+/* ===== ДОП ЭЛЕМЕНТЫ ===== */
+
+.dashed-box {
+    border: 2px dashed #e2d7ff;
+    border-radius: 20px;
+    padding: 18px;
+    background: #fcfaff;
+}
+
+/* ===== АДАПТИВ ===== */
+
+@media (max-width: 576px) {
+
+    .pony-card {
+        padding: 42px 22px 24px;
+    }
+
+    .feed-container {
+        margin-top: 90px;
+    }
+
+    .post-card,
+    .create-post-area {
+        padding: 18px;
+    }
+}
