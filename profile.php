@@ -27,32 +27,33 @@ if (isset($_POST['submit_post'])) {
         $error = 'no data post';
     } else {
         if (!empty($_FILES['file']['name'])) {
-            $allowedTypes = [
-                'image/gif',
-                'image/jpeg',
-                'image/jpg',
-                'image/pjpeg',
-                'image/x-png',
-                'image/png',
-            ];
-
-            if (in_array($_FILES['file']['type'], $allowedTypes, true) && $_FILES['file']['size'] < 2097152) {
-                $uploadDir = __DIR__ . '/upload/';
-
-                if (!is_dir($uploadDir)) {
-                    mkdir($uploadDir, 0777, true);
-                }
-
-                $fileName = time() . '_' . basename($_FILES['file']['name']);
-                $targetPath = $uploadDir . $fileName;
-
-                if (move_uploaded_file($_FILES['file']['tmp_name'], $targetPath)) {
-                    $imagePath = 'upload/' . $fileName;
-                } else {
-                    $error = 'upload failed!';
-                }
+            if (!isset($_FILES['file']['error']) || $_FILES['file']['error'] !== UPLOAD_ERR_OK) {
+                $error = 'Ошибка загрузки файла';
             } else {
-                $error = 'upload failed!';
+                $allowedExtensions = ['gif', 'jpg', 'jpeg', 'png', 'webp'];
+                $fileExtension = strtolower(pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION));
+
+                if (!in_array($fileExtension, $allowedExtensions, true)) {
+                    $error = 'Можно загружать только изображения gif, jpg, jpeg, png, webp';
+                } elseif ($_FILES['file']['size'] > 5 * 1024 * 1024) {
+                    $error = 'Файл слишком большой. Максимум 5 МБ';
+                } else {
+                    $uploadDir = __DIR__ . '/upload/';
+
+                    if (!is_dir($uploadDir) && !mkdir($uploadDir, 0777, true)) {
+                        $error = 'Не удалось создать папку upload';
+                    } else {
+                        $safeBaseName = preg_replace('/[^A-Za-z0-9._-]/', '_', basename($_FILES['file']['name']));
+                        $fileName = uniqid('post_', true) . '_' . $safeBaseName;
+                        $targetPath = $uploadDir . $fileName;
+
+                        if (move_uploaded_file($_FILES['file']['tmp_name'], $targetPath)) {
+                            $imagePath = 'upload/' . $fileName;
+                        } else {
+                            $error = 'Не удалось сохранить файл';
+                        }
+                    }
+                }
             }
         }
 
@@ -175,7 +176,7 @@ mysqli_close($link);
 
                 <div class="d-flex justify-content-between align-items-center gap-3">
 
-                    <input type="file" name="file" class="form-control">
+                    <input type="file" name="file" accept=".gif,.jpg,.jpeg,.png,.webp,image/*" class="form-control">
 
                     <button type="submit" name="submit_post" class="btn btn-pink px-4">
                         Опубликовать
