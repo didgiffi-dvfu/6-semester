@@ -2,7 +2,7 @@
 $servername = '127.0.0.1';
 $username = 'root';
 $password = 'kali';
-$dbName = 'db_name';
+$dbName = 'mina_db';
 
 $link = mysqli_connect($servername, $username, $password);
 
