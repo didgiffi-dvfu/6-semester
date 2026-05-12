@@ -1,6 +1,5 @@
 <?php
-$postId =  $_GET['id'];
-
+$postId = isset($_GET['id']) ? (int) $_GET['id'] : 0;
 if ($postId > 0) {
     header('Location: /posts.php?id=' . $postId);
     exit();

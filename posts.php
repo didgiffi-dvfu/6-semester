@@ -1,10 +1,7 @@
 <?php
 require_once('db.php');
 
-if (!isset($_COOKIE['User'])) {
-    header('Location: /login.php');
-    exit();
-}
+
 
 $title = 'Пост не найден';
 $main_text = 'Запись не найдена или была удалена.';
@@ -17,21 +14,18 @@ if (!$link) {
     die('Ошибка подключения: ' . mysqli_connect_error());
 }
 
-mysqli_set_charset($link, 'utf8mb4');
+// mysqli_set_charset($link, 'utf8mb4');
 
-if ($postId > 0) {
-    $usernameCookie = mysqli_real_escape_string($link, $_COOKIE['User']);
+
+    // $usernameCookie = mysqli_real_escape_string($link, $_COOKIE['User']);
     // $sql = "SELECT * FROM posts WHERE id=$postId AND username='$usernameCookie'";
-    $sql = "SELECT * FROM posts WHERE id=$id";
-    $res = mysqli_query($link, $sql);
-
-    if ($res && mysqli_num_rows($res) > 0) {
-        $rows = mysqli_fetch_array($res);
-        $title = $rows['title'];
-        $main_text = $rows['main_text'];
-        $imagePath = $rows['image_path'];
-    }
-}
+$sql = "SELECT * FROM posts WHERE id=$postId";
+$res = mysqli_query($link, $sql);
+$rows = mysqli_fetch_array($res);
+$title = $rows['title'];
+$main_text = $rows['main_text'];
+$imagePath = $rows['image_path'];
+    
 
 mysqli_close($link);
 ?>
