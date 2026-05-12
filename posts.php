@@ -9,7 +9,7 @@ if (!isset($_COOKIE['User'])) {
 $title = 'Пост не найден';
 $main_text = 'Запись не найдена или была удалена.';
 $imagePath = '';
-$postId = $id = $_GET['id'];
+$postId =  $_GET['id'];
 
 $link = mysqli_connect($servername, $username, $password, $dbName);
 
