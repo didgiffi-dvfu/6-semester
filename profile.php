@@ -50,7 +50,7 @@ if (isset($_POST['submit_post'])) {
                         if (move_uploaded_file($_FILES['file']['tmp_name'], $targetPath)) {
                             $imagePath = 'upload/' . $fileName;
                         } else {
-                            $error = 'Не удалось сохранить файл';
+                            $error = 'Не удалось сохранить файл: ' . $targetPath;
                         }
                     }
                 }
