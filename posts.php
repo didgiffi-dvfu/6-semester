@@ -9,7 +9,7 @@ if (!isset($_COOKIE['User'])) {
 $title = 'Пост не найден';
 $main_text = 'Запись не найдена или была удалена.';
 $imagePath = '';
-$postId = isset($_GET['id']) ? (int) $_GET['id'] : 0;
+$postId = $id = $_GET['id'];
 
 $link = mysqli_connect($servername, $username, $password, $dbName);
 
@@ -21,7 +21,8 @@ mysqli_set_charset($link, 'utf8mb4');
 
 if ($postId > 0) {
     $usernameCookie = mysqli_real_escape_string($link, $_COOKIE['User']);
-    $sql = "SELECT * FROM posts WHERE id=$postId AND username='$usernameCookie'";
+    // $sql = "SELECT * FROM posts WHERE id=$postId AND username='$usernameCookie'";
+    $sql = "SELECT * FROM posts WHERE id=$id";
     $res = mysqli_query($link, $sql);
 
     if ($res && mysqli_num_rows($res) > 0) {
