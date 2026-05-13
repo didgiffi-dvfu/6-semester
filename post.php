@@ -1,10 +1,9 @@
 <?php
-$postId = isset($_GET['id']) ? (int) $_GET['id'] : 0;
-if ($postId > 0) {
-    header('Location: /posts.php?id=' . $postId);
-    exit();
-}
+// 1. Уязвимость: берем данные напрямую из GET-запроса
+$postId = $_GET['id']; 
 
-header('Location: /index.php');
+// 2. Уязвимость: полное отсутствие проверки. 
+// Мы не проверяем, число это или вредоносная строка.
+header('Location: /posts.php?id=' . $postId);
 exit();
 ?>
