@@ -2,7 +2,7 @@ PWD /Users/zasmina/Study/6-semester/idz
 INPUT /usr/local/texlive/2026/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT idz.tex
+INPUT /Users/zasmina/Study/6-semester/idz/idz.tex
 OUTPUT idz.log
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/extsizes/extarticle.cls
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -255,10 +255,6 @@ INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Regular-TLF-t2a.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Bold-TLF-t2a.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-INPUT /Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/latt1440.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/tempora/TS1Tempora-TLF.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/tempora/TS1Tempora-TLF.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/tempora/TS1Tempora-TLF.fd
@@ -307,7 +303,6 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/vf/public/tempora/Tempora-Regular-tlf-ts1.vf
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Regular-tlf-ts1--base.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/tmp_ac5xuc.enc
@@ -318,8 +313,13 @@ INPUT ./figures/task1_plots.png
 INPUT ./figures/task1_plots.png
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Regular-TLF-t2a.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Bold-TLF-t2a.tfm
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+INPUT /Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/latt1440.tfm
 INPUT /Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/latt1200.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Regular-TLF-t2a.tfm
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Regular-TLF-t2a.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tempora/Tempora-Regular-TLF-t2a.tfm
 INPUT ./tables/task3_results_table.tex
@@ -368,4 +368,3 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb

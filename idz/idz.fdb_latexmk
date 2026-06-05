@@ -1,9 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1780040076.40024 "idz.tex" "idz.pdf" "idz" 1780040077.7619 0
+["pdflatex"] 1780653471.82947 "/Users/zasmina/Study/6-semester/idz/idz.tex" "idz.pdf" "idz" 1780653474.01398 0
   "../tex/lab3/fefu.jpg" 1780037743.79518 54986 1dbb4d599b5104d8c23cd81eaf1496fc ""
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1776163255.13452 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/latt1200.tfm" 1777024088.12424 1272 bf3bb5cc29880b269c8bcb412a1ac6e2 ""
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/latt1440.tfm" 1776163260.22273 1272 e3abe42d6bdbd8626fffa22fcb43f669 ""
+  "/Users/zasmina/Study/6-semester/idz/idz.tex" 1780653469.02185 18368 6ec33c92ff50d54999802000400810cd ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1136849721 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc" 1442533853 3023 c4581b906237349b927d8aa9ff8a2b60 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tempora/tmp_ac5xuc.enc" 1454715823 3362 5293928c6d94ec9cfd8489a657361948 ""
@@ -52,7 +53,6 @@
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb" 1215737283 167085 68de377d2744a68a88fa40a1f610615a ""
-  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb" 1215737283 166192 d74933432e33dffe92198fe51b7b0dcb ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb" 1454715823 181681 b443b7e97144338c96d0f474e6f7e008 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/tempora/Tempora-Regular.pfb" 1454715823 184118 9b17afcc1bd71925a2aa32086b6af417 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/vf/public/tempora/Tempora-Regular-tlf-ts1.vf" 1454715823 672 de08e0c51a2ff0c9322c9dc198b914d7 ""
@@ -161,9 +161,9 @@
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
   "figures/task1_plots.png" 1780039136.60339 131315 905e2e01ba979a2e6bc4aeae967ec65e ""
   "figures/task7_regression.png" 1780039136.84363 97793 60552c4e3cf1ff4d7f761c9270417792 ""
-  "idz.aux" 1780040077.58358 3152 40dcd42a2544a0f0ca6fcacba11165e2 "pdflatex"
-  "idz.out" 1780040077.5843 958 894b7bdb039a5511ea1a9e19486ce4e7 "pdflatex"
-  "idz.tex" 1780040070.72253 18882 d1a9032205c694a2d76eb92b9d2582eb ""
+  "idz.aux" 1780653473.76626 2921 1f7a7b42627d9076eaf34134c637dfab "pdflatex"
+  "idz.out" 1780653473.76741 728 3f30987ef811d4b9773b43b071f51406 "pdflatex"
+  "idz.tex" 1780653469.02185 18368 6ec33c92ff50d54999802000400810cd ""
   "tables/task1_interval_table.tex" 1780039136.10274 557 573259ec656103ae516122096da6ff58 ""
   "tables/task3_results_table.tex" 1780039136.60608 544 a6cd6dc0675679c99af62eae64644b79 ""
   "tables/task4_results_table.tex" 1780039136.60659 300 a8c9a8eb91927bb8152c267413f9d67e ""
