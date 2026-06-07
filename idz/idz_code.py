@@ -51,6 +51,58 @@ def write_table(path: Path, caption: str, columns: list[str], rows: list[list[st
         f.write("\\end{table}\n")
 
 
+def write_longtable(path: Path, caption: str, columns: list[str], rows: list[list[str]]) -> None:
+    with path.open("w", encoding="utf-8") as f:
+        f.write("\\scriptsize\n")
+        f.write("\\setlength{\\tabcolsep}{3pt}\n")
+        f.write("\\begin{longtable}{%s}\n" % ("c" * len(columns)))
+        f.write(f"\\caption{{{caption}}}\\\\\n")
+        f.write("\\toprule\n")
+        f.write(" & ".join(columns) + " \\\\\n")
+        f.write("\\midrule\n")
+        f.write("\\endfirsthead\n")
+        f.write("\\toprule\n")
+        f.write(" & ".join(columns) + " \\\\\n")
+        f.write("\\midrule\n")
+        f.write("\\endhead\n")
+        for row in rows:
+            f.write(" & ".join(row) + " \\\\\n")
+        f.write("\\bottomrule\n")
+        f.write("\\end{longtable}\n")
+
+
+def write_variant_tables() -> None:
+    def ru(x: float) -> str:
+        return f"{x:.2f}".replace(".", ",")
+
+    rows1 = [
+        [ru(v) for v in TASK1_SAMPLE[i : i + 10]]
+        for i in range(0, TASK1_SAMPLE.size, 10)
+    ]
+    write_longtable(
+        TABLES / "variant_table1.tex",
+        "Приложение А, таблица 1. Выборка для задачи 1",
+        [str(i) for i in range(1, 11)],
+        rows1,
+    )
+
+    rows2 = [[ru(v)] for v in TASK3_SAMPLE]
+    write_longtable(
+        TABLES / "variant_table2.tex",
+        "Приложение А, таблица 2. Выборка для задачи 3",
+        ["$X_{16}$"],
+        rows2,
+    )
+
+    rows3 = [[ru(x), ru(y)] for x, y in TASK7_PAIRS]
+    write_longtable(
+        TABLES / "variant_table3.tex",
+        "Приложение А, таблица 3. Выборка для задачи 7",
+        ["$X$", "$Y$"],
+        rows3,
+    )
+
+
 TASK1_SAMPLE = np.array(
     [
         0.11, -1.53, -0.94, 0.21, 0.77, 1.10, 0.23, -0.15, 0.79, -0.71,
@@ -436,6 +488,7 @@ def gamma_mle_formula() -> str:
 
 def main() -> None:
     ensure_dirs()
+    write_variant_tables()
     results = {
         "task1": task1(),
         "task3": task3(),

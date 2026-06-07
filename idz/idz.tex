@@ -20,6 +20,7 @@
 \usepackage{caption}
 \usepackage{float}
 \usepackage{graphicx}
+\usepackage{longtable}
 \usepackage[unicode,colorlinks=true,linkcolor=blue,urlcolor=magenta]{hyperref}
 \usepackage{listings}
 \usepackage{listingsutf8}
@@ -82,7 +83,7 @@
     \textbf{Кафедра математического и компьютерного моделирования}\\[0.9cm]
 
     Избосарова Жасмина Олимжоновна\\
-    \textbf{ИНДИВИДУАЛЬНОЕ ДОМАШНЕЕ ЗАДАНИЕ №16}\\[0.3cm]
+    \textbf{ИДЗ №16}\\[0.3cm]
 
     Направление подготовки 02.03.01 СЦТ «Сквозные цифровые технологии»,\\
     образовательная программа «Математика и компьютерные науки»,\\
@@ -113,8 +114,8 @@
 
 Условие:
 \begin{itemize}
-    \item дано: выборка объёма \(n=100\) из непрерывной случайной величины \(X_{16}\);
-    \item требуется: построить интервальный ряд, полигон частот, гистограмму и ЭФР и  также найти \(\overline{x}\) и \(s_n^2\).
+    \item дано: выборка объёма \(n=100\) из непрерывной случайной величины \(X_{16}\), см. Приложение~А, табл.~1;
+    \item требуется: построить интервальный ряд, полигон частот, гистограмму и ЭФР, а также найти \(\overline{x}\) и \(s_n^2\).
 \end{itemize}
 
 Для интервального ряда используем формулу Стерджесса
@@ -123,24 +124,24 @@ k = \left\lceil 1 + 3.322 \log_{10} n \right\rceil,
 \qquad
 \Delta = \frac{x_{\max} - x_{\min}}{k}.
 \]
-Частоты интервалов и их относительные частоты:
+Частоты интервалов и их относительные частоты
 \[
 \omega_i = \frac{n_i}{n},
 \qquad
 h_i = \frac{\omega_i}{\Delta_i}.
 \]
-Эмпирическая функция распределения:
+Эмпирическая функция распределения
 \[
 F_n(x)=\frac{1}{n}\sum_{i=1}^{n}\mathbf{1}\{X_i\le x\}.
 \]
-Выборочные характеристики:
+Выборочные характеристики
 \[
 \overline{x}=\frac{1}{n}\sum_{i=1}^{n}x_i,
 \qquad
 s_n^2=\frac{1}{n}\sum_{i=1}^{n}(x_i-\overline{x})^2.
 \]
 
-Для данной выборки получено:
+Для  выборки получено
 \[
 \overline{x}=0.2430,\qquad s_n^2=1.0276.
 \]
@@ -175,21 +176,21 @@ ecdf = np.arange(1, n + 1) / n
 
 
 \begin{itemize}
-    \item дано: выборка \(X_1,\dots,X_n\) из гамма распределения с известным \(\lambda\) и неизвестным \(\alpha\);
-    \item требуется: найти оценку \(\alpha\) методом максимального правдоподобия и проверить её состоятельность и несмещённость.
+    \item дано: выборка \(X_1,\dots,X_n\) из гамма-распределения с известным \(\lambda\) и неизвестным \(\alpha\);
+    \item требуется: найти оценку \(\alpha\) методом максимального правдоподобия и проверить её состоятельость и несмещённость.
 \end{itemize}
 
-Пусть плотность гамма распределения имеет вид
+Пусть плотность гамма-распределения имеет вид
 \[
 f_{\xi}(x)=\frac{\alpha^{\lambda}}{\Gamma(\lambda)}x^{\lambda-1}e^{-\alpha x},\qquad x>0,
 \]
 где \(\lambda\) известно, а \(\alpha\) неизвестно.
 
-Функция правдоподобия:
+Функция правдоподобия
 \[
 L(\alpha)=\prod_{i=1}^{n}\frac{\alpha^{\lambda}}{\Gamma(\lambda)}X_i^{\lambda-1}e^{-\alpha X_i}.
 \]
-Логарифм правдоподобия:
+Логарифм правдоподобия
 \[
 \ell(\alpha)=n\lambda\ln\alpha-\alpha\sum_{i=1}^{n}X_i + C.
 \]
@@ -197,18 +198,18 @@ L(\alpha)=\prod_{i=1}^{n}\frac{\alpha^{\lambda}}{\Gamma(\lambda)}X_i^{\lambda-1}
 \[
 \frac{d\ell}{d\alpha}=\frac{n\lambda}{\alpha}-\sum_{i=1}^{n}X_i=0
 \]
-получаем оценку максимального правдоподобия
+получаем оценку максимального правдоподоби
 \[
 \hat{\alpha}_{\text{МП}}=\frac{n\lambda}{\sum_{i=1}^{n}X_i}=\frac{\lambda}{\overline{X}}.
 \]
 
-поверка состоятельности
+Проверка состоятельности
 \[
 \overline{X}\xrightarrow{P}\mathbb{E}X=\frac{\lambda}{\alpha}
 \quad \Longrightarrow \quad
 \hat{\alpha}_{\text{МП}}=\frac{\lambda}{\overline{X}}\xrightarrow{P}\alpha.
 \]
-Следовательно, оценка состоятельна.
+Следовательно, оценка состоятельна
 
 Проверка несмещённости
 \[
@@ -223,24 +224,11 @@ L(\alpha)=\prod_{i=1}^{n}\frac{\alpha^{\lambda}}{\Gamma(\lambda)}X_i^{\lambda-1}
 \]
 Итак, оценка смещённая, но асимптотически несмещённая.
 
-\subsection*{Использованный код}
-
-\begin{lstlisting}
-def gamma_mle_alpha(sample, lam):
-    x_bar = float(np.mean(sample))
-    return lam / x_bar
-
-# Состоятельность:
-# xbar -> E[X] = lam / alpha, hence alpha hat -> alpha.
-# Несмещённость:
-# E[alpha hat] = alpha * (n*lam)/(n*lam - 1), so the estimator is biased.
-\end{lstlisting}
-
 \section{Задача 3}
 
-Условие:
+Условия
 \begin{itemize}
-    \item дано: выборка объёма \(n=36\) из нормальной случайной величины
+    \item дано: выборка объёма \(n=36\) из нормальной случайной величины \(X_{16}\), см. Приложение~А, табл.~2;
     \item требуется: построить точные доверительные интервалы для параметров \(m\) и \(\sigma^2\) при \(\beta=0.89\).
 \end{itemize}
 
@@ -250,18 +238,18 @@ def gamma_mle_alpha(sample, lam):
 \qquad
 \frac{(n-1)S^2}{\sigma^2}\sim \chi^2_{n-1},
 \]
-где
+
 \[
 S^2=\frac{1}{n-1}\sum_{i=1}^{n}(X_i-\overline{X})^2.
 \]
-При доверительной вероятности \(\beta=0.89\) имеем \(\alpha=1-\beta=0.11\).
-Тогда
+При доверительной вероятности \(\beta=0.89\) имеем \(\alpha=1-\beta=0.11\)
+тогда
 \[
 m \in \left(
 \overline{X}-t_{1-\alpha/2;\,n-1}\frac{S}{\sqrt{n}},
 \overline{X}+t_{1-\alpha/2;\,n-1}\frac{S}{\sqrt{n}}
 \right),
-\]
+\] 
 \[
 \sigma^2 \in \left(
 \frac{(n-1)S^2}{\chi^2_{1-\alpha/2;\,n-1}},
@@ -276,28 +264,12 @@ m \in \left(
 
 \input{tables/task3_results_table.tex}
 
-\subsection*{Использованный код}
-
-\begin{lstlisting}
-x_mean = float(np.mean(x))
-s2 = float(np.var(x, ddof=1))
-s = math.sqrt(s2)
-t_quant = float(st.t.ppf(1 - alpha / 2, df=n - 1))
-chi_low = float(st.chi2.ppf(alpha / 2, df=n - 1))
-chi_high = float(st.chi2.ppf(1 - alpha / 2, df=n - 1))
-mean_ci = (
-    x_mean - t_quant * s / math.sqrt(n),
-    x_mean + t_quant * s / math.sqrt(n),
-)
-var_ci = ((n - 1) * s2 / chi_high, (n - 1) * s2 / chi_low)
-\end{lstlisting}
-
 \section{Задача 4}
 
-Условие:
+Условия
 \begin{itemize}
     \item дано: \(n=20\) измерений нормальной совокупности и несмещённая выборочная дисперсия \(s^2\);
-    \item требуется: найти вероятность того, что относительная погрешность оценки дисперсии не превышает \(0.3\).
+    \item требуетс найти вероятность того, что относительная погрешность оценки дисперсии не превышает \(0.3\).
 \end{itemize}
 
 Если
@@ -319,24 +291,12 @@ P \approx 0.6522.
 
 \input{tables/task4_results_table.tex}
 
-\subsection*{Использованный код}
-
-\begin{lstlisting}
-n = 20
-nu = n - 1
-eps = 0.3
-p = float(
-    st.chi2.cdf(nu * (1 + eps), df=nu)
-    - st.chi2.cdf(nu * (1 - eps), df=nu)
-)
-\end{lstlisting}
-
 \section{Задача 5}
 
-Условие:
+Условие
 \begin{itemize}
-    \item дано: частоты попаданий в интервалы и гипотетическая плотность;
-    \item требуется: проверить гипотезу по критерию Пирсона при \(\alpha=0.01\) и указать достигнутый уровень значимости.
+    \item дано x частоты попаданий в интервалы и гипотетическая плотность;
+    \item требуетс  проверить гипотезу по критерию Пирсона при \(\alpha=0.01\) и указать достигнутый уровень значимости.
 \end{itemize}
 
 Плотность
@@ -349,11 +309,11 @@ f(x)=\frac{1}{2\sqrt{\pi}}e^{-\frac{(x-2)^2}{4}}
 \quad \Rightarrow \quad
 \mu=2,\ \sigma^2=2.
 \]
-Теоретические вероятности по интервалам:
+Теоретические вероятности по интервалам
 \[
 p_k = P(a_k<X<b_k)=\Phi\!\left(\frac{b_k-2}{\sqrt{2}}\right)-\Phi\!\left(\frac{a_k-2}{\sqrt{2}}\right).
 \]
-Статистика Пирсона:
+Статистика Пирсона
 \[
 \chi^2_{\text{набл}}=\sum_{k=1}^{r}\frac{(n_k-np_k)^2}{np_k}.
 \]
@@ -364,38 +324,20 @@ p_k = P(a_k<X<b_k)=\Phi\!\left(\frac{b_k-2}{\sqrt{2}}\right)-\Phi\!\left(\frac{a
 \chi^2_{0.99;5}=15.0863,\qquad
 p\text{-value}=0.1581.
 \]
-Следовательно, при уровне значимости \(0.01\) гипотеза о соответствии не отвергается.
-
-Замечание: сумма теоретических вероятностей по шести указанным интервалам равна \(0.9661\), то есть вне таблицы остаётся около \(3.39\%\) массы распределения.
+Следовательно при уровне значимости \(0.01\) гипотеза о соответствии не отвергается.
+Сумма теоретических вероятностей по данным классам равна \(0.9661\).
 
 \input{tables/task5_results_table.tex}
 
-\subsection*{Использованный код}
-
-\begin{lstlisting}
-obs = np.array([6, 11, 17, 13, 14, 9], dtype=float)
-intervals = [(-1, 0), (0, 1), (1, 2), (2, 3), (3, 4), (4, 5)]
-n = float(obs.sum())
-mu = 2.0
-sigma = math.sqrt(2.0)
-probs = np.array([
-    st.norm.cdf(b, loc=mu, scale=sigma) - st.norm.cdf(a, loc=mu, scale=sigma)
-    for a, b in intervals
-])
-expected = n * probs
-chi2 = float(np.sum((obs - expected) ** 2 / expected))
-p_value = float(1 - st.chi2.cdf(chi2, df=len(obs) - 1))
-\end{lstlisting}
-
 \section{Задача 6}
 
-Условие:
+Условие
 \begin{itemize}
     \item дано: две независимые нормальные выборки объёмов \(n_x=15\) и \(n_y=13\), их средние и исправленные дисперсии;
     \item требуется: проверить гипотезу \(H_0:m_x=m_y\) против \(H_1:m_x>m_y\) при \(\alpha=0.025\).
 \end{itemize}
 
-При предположении равенства неизвестных дисперсий используем объединённую оценку:
+При предположении равенства неизвестных дисперсий используем объединённую оценку
 \[
 S_p^2=\frac{(n_x-1)s_x^2+(n_y-1)s_y^2}{n_x+n_y-2}.
 \]
@@ -409,7 +351,7 @@ T=\frac{\overline{X}-\overline{Y}}{S_p\sqrt{\frac{1}{n_x}+\frac{1}{n_y}}}
 T>t_{1-\alpha;\,n_x+n_y-2}.
 \]
 
-В задаче получено:
+В задаче получено
 \[
 T_{\text{набл}}=2.2222,\qquad t_{0.975;26}=2.0555,\qquad p=0.0176.
 \]
@@ -417,21 +359,11 @@ T_{\text{набл}}=2.2222,\qquad t_{0.975;26}=2.0555,\qquad p=0.0176.
 
 \input{tables/task6_results_table.tex}
 
-\subsection*{Использованный код}
-
-\begin{lstlisting}
-sp2 = ((nx - 1) * sx2 + (ny - 1) * sy2) / (nx + ny - 2)
-sp = math.sqrt(sp2)
-t_obs = (xbar - ybar) / (sp * math.sqrt(1 / nx + 1 / ny))
-t_crit = float(st.t.ppf(1 - alpha, df=nx + ny - 2))
-p_value = float(1 - st.t.cdf(t_obs, df=nx + ny - 2))
-\end{lstlisting}
-
 \section{Задача 7}
 
-Условие:
+Условие
 \begin{itemize}
-    \item дано: 40 пар наблюдений \((X,Y)\);
+    \item дано: 40 пар наблюдений \((X,Y)\), см. Приложение~А, табл.~3;
     \item требуется: построить корреляционное поле, найти линейную и квадратичную регрессии, проверить значимость коэффициентов и сравнить модели.
 \end{itemize}
 
@@ -455,8 +387,7 @@ p_value = float(1 - st.t.cdf(t_obs, df=nx + ny - 2))
 \hat\beta=(X^TX)^{-1}X^Ty.
 \]
 
-Проверка значимости коэффициентов выполняется по статистике Стьюдента.
-Для каждого коэффициента используем
+Проверка значимости коэффициентов:
 \[
 t_j=\frac{\hat\beta_j}{\sqrt{\hat\sigma^2\left[(X^TX)^{-1}\right]_{jj}}},
 \qquad
@@ -468,14 +399,14 @@ t_j=\frac{\hat\beta_j}{\sqrt{\hat\sigma^2\left[(X^TX)^{-1}\right]_{jj}}},
 \qquad \alpha=0.075.
 \]
 
-Для сравнения моделей используются:
+Для сравнения моделей используем
 \[
 \hat\sigma^2_{\text{ост}}=\frac{\sum e_i^2}{n-p},
 \qquad
 R^2=1-\frac{\sum e_i^2}{\sum (y_i-\overline{y})^2}.
 \]
 
-По данным задачи получено:
+По данным задачи получено
 \[
 \hat\beta^{(1)}_0=37.8035,\quad \hat\beta^{(1)}_1=-0.1556,
 \]
@@ -487,7 +418,7 @@ R^2=1-\frac{\sum e_i^2}{\sum (y_i-\overline{y})^2}.
 \[
 \hat\sigma^2_{\text{ост, lin}}=237.5199 < 243.8702 = \hat\sigma^2_{\text{ост, quad}}.
 \]
-При этом квадратичная модель даёт лишь незначительное увеличение \(R^2\), поэтому практического выигрыша почти нет.
+При этом квадратичная модель даётлишь незначительное увеличение \(R^2\) поэтому практического выигрыша почти нет.
 
 \input{tables/task7_coefficients_table.tex}
 \input{tables/task7_model_table.tex}
@@ -515,6 +446,18 @@ sse2 = float(np.sum((y - pred2) ** 2))
 s2_2 = sse2 / (n - 3)
 r2_2 = 1 - sse2 / float(np.sum((y - y_mean) ** 2))
 \end{lstlisting}
+
+\appendix
+\section*{Приложение А. Данные варианта}
+
+\subsection*{Таблица 1. Выборка для задачи 1}
+\input{tables/variant_table1.tex}
+
+\subsection*{Таблица 2. Выборка для задачи 3}
+\input{tables/variant_table2.tex}
+
+\subsection*{Таблица 3. Выборка для задачи 7}
+\input{tables/variant_table3.tex}
 
 
 \end{document}
