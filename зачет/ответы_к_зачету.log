@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.14)  15 JUN 2026 19:05
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.14)  15 JUN 2026 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -211,31 +211,40 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutvoffset=\dimen169
 \Gm@dimlist=\toks29
 )
+(/usr/local/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip57
+\enit@outerparindent=\dimen170
+\enit@toks=\toks30
+\enit@inbox=\box55
+\enit@count@id=\count310
+\enitdp@description=\count311
+)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count310
+\etb@tempcnta=\count312
 )
-\MT@toks=\toks30
-\MT@tempbox=\box55
-\MT@count=\count311
+\MT@toks=\toks31
+\MT@tempbox=\box56
+\MT@count=\count313
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
 LaTeX Info: Redefining \leftprotrusion on input line 1085.
-\MT@prot@toks=\toks31
+\MT@prot@toks=\toks32
 LaTeX Info: Redefining \rightprotrusion on input line 1104.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen170
+\MT@outer@kern=\dimen171
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count312
+\MT@listname@count=\count314
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype-xetex.def
 File: microtype-xetex.def 2026/03/01 v3.2d Definitions specific to xetex (RS)
 LaTeX Info: Redefining \lsstyle on input line 443.
 LaTeX Info: Redefining \lslig on input line 451.
-\MT@outer@space=\skip57
+\MT@outer@space=\skip58
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -269,22 +278,22 @@ Package babel Info: 'russian' activates 'russian' shorthands.
 )
 \openout1 = `ответы_к_зачету.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -292,64 +301,64 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 12.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 12.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 12.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 12.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 12.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 12.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 12.
-LaTeX Font Info:    Redeclaring math accent \check on input line 12.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 12.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 12.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 12.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 12.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 14.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 14.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 14.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 14.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 14.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 14.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 14.
+LaTeX Font Info:    Redeclaring math accent \check on input line 14.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 14.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 14.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 14.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 14.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 12.
+(Font)              `operators' in the math version `normal' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 1
-2.
+4.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 12.
+(Font)              `operators' in the math version `bold' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-12.
+14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 12.
+input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 12.
+ 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-12.
+14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 12.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 12.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 12.
+input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 12.
+e 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 12.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 12.
-LaTeX Info: Redefining \th on input line 12.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 14.
+LaTeX Info: Redefining \th on input line 14.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -385,13 +394,13 @@ LaTeX Info: Redefining \th on input line 12.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 12.
-Package microtype Info: Applying patch `item' on input line 12.
-Package microtype Info: Applying patch `toc' on input line 12.
-Package microtype Info: Applying patch `eqnum' on input line 12.
-Package microtype Info: Applying patch `footnote' on input line 12.
-Package microtype Info: Applying patch `verbatim' on input line 12.
-LaTeX Info: Redefining \microtypesetup on input line 12.
+LaTeX Info: Redefining \microtypecontext on input line 14.
+Package microtype Info: Applying patch `item' on input line 14.
+Package microtype Info: Applying patch `toc' on input line 14.
+Package microtype Info: Applying patch `eqnum' on input line 14.
+Package microtype Info: Applying patch `footnote' on input line 14.
+Package microtype Info: Applying patch `verbatim' on input line 14.
+LaTeX Info: Redefining \microtypesetup on input line 14.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -401,7 +410,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `TimesNewRoman' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -409,7 +418,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
 
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -424,10 +433,6 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 ) [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 78--82
-
- []
-
 [2] [3] [4] [5] (./ответы_к_зачету.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -435,12 +440,12 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8187 strings out of 468168
- 181814 string characters out of 5432815
- 680193 words of memory out of 5000000
- 36847 multiletter control sequences out of 15000+600000
- 632526 words of font info for 78 fonts, out of 8000000 for 9000
+ 8521 strings out of 468168
+ 187649 string characters out of 5432815
+ 687985 words of memory out of 5000000
+ 37176 multiletter control sequences out of 15000+600000
+ 632534 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,10n,93p,1012b,375s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,10n,93p,1012b,367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on ответы_к_зачету.pdf (5 pages).
