@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.14)  15 JUN 2026 18:51
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.14)  15 JUN 2026 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -421,36 +421,26 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
-)
-Overfull \hbox (19.81786pt too wide) in paragraph at lines 38--41
-\TU/TimesNewRoman(0)/b/n/12 Теорема 2.3.2 \TU/TimesNewRoman(0)/m/n/12 (касатель
-ная прямая): если кривая задана дифференцируемой вектор-функцией
- []
-
-[1
+) [1
 
 ]
-Overfull \hbox (3.54819pt too wide) in paragraph at lines 125--129
-\TU/TimesNewRoman(0)/m/n/12 Пусть $\OML/cmm/m/it/12 r \OT1/cmr/m/n/12 : \OML/cm
-m/m/it/12 V \OMS/cmsy/m/n/12 ! \U/msb/m/n/12 R[]$ \TU/TimesNewRoman(0)/m/n/12 —
- регулярная локальная параметризация поверхности $\OML/cmm/m/it/12 S$\TU/TimesN
-ewRoman(0)/m/n/12 , $\OML/cmm/m/it/12 p \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 r\OT
-1/cmr/m/n/12 (\OML/cmm/m/it/12 u[]; v[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
+
  []
 
-[2] [3] [4] (./ответы_к_зачету.aux)
+[2] [3] [4] [5] (./ответы_к_зачету.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8185 strings out of 468168
- 181758 string characters out of 5432815
- 676193 words of memory out of 5000000
- 36845 multiletter control sequences out of 15000+600000
+ 8187 strings out of 468168
+ 181814 string characters out of 5432815
+ 680193 words of memory out of 5000000
+ 36847 multiletter control sequences out of 15000+600000
  632526 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,8n,93p,1012b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,10n,93p,1012b,375s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ответы_к_зачету.pdf (4 pages).
+Output written on ответы_к_зачету.pdf (5 pages).
