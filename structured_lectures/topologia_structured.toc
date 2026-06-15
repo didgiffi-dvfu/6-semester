@@ -16,4 +16,5 @@
 \contentsline {subsection}{\numberline {4.2}Касательное пространство и касательная плоскость}{12}{}%
 \contentsline {subsection}{\numberline {4.3}Поверхности вращения}{13}{}%
 \contentsline {subsection}{\numberline {4.4}Первая и вторая фундаментальные формы}{13}{}%
-\contentsline {subsection}{\numberline {4.5}Деривационные уравнения и уравнения Гаусса-Кодацци}{14}{}%
+\contentsline {subsection}{\numberline {4.5}Главные кривизны и средняя кривизна}{14}{}%
+\contentsline {subsection}{\numberline {4.6}Деривационные уравнения и уравнения Гаусса-Кодацци}{15}{}%
