@@ -1,0 +1,645 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage[russian]{babel}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{geometry}
+\usepackage{microtype}
+
+\geometry{margin=2cm}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Times New Roman}
+
+\newtheorem{theorem}{Теорема}[section]
+\newtheorem{lemma}[theorem]{Лемма}
+\newtheorem{proposition}[theorem]{Утверждение}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Определение}
+\newtheorem{example}[theorem]{Пример}
+
+\newcommand{\Int}{\operatorname{Int}}
+\newcommand{\Cl}{\operatorname{Cl}}
+\newcommand{\Fr}{\operatorname{Fr}}
+
+\begin{document}
+
+\title{\textbf{Структурированный конспект лекций по топологии и геометрии}}
+\author{}
+\date{}
+\maketitle
+
+\textit{Этот файл собран по материалам исходного \texttt{topologia.tex}: повторы убраны, темы разложены по лекциям, а формулы и определения приведены к единой структуре.}
+
+\tableofcontents
+\newpage
+
+\section{Лекция 1. Общая топология}
+
+\subsection{Множества и отображения}
+
+Пусть $X$ --- некоторое базовое множество. Если $A$ является подмножеством множества $X$, это обозначается как $A \subset X$.
+
+\begin{definition}[Включение подмножества]
+$$A \subset X \iff \forall a \in A \implies a \in X$$
+\end{definition}
+
+\begin{definition}[Операции над подмножествами]
+Пусть $A, B \subset X$. Тогда определены следующие операции:
+\begin{itemize}
+    \item \textbf{Разность множеств:} $A \setminus B = \{a \in A \mid a \notin B\}$
+    \item \textbf{Пересечение множеств:} $A \cap B = \{a \in X \mid a \in A \text{ и } a \in B\}$
+    \item \textbf{Объединение множеств:} $A \cup B = \{a \in X \mid a \in A \text{ или } a \in B\}$
+\end{itemize}
+\end{definition}
+
+\begin{definition}[Семейства множеств]
+Пусть $\{A_i\}_{i \in I}$ --- семейство подмножеств множества $X$, индексированное множеством $I$.
+Тогда
+$$\bigcup_{i \in I} A_i = \{x \in X \mid \exists i_0 \in I : x \in A_{i_0}\},$$
+$$\bigcap_{i \in I} A_i = \{x \in X \mid \forall i \in I,\, x \in A_i\}.$$
+\end{definition}
+
+\begin{proposition}[Законы де Моргана и дополнения]
+Для любых подмножеств выполняются соотношения:
+\begin{enumerate}
+    \item $A \setminus B = A \setminus (A \cap B)$.
+    \item
+    $$A \setminus \left(\bigcup_{i \in I} A_i\right) = \bigcap_{i \in I} (A \setminus A_i),$$
+    $$A \setminus \left(\bigcap_{i \in I} A_i\right) = \bigcup_{i \in I} (A \setminus A_i).$$
+    \item Если $A, B \subset X$, то:
+    \begin{itemize}
+        \item $A \subset B \iff (X \setminus B) \subset (X \setminus A)$.
+        \item $A \subset B \iff A \cap (X \setminus B) = \emptyset$.
+        \item $A \cap (X \setminus B) = A \setminus B$.
+    \end{itemize}
+\end{enumerate}
+\end{proposition}
+
+\begin{definition}[Типы отображений]
+Пусть $f: X \to Y$ --- отображение множества $X$ в множество $Y$.
+Тогда:
+\begin{itemize}
+    \item \textbf{Инъективным} отображение называется, если
+    $$\forall x_1, x_2 \in X,\; x_1 \neq x_2 \implies f(x_1) \neq f(x_2).$$
+    \item \textbf{Сюръективным} отображение называется, если
+    $$\forall y \in Y,\; \exists x \in X : f(x) = y.$$
+    \item \textbf{Биективным} отображение называется, если оно одновременно инъективно и сюръективно.
+\end{itemize}
+\end{definition}
+
+\begin{definition}[Композиция и стандартные отображения]
+\begin{itemize}
+    \item \textbf{Композиция:} для $f: X \to Y$ и $g: Y \to Z$ задается как $(g \circ f)(x) = g(f(x))$.
+    \item \textbf{Тождественное отображение:} $I_X: X \to X$, где $I_X(x) = x$.
+    \item \textbf{Константное отображение:} $C_{y_0}: X \to Y$, где $C_{y_0}(x) = y_0$ для фиксированного $y_0 \in Y$.
+\end{itemize}
+\end{definition}
+
+\begin{definition}[Образ и полный прообраз]
+Пусть $A \subset X$ и $B \subset Y$.
+\begin{itemize}
+    \item \textbf{Полный прообраз} множества $B$: $f^{-1}(B) = \{x \in X \mid f(x) \in B\}$.
+    \item \textbf{Образ} множества $A$: $f(A) = \{f(x) \in Y \mid x \in A\}$.
+\end{itemize}
+\end{definition}
+
+\begin{theorem}[Свойства прообразов и образов]
+Пусть $f: X \to Y$ и $g: Y \to Z$. Тогда верны следующие равенства и включения:
+\begin{enumerate}
+    \item $f^{-1}(B \setminus C) = f^{-1}(B) \setminus f^{-1}(C)$.
+    \item $f^{-1}\left(\bigcup_{i \in I} B_i\right) = \bigcup_{i \in I} f^{-1}(B_i)$.
+    \item $f^{-1}\left(\bigcap_{i \in I} B_i\right) = \bigcap_{i \in I} f^{-1}(B_i)$.
+    \item $(g \circ f)^{-1}(D) = f^{-1}(g^{-1}(D))$.
+    \item $f(A \setminus B) \supset f(A) \setminus f(B)$.
+    \item $f\left(\bigcup_{i \in I} A_i\right) = \bigcup_{i \in I} f(A_i)$.
+    \item $f\left(\bigcap_{i \in I} A_i\right) \subset \bigcap_{i \in I} f(A_i)$.
+    \item $f^{-1}(f(A)) \supset A$ и $f(f^{-1}(B)) \subset B$.
+\end{enumerate}
+\end{theorem}
+
+\subsection{Метрические и топологические пространства}
+
+\begin{definition}[Метрическое пространство]
+Пара $(X, d)$, где $X$ --- множество, а $d: X \times X \to \mathbb{R}$ --- функция расстояния, называется \textbf{метрическим пространством}, если:
+\begin{enumerate}
+    \item $d(x, y) = d(y, x)$ для всех $x,y \in X$.
+    \item $d(x, z) \leqslant d(x, y) + d(y, z)$ для всех $x,y,z \in X$.
+    \item $d(x, y) \geqslant 0$, причем $d(x, y) = 0 \iff x = y$.
+\end{enumerate}
+\end{definition}
+
+\begin{definition}[Элементы метрики]
+\begin{itemize}
+    \item Открытый шар: $B(a, r) = \{x \in X \mid d(a, x) < r\}$.
+    \item Замкнутый шар: $\overline{B}(a, r) = \{x \in X \mid d(a, x) \leqslant r\}$.
+    \item Сфера: $S(a, r) = \{x \in X \mid d(a, x) = r\}$.
+\end{itemize}
+\end{definition}
+
+\begin{definition}[Топологическое пространство]
+Семейство подмножеств $\mathcal{T}$ множества $X$ называется \textbf{топологией}, если:
+\begin{itemize}
+    \item $\emptyset \in \mathcal{T}$ и $X \in \mathcal{T}$.
+    \item Если $V_i \in \mathcal{T}$ для всех $i \in I$, то $\bigcup_{i \in I} V_i \in \mathcal{T}$.
+    \item Если $V_1, \dots, V_n \in \mathcal{T}$, то $\bigcap_{k=1}^n V_k \in \mathcal{T}$.
+\end{itemize}
+Элементы $\mathcal{T}$ называются \textbf{открытыми множествами}. Множество $A \subset X$ называется \textbf{замкнутым}, если $X \setminus A \in \mathcal{T}$.
+\end{definition}
+
+\subsection{Точки множества и непрерывность}
+
+Пусть $(X, \mathcal{T})$ --- топологическое пространство, $A \subset X$.
+
+\begin{definition}[Классификация точек]
+\begin{enumerate}
+    \item Точка $a \in A$ называется \textbf{внутренней точкой} множества $A$, если существует $V \in \mathcal{T}$ такое, что $a \in V \subset A$. Множество всех внутренних точек обозначается $\Int A$.
+    \item Точка $x_0 \in X$ называется \textbf{точкой прикосновения} множества $A$, если для любой ее открытой окрестности $V$ верно $V \cap A \neq \emptyset$. Множество точек прикосновения обозначается $\Cl A$.
+    \item Точка $x_0 \in X$ называется \textbf{граничной точкой} множества $A$, если она является точкой прикосновения и для $A$, и для $X \setminus A$. Множество таких точек образует границу $\Fr A$.
+    \item Точка $a \in X$ называется \textbf{предельной точкой} множества $A$, если для любой окрестности $V$ точки $a$ выполняется $(V \setminus \{a\}) \cap A \neq \emptyset$.
+    \item Точка $a \in A$ называется \textbf{изолированной}, если существует окрестность $V$ точки $a$ такая, что $V \cap A = \{a\}$.
+\end{enumerate}
+\end{definition}
+
+\begin{theorem}[Связь внутренности, замыкания и границы]
+Пусть $(X, \mathcal{T})$ --- топологическое пространство. Тогда:
+\begin{enumerate}
+    \item $x_0$ является точкой прикосновения множества $A$ тогда и только тогда, когда $x_0$ не является внешней точкой для $A$.
+    \item $\Int A = X \setminus \Cl(X \setminus A)$.
+    \item $\Int(X \setminus A) = X \setminus \Cl A$.
+    \item $\Cl A = X \setminus \Int(X \setminus A)$.
+    \item $\Fr A = \Cl A \setminus \Int A = \Cl A \cap \Cl(X \setminus A)$.
+\end{enumerate}
+\end{theorem}
+
+\begin{definition}[Непрерывность отображения]
+Пусть $X$ и $Y$ --- топологические пространства. Отображение $f: A \to Y$ (где $A \subset X$) называется \textbf{непрерывным в точке} $a_0 \in A$, если для любой открытой окрестности $V \subset Y$ точки $f(a_0)$ существует открытая окрестность $U \subset X$ точки $a_0$ такая, что
+$$f(U \cap A) \subset V.$$
+\end{definition}
+
+\begin{definition}[Предел функции]
+Точка $y_0 \in Y$ называется \textbf{пределом} функции $f(x)$ при $x \to x_0$, если для любой открытой окрестности $V$ точки $y_0$ существует открытая окрестность $U$ точки $x_0$ такая, что
+$$\forall x \in (U \cap A) \setminus \{x_0\} \implies f(x) \in V.$$
+\end{definition}
+
+\begin{theorem}[О внутренности и точках прикосновения в метрическом пространстве]
+Пусть $(X, d)$ --- метрическое пространство, $A \subset X$.
+\begin{enumerate}
+    \item Точка $a \in A$ является внутренней тогда и только тогда, когда существует $\varepsilon > 0$ такое, что $B(a, \varepsilon) \subset A$.
+    \item Для точки $x_0 \in X$ эквивалентны условия:
+    \begin{itemize}
+        \item $x_0$ --- точка прикосновения $A$.
+        \item Для любого $\varepsilon > 0$ существует $a \in A$ такое, что $d(x_0, a) < \varepsilon$.
+        \item Существует последовательность $\{a_n\} \subset A$, сходящаяся к $x_0$.
+    \end{itemize}
+    \item Для изолированной точки $a \in A$ существует $\varepsilon > 0$ такое, что $B(a, \varepsilon) \cap A = \{a\}$.
+\end{enumerate}
+\end{theorem}
+
+\begin{theorem}[Критерий непрерывности]
+Пусть $f: X \to Y$ --- отображение топологических пространств. Тогда эквивалентны следующие условия:
+\begin{enumerate}
+    \item $f$ непрерывно в каждой точке $X$.
+    \item Для любого открытого множества $V \subset Y$ прообраз $f^{-1}(V)$ открыт в $X$.
+    \item Для любого замкнутого множества $C \subset Y$ прообраз $f^{-1}(C)$ замкнут в $X$.
+\end{enumerate}
+\end{theorem}
+
+\begin{theorem}[Критерии непрерывности в метрических пространствах]
+Пусть $f: X \to Y$ --- отображение метрических пространств. Тогда эквивалентны:
+\begin{enumerate}
+    \item $f$ непрерывно в точке $x_0$.
+    \item Для любого $\varepsilon > 0$ существует окрестность $U$ точки $x_0$ такая, что для всех $x \in U$ выполнено $d(f(x), f(x_0)) < \varepsilon$.
+    \item Для любого $\varepsilon > 0$ существует $\delta > 0$ такое, что из $d(x, x_0) < \delta$ следует $d(f(x), f(x_0)) < \varepsilon$.
+\end{enumerate}
+\end{theorem}
+
+\subsection{Подпространства, базы и предбазы}
+
+\begin{definition}[Индуцированная топология]
+Пусть $(X, \mathcal{T})$ --- топологическое пространство, $A \subset X$. Обозначим через $\mathcal{T}_A$ семейство подмножеств $A$, заданных условием
+$$W \in \mathcal{T}_A \iff \exists V \in \mathcal{T} : W = V \cap A.$$
+Тогда $\mathcal{T}_A$ является топологией на $A$ и называется \textbf{индуцированной топологией}. Пару $(A, \mathcal{T}_A)$ называют \textbf{подпространством} пространства $(X, \mathcal{T})$.
+\end{definition}
+
+\begin{theorem}
+Множество $D \subset A$ замкнуто в подпространстве $(A, \mathcal{T}_A)$ тогда и только тогда, когда существует замкнутое множество $C \subset X$ такое, что $D = C \cap A$.
+\end{theorem}
+
+\begin{definition}[База и предбаза]
+Пусть $(X, \mathcal{T})$ --- топологическое пространство.
+\begin{itemize}
+    \item Множество $\mathcal{B} \subset \mathcal{T}$ называется \textbf{базой} топологии $\mathcal{T}$, если любой элемент $V \in \mathcal{T}$ представим в виде объединения элементов из $\mathcal{B}$.
+    \item Множество открытых подмножеств $\mathcal{P} \subset \mathcal{T}$ называется \textbf{предбазой}, если конечные пересечения элементов $\mathcal{P}$ образуют базу топологии.
+\end{itemize}
+\end{definition}
+
+\begin{lemma}[О базисе из шаров]
+Пусть $(X, d)$ --- произвольное метрическое пространство, а $\mathcal{T}_d$ --- соответствующая метрическая топология. Тогда:
+\begin{enumerate}
+    \item $\{B(x, r) \mid x \in X,\ r > 0\}$ является базой $\mathcal{T}_d$.
+    \item $\{B(x, r) \mid x \in X,\ r \in \mathbb{Q}_{>0}\}$ также является базой $\mathcal{T}_d$.
+    \item $\left\{B\left(x, \frac{1}{n}\right) \mid x \in X,\ n \in \mathbb{N}\right\}$ является базой $\mathcal{T}_d$.
+\end{enumerate}
+\end{lemma}
+
+\section{Лекция 2. Вектор-функции и кривые}
+
+\subsection{Дифференцирование и интегрирование вектор-функций}
+
+\begin{definition}[Производная вектор-функции]
+Пусть $\vec{F}: (\alpha, \beta) \to V$ --- функция со значениями в векторном пространстве $V$ со скалярным произведением. Вектор $\vec{a} = \vec{F}'(t_0)$ называется производной вектор-функции в точке $t_0$, если
+$$\lim_{t \to t_0} \frac{\vec{F}(t) - \vec{F}(t_0)}{t - t_0} = \vec{a}.$$
+\end{definition}
+
+\begin{lemma}[Свойства производных вектор-функций]
+Пусть $\vec{f}, \vec{g}: (\alpha, \beta) \to V$ --- дифференцируемые вектор-функции, $u: (\alpha, \beta) \to \mathbb{R}$ --- дифференцируемая скалярная функция. Тогда:
+\begin{enumerate}
+    \item $(\vec{f} + \vec{g})'(t) = \vec{f}'(t) + \vec{g}'(t)$.
+    \item $(c\vec{f})'(t) = c\vec{f}'(t)$ для любого $c \in \mathbb{R}$.
+    \item $(\vec{f}, \vec{g})'(t) = (\vec{f}'(t), \vec{g}(t)) + (\vec{f}(t), \vec{g}'(t))$.
+    \item $(u\vec{f})'(t) = u'(t)\vec{f}(t) + u(t)\vec{f}'(t)$.
+\end{enumerate}
+\end{lemma}
+
+\begin{theorem}[Свойства интегралов от вектор-функций]
+Пусть $\vec{f}: [\alpha, \beta] \to V$ --- непрерывная вектор-функция, а $\vec{F}$ --- ее первообразная. Тогда:
+\begin{enumerate}
+    \item $\displaystyle \int_{\alpha}^{\beta} \vec{f}(t)\,dt = \vec{F}(\beta) - \vec{F}(\alpha)$.
+    \item $\displaystyle \left\| \int_{\alpha}^{\beta} \vec{f}(t)\,dt \right\| \le \int_{\alpha}^{\beta} \|\vec{f}(t)\|\,dt$.
+    \item Если $\vec{f}(t) = f^1(t)\vec{a}_1 + \dots + f^n(t)\vec{a}_n$ в базисе $V$, то интегрирование выполняется покоординатно.
+\end{enumerate}
+\end{theorem}
+
+\begin{proposition}
+Каждая непрерывная вектор-функция $\vec{f}: [\alpha, \beta] \to V$ обладает первообразной. Если $\vec{F}_1$ и $\vec{F}_2$ --- две первообразные одной и той же функции, то $\vec{F}_1(t) - \vec{F}_2(t)$ не зависит от $t$.
+\end{proposition}
+
+\subsection{Параметризованные кривые}
+
+Рассматривается евклидово пространство $E = \mathbb{R}^3$ со стандартным началом координат $O$ и радиус-векторами точек.
+
+\begin{definition}[Параметризованная кривая]
+Непрерывное отображение $\gamma: [\alpha, \beta] \to E$ называется \textbf{параметризованной кривой}. Точка $A = \gamma(\alpha)$ называется началом кривой, а точка $B = \gamma(\beta)$ --- ее концом.
+\end{definition}
+
+\begin{definition}[Касательная прямая]
+Прямая $l$ называется \textbf{касательной} к кривой $\gamma(t)$ в точке $t_0$, если
+$$\lim_{t \to t_0} \frac{h(t)}{\|\gamma(t) - \gamma(t_0)\|} = 0,$$
+где $h(t)$ --- кратчайшее расстояние от точки $\gamma(t)$ до прямой $l$.
+\end{definition}
+
+\begin{theorem}[Касательная прямая]
+Если кривая задана дифференцируемой вектор-функцией
+$\gamma(t) = (x(t), y(t), z(t))$, то касательная прямая
+в точке $A = \gamma(t_0)$ имеет параметрический вид
+$$
+(X, Y, Z) = (x(t_0), y(t_0), z(t_0)) + \lambda\,(x'(t_0), y'(t_0), z'(t_0)).
+$$
+Если соответствующие производные не равны нулю, это можно переписать и в каноническом виде.
+\end{theorem}
+
+\begin{definition}[Длина кривой]
+Длина спрямляемой дифференцируемой кривой на промежутке $[\alpha, \beta]$ вычисляется по формуле
+$$L(\gamma) = \int_{\alpha}^{\beta} \|\gamma'(t)\|\,dt = \int_{\alpha}^{\beta} \sqrt{(x'(t))^2 + (y'(t))^2 + (z'(t))^2}\,dt.$$
+\end{definition}
+
+\subsection{Естественная параметризация и формулы Френе}
+
+\begin{definition}[Естественная параметризация]
+Пусть $\gamma(t)$ --- кривая, заданная параметрически. Тогда $\tilde{\gamma}(s)$ называется \textbf{естественной параметризацией} кривой, если модуль ее скорости равен $1$:
+$$\left\| \frac{d\tilde{\gamma}}{ds} \right\| = 1.$$
+\end{definition}
+
+\begin{proposition}[О свойствах естественной параметризации]
+Пусть $\tilde{\gamma}$ --- естественная параметризация кривой $\gamma$. Тогда:
+\begin{enumerate}
+    \item $\dfrac{d\gamma}{dt} = \dfrac{d\tilde{\gamma}}{ds}\cdot \dfrac{ds}{dt}$.
+    \item Если $A = \gamma(s_0)$, $B = \gamma(s_1)$, то длина дуги между $A$ и $B$ равна $s_1 - s_0$.
+\end{enumerate}
+\end{proposition}
+
+\begin{theorem}[О существовании естественной параметризации]
+Пусть $\vec{\gamma}(t)$ --- регулярная кривая, то есть $\vec{\gamma}$ непрерывно дифференцируема и $\vec{\gamma}'(t) \neq 0$ для всех $t$. Тогда существует естественный параметр кривой $\vec{\gamma}$.
+\end{theorem}
+
+\begin{proof}[Идея доказательства]
+Определим
+$$s(t) = \int_{\alpha}^{t} \|\gamma'(\tau)\|\,d\tau.$$
+Поскольку $\|\gamma'(t)\| > 0$, функция $s(t)$ строго возрастает и потому обратима. Обратная функция позволяет перепараметризовать кривую по длине дуги.
+\end{proof}
+
+\begin{definition}[Кривизна, нормаль и бинормаль]
+Пусть $\tilde{\gamma}$ --- естественная параметризация кривой. Обозначим
+$$\vec{\tau} = \frac{d\tilde{\gamma}}{ds}.$$
+Тогда $\vec{\tau}$ называется единичным касательным вектором. \textbf{Кривизной} кривой называется
+$$\kappa = \left\| \frac{d\vec{\tau}}{ds} \right\|.$$
+Если $\kappa \neq 0$, то единичный вектор главной нормали определяется равенством
+$$\frac{d\vec{\tau}}{ds} = \kappa \vec{n},$$
+а вектор
+$$\vec{b} = \vec{\tau} \times \vec{n}$$
+называется \textbf{бинормалью}.
+\end{definition}
+
+\begin{theorem}[Формулы Френе]
+Пусть $\gamma$ --- регулярная кривая, а $\tilde{\gamma}$ --- ее естественная параметризация. Тогда для базиса Френе $\{\vec{\tau}, \vec{n}, \vec{b}\}$ выполняются формулы
+\begin{align*}
+    \frac{d\vec{\tau}}{ds} &= \kappa \vec{n}, \\
+    \frac{d\vec{n}}{ds} &= -\kappa \vec{\tau} + \varkappa \vec{b}, \\
+    \frac{d\vec{b}}{ds} &= -\varkappa \vec{n},
+\end{align*}
+где $\varkappa$ --- кручение.
+\end{theorem}
+
+\begin{proposition}
+Пусть $\gamma$ --- регулярная непрерывно дифференцируемая кривая.
+\begin{enumerate}
+    \item Если $\kappa \equiv 0$, то все точки кривой лежат на некоторой прямой.
+    \item Если $\varkappa \equiv 0$, то кривая лежит в некоторой плоскости.
+\end{enumerate}
+\end{proposition}
+
+\begin{example}[Окружность]
+Для кривой $\gamma(t) = (R \cos t, R \sin t, 0)$ имеем
+$$\gamma'(t) = (-R \sin t, R \cos t, 0), \qquad \|\gamma'(t)\| = R.$$
+Ее естественная параметризация задается формулой
+$$\tilde{\gamma}(s) = \left(R \cos \frac{s}{R}, R \sin \frac{s}{R}, 0\right),$$
+а кривизна равна $\kappa = 1/R$.
+\end{example}
+
+\begin{example}[Винтовая линия]
+Для кривой $\gamma(t) = (a \cos t, a \sin t, bt)$ получаем
+$$\|\gamma'(t)\| = \sqrt{a^2 + b^2},$$
+а естественная параметризация имеет вид
+$$
+\tilde{\gamma}(s) = \left(a \cos \frac{s}{\sqrt{a^2+b^2}},\ a \sin \frac{s}{\sqrt{a^2+b^2}},\ \frac{bs}{\sqrt{a^2+b^2}}\right).
+$$
+\end{example}
+
+\section{Лекция 3. Билинейные и квадратичные формы}
+
+\subsection{Билинейные формы}
+
+\begin{definition}[Билинейная форма]
+Отображение $h: L \times L \to \mathbb{R}$ называется \textbf{билинейной формой}, если оно линейно по каждому аргументу:
+\begin{enumerate}
+    \item $h(x+y, z) = h(x, z) + h(y, z)$ и $h(x, y+z) = h(x, y) + h(x, z)$.
+    \item $h(\alpha x, y) = \alpha h(x, y) = h(x, \alpha y)$.
+\end{enumerate}
+\end{definition}
+
+\begin{definition}[Матрица билинейной формы]
+Пусть $(a) = \{a_1, \dots, a_n\}$ --- базис пространства $L$. Матрицей билинейной формы в базисе $(a)$ называется матрица $[h]_{(a)} = (h_{ij})$, где $h_{ij} = h(a_i, a_j)$.
+\end{definition}
+
+\begin{definition}[Невырожденность и симметрия]
+Билинейная форма $g: L \times L \to \mathbb{R}$ называется:
+\begin{itemize}
+    \item \textbf{невырожденной}, если из $g(a, x) = 0$ для всех $x \in L$ следует $a = 0$;
+    \item \textbf{симметричной}, если $g(x, y) = g(y, x)$ для всех $x, y \in L$.
+\end{itemize}
+\end{definition}
+
+\begin{lemma}[Свойства билинейных форм]
+Пусть $h, g: L \times L \to \mathbb{R}$ --- билинейные формы, а $(a)$ --- базис пространства $L$. Тогда:
+\begin{enumerate}
+    \item Для любых $x,y \in L$ выполняется
+    $$h(x,y) = [x]_{(a)} [h]_{(a)} [y]_{(a)}^T = \sum_{i=1}^n \sum_{j=1}^n h_{ij} x^i y^j.$$
+    \item $h$ симметрична тогда и только тогда, когда матрица $[h]_{(a)}$ симметрична.
+    \item Если $C$ --- матрица перехода от базиса $(a)$ к базису $(b)$, то
+    $$[h]_{(b)} = C [h]_{(a)} C^T.$$
+    \item Для координат векторов выполняется правило $[x]_{(a)} = [x]_{(b)} C$.
+    \item Если $h(x,y) = g(Bx, y)$ для линейного оператора $B$, то $[h]_{(a)} = [B]_{(a)} [g]_{(a)}$.
+    \item Форма $g$ невырождена тогда и только тогда, когда $\det[g]_{(a)} \neq 0$.
+    \item Для линейного оператора $B$ выполняется $[B(x)]_{(a)} = [x]_{(a)} [B]_{(a)}$.
+\end{enumerate}
+\end{lemma}
+
+\begin{lemma}
+Пусть $g: L \times L \to \mathbb{R}$ --- невырожденная билинейная форма. Тогда для любого линейного функционала $f: L \to \mathbb{R}$ существует единственный вектор $a_f \in L$ такой, что
+$$f(y) = g(a_f, y) \quad \forall y \in L.$$
+\end{lemma}
+
+\begin{theorem}[Представление билинейной формы оператором]
+Пусть $h, g: L \times L \to \mathbb{R}$ --- билинейные формы, причем $g$ невырождена. Тогда существует единственный линейный оператор $B: L \to L$ такой, что
+$$h(x, y) = g(Bx, y).$$
+Если $h$ симметрична, то оператор $B$ самосопряжен относительно $g$.
+\end{theorem}
+
+\subsection{Квадратичные формы}
+
+\begin{definition}[Квадратичная форма]
+Квадратичной формой от $n$ переменных над полем $k$ называется однородный многочлен степени $2$:
+$$Q(x^1, \dots, x^n) = \sum_{i=1}^n q_{ii}(x^i)^2 + 2\sum_{i<j} q_{ij}x^i x^j,$$
+где $q_{ij} \in k$.
+\end{definition}
+
+\begin{example}
+Для квадратичной формы
+$$Q(x, y, z) = 3x^2 - 4xy + 5xz + 2z^2 - 3xz$$
+соответствующая матрица имеет вид
+$$[Q] = \begin{pmatrix} 3 & -2 & 1 \\ -2 & 0 & 0 \\ 1 & 0 & 2 \end{pmatrix}.$$
+\end{example}
+
+\begin{theorem}[Связь билинейной и квадратичной форм]
+\begin{enumerate}
+    \item Если $h: L \times L \to k$ --- билинейная форма, то $Q(x) = h(x, x)$ является квадратичной формой.
+    \item Для любой квадратичной формы $Q$ существует единственная симметричная билинейная форма $h$ такая, что $Q(x) = h(x, x)$.
+    \item Эта билинейная форма выражается формулой поляризации:
+    $$h(x, y) = \frac{1}{2}\big(Q(x+y) - Q(x) - Q(y)\big).$$
+\end{enumerate}
+\end{theorem}
+
+\begin{proposition}[Симметризация]
+Если $h$ --- билинейная форма, то
+$$\tilde{h}(x, y) = \frac{1}{2}\big(h(x, y) + h(y, x)\big)$$
+тоже является билинейной формой, причем $\tilde{h}(x, x) = h(x, x)$.
+\end{proposition}
+
+\section{Лекция 4. Поверхности в \texorpdfstring{$\mathbb{R}^3$}{R3}}
+
+\subsection{График функции как поверхность}
+
+\begin{definition}[Элементарная область]
+Открытое множество $V \subset \mathbb{R}^2$ называется \textbf{элементарной областью}, если оно гомеоморфно единичному открытому кругу
+$$B^2 = \{(x,y) \in \mathbb{R}^2 \mid x^2 + y^2 < 1\}.$$
+\end{definition}
+
+\begin{definition}[Гладкая поверхность]
+Множество $S \subset \mathbb{R}^3$ называется \textbf{гладкой поверхностью}, если для любой точки $p \in S$ существует окрестность $W \subset \mathbb{R}^3$ и гомеоморфизм $r: V \to S \cap W$, где $V$ --- элементарная область в $\mathbb{R}^2$, такой что:
+\begin{enumerate}
+    \item $r(u, v)$ гладкая;
+    \item $\dfrac{\partial r}{\partial u} \times \dfrac{\partial r}{\partial v} \neq \mathbf{0}$;
+    \item матрица Якоби имеет ранг $2$.
+\end{enumerate}
+\end{definition}
+
+\begin{theorem}[График функции как поверхность]
+Пусть $V \subset \mathbb{R}^2$ --- открытое множество, $f: V \to \mathbb{R}$ --- непрерывная функция. Тогда график
+$$\Gamma_f = \{(u, v, f(u,v)) \mid (u,v) \in V\}$$
+является поверхностью. Более того, отображение
+$$r(u,v) = (u, v, f(u,v))$$
+задает параметризацию $\Gamma_f$ в окрестности каждой ее точки.
+\end{theorem}
+
+\begin{proof}[Идея доказательства]
+Рассматриваем проекцию $p: \mathbb{R}^3 \to \mathbb{R}^2$, $p(x^1, x^2, x^3) = (x^1, x^2)$, и ее сужение на график. Оно является обратным к отображению $r$, поэтому график гомеоморфен $V$. Если $f$ достаточно гладкая, то параметризация регулярна.
+\end{proof}
+
+\subsection{Касательное пространство и касательная плоскость}
+
+\begin{definition}[Касательный вектор]
+Пусть $S \subset \mathbb{R}^3$ --- поверхность, $P \in S$. Вектор $\vec{a}$ называется \textbf{касательным вектором} к $S$ в точке $P$, если существует кривая $\gamma$, лежащая в $S$, такая что $\gamma(t_0) = P$ и $\vec{a} = \gamma'(t_0)$.
+\end{definition}
+
+\begin{definition}[Касательное пространство]
+Множество всех касательных векторов к $S$ в точке $P$ называется \textbf{касательным пространством} и обозначается $T_P S$.
+\end{definition}
+
+\begin{theorem}[Базис касательного пространства]
+Пусть $S \subset \mathbb{R}^3$ --- поверхность, $r: V \to \mathbb{R}^3$ --- регулярная локальная параметризация поверхности, $P = r(u_0, v_0) \in S$. Тогда $T_P S$ является двумерным векторным пространством, а векторы
+$$r_u = \frac{\partial r}{\partial u}(u_0, v_0), \qquad r_v = \frac{\partial r}{\partial v}(u_0, v_0)$$
+образуют его базис.
+\end{theorem}
+
+\begin{lemma}[О задании кривых на поверхности]
+Пусть $r: V \to \mathbb{R}^3$ --- регулярная параметризация поверхности $S$, $P = r(u_0, v_0)$, а $\gamma$ --- кривая на $S$ такая, что $\gamma(t_0) = P$. Тогда в некоторой окрестности точки $t_0$ кривая представима в виде
+$$\gamma(t) = r(u(t), v(t)).$$
+\end{lemma}
+
+\begin{definition}[Касательная плоскость]
+Касательной плоскостью к регулярной поверхности в точке $P$ называется множество всех точек $X$, для которых вектор $PX$ принадлежит $T_P S$.
+\end{definition}
+
+\begin{proposition}[Уравнение касательной плоскости]
+Пусть $S \subset \mathbb{R}^3$ --- поверхность, $r: V \to \mathbb{R}^3$ --- ее локальная регулярная параметризация, $r(u_0, v_0)=P=(x_0,y_0,z_0)$. Тогда касательная плоскость к $S$ в точке $P$ задается уравнением
+$$
+\det \begin{pmatrix}
+x-x_0 & y-y_0 & z-z_0 \\
+\frac{\partial r^1}{\partial u} & \frac{\partial r^2}{\partial u} & \frac{\partial r^3}{\partial u} \\
+\frac{\partial r^1}{\partial v} & \frac{\partial r^2}{\partial v} & \frac{\partial r^3}{\partial v}
+\end{pmatrix} = 0.
+$$
+\end{proposition}
+
+\begin{definition}[Нормаль]
+Вектор $\vec{m}$, перпендикулярный касательной плоскости, называется единичным вектором нормали к поверхности $S$ в точке $P$. Прямая, проходящая через $P$ параллельно $\vec{m}$, называется нормалью к поверхности.
+\end{definition}
+
+\subsection{Поверхности вращения}
+
+\begin{lemma}[О поверхности вращения]
+Пусть $\gamma(t) = (f(t), 0, g(t))$. Тогда поверхность вращения этой кривой вокруг оси $Z$ задается параметризацией
+$$r(u, v) = \big(f(u)\cos v,\ f(u)\sin v,\ g(u)\big).$$
+\end{lemma}
+
+\begin{example}[Сфера]
+Если $\gamma(t) = (R \cos t, 0, R \sin t)$, то
+$$r(u, v) = \big(R \cos u \cos v,\ R \cos u \sin v,\ R \sin u\big)$$
+является параметрическим уравнением сферы.
+\end{example}
+
+\begin{example}[Тор]
+Если $\gamma(t) = (R + r\cos t, 0, r\sin t)$, то
+$$r(u, v) = \big((R + r\cos u)\cos v,\ (R + r\cos u)\sin v,\ r\sin u\big)$$
+задает тор.
+\end{example}
+
+\subsection{Первая и вторая фундаментальные формы}
+
+\begin{definition}[Первая фундаментальная форма]
+Пусть $S$ --- поверхность, $p \in S$, $T_pS$ --- касательное пространство в точке $p$. \textbf{Первая основная форма} поверхности $S$ в точке $p$ определяется как
+$$I_p(\bar{a}, \bar{b}) = \langle \bar{a}, \bar{b} \rangle, \qquad \bar{a}, \bar{b} \in T_pS.$$
+\end{definition}
+
+\begin{proposition}[Коэффициенты первой фундаментальной формы]
+Пусть $r: V \to \mathbb{R}^3$ --- регулярная локальная параметризация поверхности $S$, $p = r(u_0, v_0)$. Тогда векторы $r_u$ и $r_v$ образуют базис $T_pS$, а коэффициенты первой фундаментальной формы равны
+$$g_{11} = \langle r_u, r_u \rangle,\qquad g_{12} = g_{21} = \langle r_u, r_v \rangle,\qquad g_{22} = \langle r_v, r_v \rangle.$$
+Если $\bar{a} = a^1 r_u + a^2 r_v$, то
+$$I_p(\bar{a}) = g_{11}(a^1)^2 + 2g_{12}a^1a^2 + g_{22}(a^2)^2.$$
+\end{proposition}
+
+\begin{definition}[Вторая фундаментальная форма]
+Пусть $S$ --- поверхность, $r$ --- регулярная параметризация, $r(u_0, v_0) = p \in S$. Для вектора $\bar{a} = a^1 r_u + a^2 r_v \in T_pS$ определим
+$$II_p(\bar{a}) = b_{11}(a^1)^2 + 2b_{12}a^1a^2 + b_{22}(a^2)^2,$$
+где
+$$b_{11} = \langle r_{uu}, m \rangle,\qquad b_{12} = \langle r_{uv}, m \rangle,\qquad b_{22} = \langle r_{vv}, m \rangle,$$
+а $m$ --- единичная нормаль к поверхности.
+\end{definition}
+
+\begin{lemma}[Проекция ускорения]
+Пусть $\gamma(t)$ --- кривая на поверхности $S$, $\gamma(t_0)=p$,
+причем $\gamma(t)=r(u(t),v(t))$. Тогда
+$$
+\langle \gamma''(t_0), m \rangle = b_{11}(u'(t_0))^2 + 2b_{12}u'(t_0)v'(t_0) + b_{22}(v'(t_0))^2.
+$$
+\end{lemma}
+
+\begin{lemma}[О знаке второй фундаментальной формы]
+Вторая основная форма поверхности в точке $p$ при замене параметров либо не меняется, либо умножается на $-1$. Знак меняется только при замене ориентации нормали $m \mapsto -m$.
+\end{lemma}
+
+\begin{theorem}[Теорема Менье]
+Пусть $\gamma(t) \in S$ --- кривая на поверхности $S$, проходящая через точку $p$. Тогда нормальная кривизна $k_n$ выражается как
+$$k_n = \frac{II_p(\gamma'(t_0))}{I_p(\gamma'(t_0))}.$$
+\end{theorem}
+
+\begin{theorem}[Теорема Эйлера]
+Пусть $S$ --- регулярная поверхность, $p \in S$. Тогда в касательной плоскости существуют два взаимно перпендикулярных направления $l_1$ и $l_2$, в которых нормальная кривизна принимает экстремальные значения $k_1$ и $k_2$. Для любого направления $l$, образующего угол $\theta$ с главным направлением $l_1$, справедлива формула
+$$k_l = k_1 \cos^2 \theta + k_2 \sin^2 \theta.$$
+\end{theorem}
+
+\subsection{Деривационные уравнения и уравнения Гаусса-Кодацци}
+
+\begin{proposition}[Уравнения Гаусса-Вейнгартена]
+Деривационные уравнения поверхности можно записать в матричной форме:
+$$
+\frac{\partial}{\partial u}
+\begin{pmatrix}
+\bar{r}_u\\
+\bar{r}_v\\
+\bar{m}
+\end{pmatrix}
+=
+\begin{pmatrix}
+\Gamma_{11}^1 & \Gamma_{11}^2 & b_{11}\\
+\Gamma_{12}^1 & \Gamma_{12}^2 & b_{12}\\
+-b_1^1 & -b_1^2 & 0
+\end{pmatrix}
+\begin{pmatrix}
+\bar{r}_u\\
+\bar{r}_v\\
+\bar{m}
+\end{pmatrix},
+$$
+$$
+\frac{\partial}{\partial v}
+\begin{pmatrix}
+\bar{r}_u\\
+\bar{r}_v\\
+\bar{m}
+\end{pmatrix}
+=
+\begin{pmatrix}
+\Gamma_{12}^1 & \Gamma_{12}^2 & b_{12}\\
+\Gamma_{22}^1 & \Gamma_{22}^2 & b_{22}\\
+-b_2^1 & -b_2^2 & 0
+\end{pmatrix}
+\begin{pmatrix}
+\bar{r}_u\\
+\bar{r}_v\\
+\bar{m}
+\end{pmatrix}.
+$$
+\end{proposition}
+
+\begin{theorem}[Об уравнениях Гаусса-Кодацци]
+Имеют место уравнения согласованности
+$$\frac{\partial A_2}{\partial u} - \frac{\partial A_1}{\partial v} + [A_1, A_2] = 0,$$
+где $A_1$ и $A_2$ --- матрицы связности деривационных уравнений.
+\end{theorem}
+
+\begin{theorem}[Теорема Гаусса]
+Гауссова кривизна выражается только через компоненты первой фундаментальной формы $g_{ij}$ и их частные производные:
+$$K_g = \frac{b_{11}b_{22} - b_{12}^2}{g_{11}g_{22} - g_{12}^2} = \frac{\det(II)}{\det(I)}.$$
+\end{theorem}
+
+\end{document}
