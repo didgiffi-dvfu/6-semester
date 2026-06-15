@@ -3,17 +3,17 @@
 \contentsline {subsection}{\numberline {1.1}Множества и отображения}{2}{}%
 \contentsline {subsection}{\numberline {1.2}Метрические и топологические пространства}{3}{}%
 \contentsline {subsection}{\numberline {1.3}Точки множества и непрерывность}{4}{}%
-\contentsline {subsection}{\numberline {1.4}Подпространства, базы и предбазы}{5}{}%
-\contentsline {section}{\numberline {2}Лекция 2. Вектор-функции и кривые}{6}{}%
-\contentsline {subsection}{\numberline {2.1}Дифференцирование и интегрирование вектор-функций}{6}{}%
-\contentsline {subsection}{\numberline {2.2}Параметризованные кривые}{6}{}%
-\contentsline {subsection}{\numberline {2.3}Естественная параметризация и формулы Френе}{7}{}%
-\contentsline {section}{\numberline {3}Лекция 3. Билинейные и квадратичные формы}{8}{}%
-\contentsline {subsection}{\numberline {3.1}Билинейные формы}{8}{}%
-\contentsline {subsection}{\numberline {3.2}Квадратичные формы}{9}{}%
-\contentsline {section}{\numberline {4}Лекция 4. Поверхности в $\mathbb {R}^3$}{10}{}%
-\contentsline {subsection}{\numberline {4.1}График функции как поверхность}{10}{}%
-\contentsline {subsection}{\numberline {4.2}Касательное пространство и касательная плоскость}{11}{}%
-\contentsline {subsection}{\numberline {4.3}Поверхности вращения}{11}{}%
-\contentsline {subsection}{\numberline {4.4}Первая и вторая фундаментальные формы}{12}{}%
-\contentsline {subsection}{\numberline {4.5}Деривационные уравнения и уравнения Гаусса-Кодацци}{12}{}%
+\contentsline {subsection}{\numberline {1.4}Подпространства, базы и предбазы}{6}{}%
+\contentsline {section}{\numberline {2}Лекция 2. Вектор-функции и кривые}{7}{}%
+\contentsline {subsection}{\numberline {2.1}Дифференцирование и интегрирование вектор-функций}{7}{}%
+\contentsline {subsection}{\numberline {2.2}Параметризованные кривые}{8}{}%
+\contentsline {subsection}{\numberline {2.3}Естественная параметризация и формулы Френе}{8}{}%
+\contentsline {section}{\numberline {3}Лекция 3. Билинейные и квадратичные формы}{10}{}%
+\contentsline {subsection}{\numberline {3.1}Билинейные формы}{10}{}%
+\contentsline {subsection}{\numberline {3.2}Квадратичные формы}{11}{}%
+\contentsline {section}{\numberline {4}Лекция 4. Поверхности в $\mathbb {R}^3$}{11}{}%
+\contentsline {subsection}{\numberline {4.1}График функции как поверхность}{11}{}%
+\contentsline {subsection}{\numberline {4.2}Касательное пространство и касательная плоскость}{12}{}%
+\contentsline {subsection}{\numberline {4.3}Поверхности вращения}{13}{}%
+\contentsline {subsection}{\numberline {4.4}Первая и вторая фундаментальные формы}{13}{}%
+\contentsline {subsection}{\numberline {4.5}Деривационные уравнения и уравнения Гаусса-Кодацци}{14}{}%
