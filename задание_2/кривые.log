@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.14)  15 JUN 2026 20:53
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.14)  16 JUN 2026 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ответы_к_зачету.tex
-(./ответы_к_зачету.tex
+**кривые.tex
+(./кривые.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -272,11 +272,11 @@ Package fontspec Info:
 
 
 
-(./ответы_к_зачету.aux
+(./кривые.aux
 Package babel Info: 'russian' activates 'russian' shorthands.
 (babel)             Reported on input line 5.
 )
-\openout1 = `ответы_к_зачету.aux'.
+\openout1 = `кривые.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -410,7 +410,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `TimesNewRoman' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -418,7 +418,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
 
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -433,19 +433,19 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 ) [1
 
 ]
-[2] [3] [4] [5] [6] [7] (./ответы_к_зачету.aux)
+[2] [3] [4] (./кривые.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8521 strings out of 468168
- 187649 string characters out of 5432815
- 685983 words of memory out of 5000000
- 37176 multiletter control sequences out of 15000+600000
- 632534 words of font info for 79 fonts, out of 8000000 for 9000
+ 8553 strings out of 468168
+ 188260 string characters out of 5432815
+ 680006 words of memory out of 5000000
+ 37206 multiletter control sequences out of 15000+600000
+ 635149 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,10n,93p,1012b,437s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,6n,93p,1003b,243s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ответы_к_зачету.pdf (7 pages).
+Output written on кривые.pdf (4 pages).

@@ -1,0 +1,273 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage[russian]{babel}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{microtype}
+
+\geometry{margin=2cm}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Times New Roman}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlist[itemize,enumerate]{itemsep=0.55em, topsep=0.7em, parsep=0.3em}
+\setlength{\abovedisplayskip}{0.8em}
+\setlength{\belowdisplayskip}{0.8em}
+
+\begin{document}
+
+\section*{Задание 2. Кривые}
+
+\textit{Ниже используются стандартные параметризации: окружность радиуса $R$, винтовая линия $\gamma(t) = (a\cos t, a\sin t, bt)$ и график $\gamma(t) = (t, f(t), 0)$.}
+
+\subsection*{Формулы, которые используются}
+
+\begin{enumerate}
+    \item \textbf{Вектор скорости.} Если
+    \[
+    \gamma(t) = (x(t), y(t), z(t)),
+    \]
+    то
+    \[
+    \gamma'(t) = (x'(t), y'(t), z'(t)), \qquad |\gamma'(t)| = \sqrt{x'(t)^2 + y'(t)^2 + z'(t)^2}.
+    \]
+
+    \item \textbf{Касательная прямая.} В точке $t_0$:
+    \[
+    (X,Y,Z) = \gamma(t_0) + \lambda\,\gamma'(t_0).
+    \]
+
+    \item \textbf{Нормальная плоскость.} В точке $t_0$:
+    \[
+    \gamma'(t_0)\cdot\bigl((X,Y,Z)-\gamma(t_0)\bigr)=0.
+    \]
+
+    \item \textbf{Длина дуги.}
+    \[
+    L(\gamma) = \int_{\alpha}^{\beta} |\gamma'(t)|\,dt.
+    \]
+
+    \item \textbf{Естественная параметризация.}
+    \[
+    s(t) = \int_{t_0}^{t} |\gamma'(\tau)|\,d\tau, \qquad \left\| \frac{d\tilde{\gamma}}{ds} \right\| = 1.
+    \]
+
+    \item \textbf{Базис Френе.}
+    \[
+    \vec{\tau} = \frac{d\tilde{\gamma}}{ds}, \qquad
+    \vec{n} = \frac{1}{k}\frac{d\vec{\tau}}{ds}, \qquad
+    \vec{b} = \vec{\tau} \times \vec{n}.
+    \]
+
+    \item \textbf{Кривизна и кручение.}
+    \[
+    k = \left\| \frac{d\vec{\tau}}{ds} \right\|, \qquad
+    \rho = \frac{1}{k}, \qquad
+    \varkappa = -\left( \frac{d\vec{b}}{ds}, \vec{n} \right).
+    \]
+
+    \item \textbf{График функции $y=f(x)$.}
+    Для $\gamma(t) = (t, f(t), 0)$:
+    \[
+    k = \frac{|f''(t)|}{(1+(f'(t))^2)^{3/2}}.
+    \]
+\end{enumerate}
+
+\subsection*{1. Окружность}
+
+Пусть
+\[
+\gamma(t) = (R\cos t, R\sin t, 0), \qquad R > 0.
+\]
+
+\textbf{1) Вектор скорости. Касательная прямая и нормальная плоскость}
+
+\[
+\gamma'(t) = (-R\sin t, R\cos t, 0), \qquad |\gamma'(t)| = R.
+\]
+
+Касательная прямая в точке $t_0$:
+\[
+(x,y,z) = (R\cos t_0, R\sin t_0, 0) + \lambda(-R\sin t_0, R\cos t_0, 0).
+\]
+
+Нормальная плоскость в точке $t_0$:
+\[
+-\sin t_0\,(x - R\cos t_0) + \cos t_0\,(y - R\sin t_0) = 0,
+\]
+то есть
+\[
+-x\sin t_0 + y\cos t_0 = 0.
+\]
+
+\textbf{2) Естественная параметризация и длина дуги}
+
+\[
+s(t) = \int_0^t |\gamma'(\tau)|\,d\tau = Rt, \qquad t = \frac{s}{R}.
+\]
+
+Естественная параметризация:
+\[
+\tilde{\gamma}(s) = \left(R\cos \frac{s}{R}, R\sin \frac{s}{R}, 0\right).
+\]
+
+Длина дуги на отрезке $[t_1,t_2]$:
+\[
+L = \int_{t_1}^{t_2} |\gamma'(t)|\,dt = R|t_2 - t_1|.
+\]
+
+Если берется вся окружность, то
+\[
+L = 2\pi R.
+\]
+
+\textbf{3) Базис Френе, кривизна, радиус кривизны, кручение}
+
+\[
+\vec{\tau} = \left(-\sin \frac{s}{R}, \cos \frac{s}{R}, 0\right), \qquad
+\vec{n} = \left(-\cos \frac{s}{R}, -\sin \frac{s}{R}, 0\right), \qquad
+\vec{b} = (0,0,1).
+\]
+
+\[
+k = \left\| \frac{d\vec{\tau}}{ds} \right\| = \frac{1}{R}, \qquad
+\rho = \frac{1}{k} = R, \qquad
+\varkappa = 0.
+\]
+
+\subsection*{2. Винтовая линия}
+
+Пусть
+\[
+\gamma(t) = (a\cos t, a\sin t, bt), \qquad a > 0.
+\]
+
+\textbf{1) Вектор скорости. Касательная прямая и нормальная плоскость}
+
+\[
+\gamma'(t) = (-a\sin t, a\cos t, b), \qquad |\gamma'(t)| = \sqrt{a^2+b^2}.
+\]
+
+Касательная прямая в точке $t_0$:
+\[
+(x,y,z) = (a\cos t_0, a\sin t_0, bt_0) + \lambda(-a\sin t_0, a\cos t_0, b).
+\]
+
+Нормальная плоскость в точке $t_0$:
+\[
+-a\sin t_0\,(x-a\cos t_0) + a\cos t_0\,(y-a\sin t_0) + b(z-bt_0) = 0.
+\]
+
+\textbf{2) Естественная параметризация и длина дуги}
+
+\[
+s(t) = \int_0^t |\gamma'(\tau)|\,d\tau = \sqrt{a^2+b^2}\,t,
+\qquad
+t = \frac{s}{\sqrt{a^2+b^2}}.
+\]
+
+Естественная параметризация:
+\[
+\tilde{\gamma}(s) = \left(
+a\cos \frac{s}{\sqrt{a^2+b^2}},
+a\sin \frac{s}{\sqrt{a^2+b^2}},
+\frac{bs}{\sqrt{a^2+b^2}}
+\right).
+\]
+
+Длина дуги на отрезке $[t_1,t_2]$:
+\[
+L = \int_{t_1}^{t_2} |\gamma'(t)|\,dt = \sqrt{a^2+b^2}\,|t_2-t_1|.
+\]
+
+\textbf{3) Базис Френе, кривизна, радиус кривизны, кручение}
+
+Положим
+\[
+\xi = \frac{s}{\sqrt{a^2+b^2}}.
+\]
+Тогда
+\[
+\vec{\tau} = \left(
+\frac{-a}{\sqrt{a^2+b^2}}\sin \xi,
+\frac{a}{\sqrt{a^2+b^2}}\cos \xi,
+\frac{b}{\sqrt{a^2+b^2}}
+\right),
+\]
+\[
+\vec{n} = (-\cos \xi, -\sin \xi, 0),
+\]
+\[
+\vec{b} = \left(
+\frac{b}{\sqrt{a^2+b^2}}\sin \xi,
+-\frac{b}{\sqrt{a^2+b^2}}\cos \xi,
+\frac{a}{\sqrt{a^2+b^2}}
+\right).
+\]
+
+\[
+k = \left\| \frac{d\vec{\tau}}{ds} \right\| = \frac{a}{a^2+b^2}, \qquad
+\rho = \frac{1}{k} = \frac{a^2+b^2}{a}, \qquad
+\varkappa = \frac{b}{a^2+b^2}.
+\]
+
+\subsection*{3. График функции $y=f(x)$}
+
+Пусть
+\[
+\gamma(t) = (t, f(t), 0), \qquad f \in C^2.
+\]
+
+\textbf{1) Вектор скорости. Касательная прямая и нормальная плоскость}
+
+\[
+\gamma'(t) = (1, f'(t), 0), \qquad |\gamma'(t)| = \sqrt{1 + (f'(t))^2}.
+\]
+
+Касательная прямая в точке $t_0$:
+\[
+(x,y,z) = (t_0, f(t_0), 0) + \lambda(1, f'(t_0), 0).
+\]
+
+Нормальная плоскость в точке $t_0$:
+\[
+(x-t_0) + f'(t_0)\bigl(y-f(t_0)\bigr) = 0.
+\]
+
+\textbf{2) Естественная параметризация и длина дуги}
+
+\[
+s(t) = \int_{t_0}^{t} \sqrt{1 + (f'(\tau))^2}\,d\tau.
+\]
+
+Если $t=t(s)$ --- обратная функция, то естественная параметризация имеет вид
+\[
+\tilde{\gamma}(s) = \bigl(t(s), f(t(s)), 0\bigr).
+\]
+
+Длина дуги на отрезке $[t_1,t_2]$:
+\[
+L = \int_{t_1}^{t_2} \sqrt{1 + (f'(t))^2}\,dt.
+\]
+
+\textbf{3) Базис Френе, кривизна, радиус кривизны, кручение}
+
+В точках, где $f''(t_0) \neq 0$, можно взять
+\[
+\vec{\tau} = \frac{(1, f'(t), 0)}{\sqrt{1+(f'(t))^2}},
+\qquad
+\vec{n} = \operatorname{sgn}(f''(t)) \frac{(-f'(t), 1, 0)}{\sqrt{1+(f'(t))^2}},
+\qquad
+\vec{b} = \operatorname{sgn}(f''(t))(0,0,1).
+\]
+
+\[
+k = \frac{|f''(t)|}{\bigl(1 + (f'(t))^2\bigr)^{3/2}}, \qquad
+\rho = \frac{\bigl(1 + (f'(t))^2\bigr)^{3/2}}{|f''(t)|}, \qquad
+\varkappa = 0.
+\]
+
+Если $f''(t_0)=0$, то в этой точке $\kappa=0$, базис Френе не определён, и кручение: нет ответа.
+
+\end{document}

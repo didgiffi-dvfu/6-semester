@@ -1,0 +1,562 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage[russian]{babel}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{microtype}
+
+\geometry{margin=2cm}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Times New Roman}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlist[enumerate]{itemsep=0.55em, topsep=0.7em, parsep=0.25em}
+\setlength{\abovedisplayskip}{0.8em}
+\setlength{\belowdisplayskip}{0.8em}
+
+\begin{document}
+
+\section*{Задание 3. Поверхности}
+
+\textit{Ниже нормаль в каждой задаче берется как $\mathbf m = \dfrac{\mathbf r_u \times \mathbf r_v}{\|\mathbf r_u \times \mathbf r_v\|}$. При смене ориентации нормали меняются знак второй фундаментальной формы, главных кривизн, средней кривизны и нормальной кривизны, но не гауссова кривизна.}
+
+\subsection*{Формулы, которые используются}
+
+\begin{enumerate}
+    \item \textbf{Поверхность вращения.}
+    Если кривая профиля имеет вид $\gamma(u) = (x(u),0,z(u))$, то
+    \[
+    \mathbf r(u,v) = \bigl(x(u)\cos v,\ x(u)\sin v,\ z(u)\bigr).
+    \]
+
+    \item \textbf{Базис касательного пространства.}
+    \[
+    \mathbf r_u = \frac{\partial \mathbf r}{\partial u}, \qquad
+    \mathbf r_v = \frac{\partial \mathbf r}{\partial v}.
+    \]
+
+    \item \textbf{Единичная нормаль.}
+    \[
+    \mathbf m = \frac{\mathbf r_u \times \mathbf r_v}{\|\mathbf r_u \times \mathbf r_v\|}.
+    \]
+
+    \item \textbf{Касательная плоскость и нормальная прямая.}
+    В точке $P$:
+    \[
+    \mathbf m(P)\cdot\bigl((X,Y,Z)-P\bigr)=0, \qquad (X,Y,Z)=P+\lambda\,\mathbf m(P).
+    \]
+
+    \item \textbf{Первая фундаментальная форма.}
+    \[
+    I = E\,du^2 + 2F\,du\,dv + G\,dv^2,
+    \]
+    где
+    \[
+    E=\langle \mathbf r_u,\mathbf r_u\rangle,\qquad
+    F=\langle \mathbf r_u,\mathbf r_v\rangle,\qquad
+    G=\langle \mathbf r_v,\mathbf r_v\rangle.
+    \]
+
+    \item \textbf{Вторая фундаментальная форма.}
+    \[
+    II = L\,du^2 + 2M\,du\,dv + N\,dv^2,
+    \]
+    где
+    \[
+    L=\langle \mathbf r_{uu},\mathbf m\rangle,\qquad
+    M=\langle \mathbf r_{uv},\mathbf m\rangle,\qquad
+    N=\langle \mathbf r_{vv},\mathbf m\rangle.
+    \]
+
+    \item \textbf{Гауссова кривизна.}
+    \[
+    K = \frac{LN-M^2}{EG-F^2}.
+    \]
+
+    \item \textbf{Нормальная кривизна.}
+    Для касательного вектора $a=a^1\mathbf r_u+a^2\mathbf r_v$:
+    \[
+    k_n(a)=\frac{II(a)}{I(a)}
+    =\frac{L(a^1)^2+2Ma^1a^2+N(a^2)^2}{E(a^1)^2+2Fa^1a^2+G(a^2)^2}.
+    \]
+    В частности, для $a=3\mathbf r_u-2\mathbf r_v$:
+    \[
+    k_n=\frac{9L-12M+4N}{9E-12F+4G}.
+    \]
+
+    \item \textbf{Главные кривизны и средняя кривизна.}
+    \[
+    \det(B-\lambda G)=0, \qquad H=\frac{k_1+k_2}{2}, \qquad K=k_1k_2.
+    \]
+
+    \item \textbf{График функции $z=f(x,y)$.}
+    Для поверхности
+    \[
+    \mathbf r(x,y)=(x,y,f(x,y))
+    \]
+    используются формулы
+    \[
+    \mathbf m=\frac{(-f_x,-f_y,1)}{\sqrt{1+f_x^2+f_y^2}},\qquad
+    E=1+f_x^2,\quad F=f_xf_y,\quad G=1+f_y^2,
+    \]
+    \[
+    L=\frac{f_{xx}}{\sqrt{1+f_x^2+f_y^2}},\quad
+    M=\frac{f_{xy}}{\sqrt{1+f_x^2+f_y^2}},\quad
+    N=\frac{f_{yy}}{\sqrt{1+f_x^2+f_y^2}},\quad
+    K=\frac{f_{xx}f_{yy}-f_{xy}^2}{(1+f_x^2+f_y^2)^2}.
+    \]
+\end{enumerate}
+
+\subsection*{а) Поверхность вращения кривой $\gamma(t) = (x(t), 0, z(t))$ вокруг оси $z$}
+
+Обозначим параметр профиля через $u$, а угол вращения через $v$. Тогда
+\[
+\mathbf r(u,v) = \bigl(x(u)\cos v,\ x(u)\sin v,\ z(u)\bigr).
+\]
+
+\textbf{1) Параметризация, базис касательного пространства, нормаль}
+\[
+\mathbf r_u = \bigl(x'(u)\cos v,\ x'(u)\sin v,\ z'(u)\bigr), \qquad
+\mathbf r_v = \bigl(-x(u)\sin v,\ x(u)\cos v,\ 0\bigr).
+\]
+
+При $x(u)>0$
+\[
+\mathbf m = \frac{\mathbf r_u \times \mathbf r_v}{\|\mathbf r_u \times \mathbf r_v\|}
+= \frac{\bigl(-z'(u)\cos v,\ -z'(u)\sin v,\ x'(u)\bigr)}{\sqrt{(x'(u))^2 + (z'(u))^2}}.
+\]
+
+\textbf{2) Касательная плоскость и нормальная прямая}
+
+Пусть $P=\mathbf r(u_0,v_0)=(x_0\cos v_0,x_0\sin v_0,z_0)$, где $x_0=x(u_0)$, $z_0=z(u_0)$.
+Тогда касательная плоскость:
+\[
+\mathbf m(u_0,v_0)\cdot \bigl((X,Y,Z)-P\bigr)=0.
+\]
+В развернутом виде:
+\[
+-z'(u_0)\cos v_0\,(X-x_0\cos v_0) - z'(u_0)\sin v_0\,(Y-x_0\sin v_0)
++ x'(u_0)\,(Z-z_0)=0.
+\]
+
+Нормальная прямая:
+\[
+(X,Y,Z)=P+\lambda\,\bigl(-z'(u_0)\cos v_0,\ -z'(u_0)\sin v_0,\ x'(u_0)\bigr).
+\]
+
+\textbf{3) Первая и вторая фундаментальные формы, гауссова кривизна}
+
+\[
+E=(x')^2+(z')^2,\qquad F=0,\qquad G=x^2.
+\]
+\[
+L=\frac{x'z''-x''z'}{\sqrt{(x')^2+(z')^2}},\qquad M=0,\qquad
+N=\frac{xz'}{\sqrt{(x')^2+(z')^2}}.
+\]
+
+Следовательно,
+\[
+K=\frac{LN-M^2}{EG-F^2}
+=\frac{z'(x'z''-x''z')}{x\bigl((x')^2+(z')^2\bigr)^2}.
+\]
+
+\textbf{4) Нормальная кривизна в направлении $a=3\mathbf r_u-2\mathbf r_v$}
+
+\[
+k_n(a)=\frac{\mathrm{II}(a)}{\mathrm{I}(a)}
+=\frac{9L-12M+4N}{9E-12F+4G}
+=\frac{9L+4N}{9E+4G}.
+\]
+То есть
+\[
+k_n(a)=
+\frac{9(x'z''-x''z')+4xz'}{\sqrt{(x')^2+(z')^2}\,\bigl(9((x')^2+(z')^2)+4x^2\bigr)}.
+\]
+
+\textbf{5) Главные кривизны и средняя кривизна}
+
+Так как $F=M=0$, координатные линии являются главными направлениями. Поэтому
+\[
+k_1=\frac{L}{E}=\frac{x'z''-x''z'}{\bigl((x')^2+(z')^2\bigr)^{3/2}},\qquad
+k_2=\frac{N}{G}=\frac{z'}{x\sqrt{(x')^2+(z')^2}}.
+\]
+
+\[
+H=\frac{k_1+k_2}{2},\qquad K=k_1k_2.
+\]
+
+\subsection*{b) Сфера: $\gamma(t) = (R\cos t, 0, R\sin t)$, $u_0=\frac{\pi}{4}$, $v_0=\frac{\pi}{4}$}
+
+Здесь
+\[
+\mathbf r(u,v)=\bigl(R\cos u\cos v,\ R\cos u\sin v,\ R\sin u\bigr).
+\]
+Точка:
+\[
+P=\mathbf r\!\left(\frac{\pi}{4},\frac{\pi}{4}\right)=
+\left(\frac R2,\ \frac R2,\ \frac{R\sqrt2}{2}\right).
+\]
+
+\textbf{1) Базис касательного пространства и нормаль}
+
+\[
+\mathbf r_u=\bigl(-R\sin u\cos v,\ -R\sin u\sin v,\ R\cos u\bigr),\qquad
+\mathbf r_v=\bigl(-R\cos u\sin v,\ R\cos u\cos v,\ 0\bigr).
+\]
+В точке $P$:
+\[
+\mathbf r_u(P)=\left(-\frac R2,-\frac R2,\frac{R\sqrt2}{2}\right),\qquad
+\mathbf r_v(P)=\left(-\frac R2,\frac R2,0\right).
+\]
+
+\[
+\mathbf m(u,v)=\frac{\mathbf r_u\times \mathbf r_v}{\|\mathbf r_u\times \mathbf r_v\|}
+=-\bigl(\cos u\cos v,\ \cos u\sin v,\ \sin u\bigr),
+\]
+поэтому
+\[
+\mathbf m(P)=\left(-\frac12,-\frac12,-\frac1{\sqrt2}\right).
+\]
+
+\textbf{2) Касательная плоскость и нормальная прямая}
+
+\[
+-\frac12\left(x-\frac R2\right)-\frac12\left(y-\frac R2\right)-\frac1{\sqrt2}\left(z-\frac{R\sqrt2}{2}\right)=0.
+\]
+После упрощения:
+\[
+x+y+\sqrt2\,z=2R.
+\]
+
+\[
+(x,y,z)=\left(\frac R2,\frac R2,\frac{R\sqrt2}{2}\right)+
+\lambda\left(-\frac12,-\frac12,-\frac1{\sqrt2}\right).
+\]
+
+\textbf{3) Первая и вторая фундаментальные формы, гауссова кривизна}
+
+\[
+E=R^2,\qquad F=0,\qquad G=R^2\cos^2 u,
+\]
+в точке $u_0=\pi/4$:
+\[
+E=R^2,\qquad F=0,\qquad G=\frac{R^2}{2}.
+\]
+
+\[
+L=R,\qquad M=0,\qquad N=R\cos^2 u,
+\]
+в точке:
+\[
+L=R,\qquad M=0,\qquad N=\frac R2.
+\]
+
+\[
+K=\frac{LN-M^2}{EG-F^2}=\frac1{R^2}.
+\]
+
+\textbf{4) Нормальная кривизна в направлении $a=3\mathbf r_u-2\mathbf r_v$}
+
+\[
+k_n(a)=\frac{9L-12M+4N}{9E-12F+4G}
+=\frac{9R+4R\cos^2 u}{9R^2+4R^2\cos^2 u}
+=\frac1R.
+\]
+В частности, в точке $\left(\frac{\pi}{4},\frac{\pi}{4}\right)$:
+\[
+k_n(a)=\frac1R.
+\]
+
+\textbf{5) Главные кривизны и средняя кривизна}
+
+\[
+k_1=\frac{L}{E}=\frac1R,\qquad k_2=\frac{N}{G}=\frac1R,\qquad
+H=\frac{k_1+k_2}{2}=\frac1R.
+\]
+
+\subsection*{c) Тор: $\gamma(t) = (R+\rho\cos t, 0, \rho\sin t)$, $u_0=\frac{\pi}{6}$, $v_0=\frac{\pi}{3}$}
+
+Чтобы не путать параметризацию и радиус образующей окружности, обозначим его через $\rho$; это тот же самый $r$ из условия.
+
+\[
+\mathbf r(u,v)=\bigl((R+\rho\cos u)\cos v,\ (R+\rho\cos u)\sin v,\ \rho\sin u\bigr).
+\]
+Положим
+\[
+A=R+\frac{\sqrt3}{2}\rho.
+\]
+Тогда
+\[
+P=\mathbf r\!\left(\frac{\pi}{6},\frac{\pi}{3}\right)=
+\left(\frac A2,\ \frac{\sqrt3\,A}{2},\ \frac{\rho}{2}\right).
+\]
+
+\textbf{1) Базис касательного пространства и нормаль}
+
+\begin{align*}
+\mathbf r_u&=\bigl(-\rho\sin u\cos v,\ -\rho\sin u\sin v,\ \rho\cos u\bigr),\\
+\mathbf r_v&=\bigl(-(R+\rho\cos u)\sin v,\ (R+\rho\cos u)\cos v,\ 0\bigr).
+\end{align*}
+В точке $P$:
+\[
+\mathbf r_u(P)=\left(-\frac{\rho}{4},\ -\frac{\sqrt3\,\rho}{4},\ \frac{\sqrt3\,\rho}{2}\right),\qquad
+\mathbf r_v(P)=\left(-\frac{\sqrt3\,A}{2},\ \frac A2,\ 0\right).
+\]
+
+\[
+\mathbf m(u,v)=\frac{\mathbf r_u\times \mathbf r_v}{\|\mathbf r_u\times \mathbf r_v\|}
+=-\bigl(\cos u\cos v,\ \cos u\sin v,\ \sin u\bigr),
+\]
+поэтому
+\[
+\mathbf m(P)=\left(-\frac{\sqrt3}{4},\ -\frac34,\ -\frac12\right).
+\]
+
+\textbf{2) Касательная плоскость и нормальная прямая}
+
+\[
+-\frac{\sqrt3}{4}(x-x_0)-\frac34(y-y_0)-\frac12(z-z_0)=0,
+\]
+где
+\[
+x_0=\frac A2,\qquad y_0=\frac{\sqrt3\,A}{2},\qquad z_0=\frac{\rho}{2}.
+\]
+После упрощения:
+\[
+\sqrt3\,x+3y+2z=2\sqrt3\,R+4\rho.
+\]
+
+\[
+(x,y,z)=\left(\frac A2,\ \frac{\sqrt3\,A}{2},\ \frac{\rho}{2}\right)
++\lambda\left(-\frac{\sqrt3}{4},\ -\frac34,\ -\frac12\right).
+\]
+
+\textbf{3) Первая и вторая фундаментальные формы, гауссова кривизна}
+
+\[
+E=\rho^2,\qquad F=0,\qquad G=(R+\rho\cos u)^2,
+\]
+а в точке $u_0=\pi/6$:
+\[
+E=\rho^2,\qquad F=0,\qquad G=A^2.
+\]
+
+\[
+L=\rho,\qquad M=0,\qquad N=(R+\rho\cos u)\cos u,
+\]
+в точке:
+\[
+L=\rho,\qquad M=0,\qquad N=\frac{\sqrt3}{2}A.
+\]
+
+\[
+K=\frac{LN-M^2}{EG-F^2}
+=\frac{\cos u}{\rho(R+\rho\cos u)}.
+\]
+В точке $\left(\frac{\pi}{6},\frac{\pi}{3}\right)$:
+\[
+K=\frac{\sqrt3}{2\rho\left(R+\frac{\sqrt3}{2}\rho\right)}
+=\frac{\sqrt3}{2\rho R+\sqrt3\,\rho^2}.
+\]
+
+\textbf{4) Нормальная кривизна в направлении $a=3\mathbf r_u-2\mathbf r_v$}
+
+\[
+k_n(a)=\frac{9L-12M+4N}{9E-12F+4G}
+=\frac{9\rho+4(R+\rho\cos u)\cos u}{9\rho^2+4(R+\rho\cos u)^2}.
+\]
+В точке $\left(\frac{\pi}{6},\frac{\pi}{3}\right)$:
+\[
+k_n(a)=\frac{12\rho+2\sqrt3\,R}{9\rho^2+4\left(R+\frac{\sqrt3}{2}\rho\right)^2}.
+\]
+
+\textbf{5) Главные кривизны и средняя кривизна}
+
+Так как $F=M=0$, главные направления совпадают с меридианами и параллелями:
+\[
+k_1=\frac{L}{E}=\frac1{\rho},\qquad
+k_2=\frac{N}{G}=\frac{\cos u}{R+\rho\cos u}.
+\]
+
+В точке $\left(\frac{\pi}{6},\frac{\pi}{3}\right)$:
+\[
+k_1=\frac1{\rho},\qquad
+k_2=\frac{\sqrt3}{2R+\sqrt3\,\rho}.
+\]
+
+\[
+H=\frac{k_1+k_2}{2}.
+\]
+В точке:
+\[
+H=\frac12\left(\frac1{\rho}+\frac{\sqrt3}{2R+\sqrt3\,\rho}\right).
+\]
+
+\subsection*{d) График функции $z=f(x,y)$}
+
+\[
+\mathbf r(x,y)=\bigl(x,\ y,\ f(x,y)\bigr).
+\]
+
+\textbf{1) Базис касательного пространства и нормаль}
+
+\[
+\mathbf r_x=(1,0,f_x),\qquad \mathbf r_y=(0,1,f_y).
+\]
+\[
+\mathbf m=\frac{\mathbf r_x\times \mathbf r_y}{\|\mathbf r_x\times \mathbf r_y\|}
+=\frac{(-f_x,-f_y,1)}{\sqrt{1+f_x^2+f_y^2}}.
+\]
+
+\textbf{2) Касательная плоскость и нормальная прямая}
+
+В точке $P=(x_0,y_0,f(x_0,y_0))$:
+\[
+z-f(x_0,y_0)=f_x(x_0,y_0)(x-x_0)+f_y(x_0,y_0)(y-y_0).
+\]
+
+Нормальная прямая:
+\[
+(x,y,z)=P+\lambda\bigl(-f_x(x_0,y_0),-f_y(x_0,y_0),1\bigr).
+\]
+
+\textbf{3) Первая и вторая фундаментальные формы, гауссова кривизна}
+
+\[
+E=1+f_x^2,\qquad F=f_xf_y,\qquad G=1+f_y^2.
+\]
+
+Пусть
+\[
+W=\sqrt{1+f_x^2+f_y^2}.
+\]
+Тогда
+\[
+L=\frac{f_{xx}}{W},\qquad M=\frac{f_{xy}}{W},\qquad N=\frac{f_{yy}}{W}.
+\]
+
+\[
+K=\frac{LN-M^2}{EG-F^2}
+=\frac{f_{xx}f_{yy}-f_{xy}^2}{(1+f_x^2+f_y^2)^2}.
+\]
+
+\textbf{4) Нормальная кривизна в направлении $a=3\mathbf r_x-2\mathbf r_y$}
+
+\[
+k_n(a)=\frac{9L-12M+4N}{9E-12F+4G}
+=\frac{9f_{xx}-12f_{xy}+4f_{yy}}{W\bigl(9(1+f_x^2)-12f_xf_y+4(1+f_y^2)\bigr)}.
+\]
+
+\textbf{5) Главные кривизны и средняя кривизна}
+
+Главные кривизны являются корнями характеристического уравнения
+\[
+\det(B-\lambda G)=0,
+\]
+где
+\[
+G=\begin{pmatrix}E&F\\F&G\end{pmatrix},\qquad
+B=\begin{pmatrix}L&M\\M&N\end{pmatrix}.
+\]
+Эквивалентно,
+\[
+k_{1,2}=H\pm\sqrt{H^2-K},
+\]
+где
+\[
+H=\frac{EN-2FM+GL}{2(EG-F^2)}
+=\frac{(1+f_x^2)f_{yy}-2f_xf_yf_{xy}+(1+f_y^2)f_{xx}}{2(1+f_x^2+f_y^2)^{3/2}}.
+\]
+
+\subsection*{e) График функции $z=\sqrt{R^2-x^2-y^2}$ при $x_0=\frac R2,\ y_0=\frac R2,\ z_0=\frac{R\sqrt2}{2}$}
+
+Это верхняя полусфера радиуса $R$. Запишем её как график:
+\[
+f(x,y)=\sqrt{R^2-x^2-y^2}.
+\]
+В точке
+\[
+\left(x_0,y_0\right)=\left(\frac R2,\frac R2\right),\qquad
+z_0=f(x_0,y_0)=\frac{R\sqrt2}{2}.
+\]
+
+\textbf{1) Базис касательного пространства и нормаль}
+
+\[
+f_x=-\frac{x}{\sqrt{R^2-x^2-y^2}},\qquad
+f_y=-\frac{y}{\sqrt{R^2-x^2-y^2}}.
+\]
+В точке:
+\[
+f_x(x_0,y_0)=f_y(x_0,y_0)=-\frac1{\sqrt2}.
+\]
+
+\[
+\mathbf r_x=\left(1,0,-\frac1{\sqrt2}\right),\qquad
+\mathbf r_y=\left(0,1,-\frac1{\sqrt2}\right),
+\]
+\[
+\mathbf m=\frac{(-f_x,-f_y,1)}{\sqrt{1+f_x^2+f_y^2}}
+=\left(\frac12,\frac12,\frac1{\sqrt2}\right).
+\]
+
+\textbf{2) Касательная плоскость и нормальная прямая}
+
+\[
+\frac12\left(x-\frac R2\right)+\frac12\left(y-\frac R2\right)+\frac1{\sqrt2}\left(z-\frac{R\sqrt2}{2}\right)=0.
+\]
+После упрощения:
+\[
+x+y+\sqrt2\,z=2R.
+\]
+
+\[
+(x,y,z)=\left(\frac R2,\frac R2,\frac{R\sqrt2}{2}\right)
++\lambda\left(\frac12,\frac12,\frac1{\sqrt2}\right).
+\]
+
+\textbf{3) Первая и вторая фундаментальные формы, гауссова кривизна}
+
+При этом
+\[
+E=1+f_x^2=\frac32,\qquad
+F=f_xf_y=\frac12,\qquad
+G=1+f_y^2=\frac32.
+\]
+
+Вторые производные:
+\[
+f_{xx}=f_{yy}=-\frac{3\sqrt2}{2R},\qquad
+f_{xy}=-\frac{\sqrt2}{2R}.
+\]
+Значит
+\[
+W=\sqrt{1+f_x^2+f_y^2}=\sqrt2,
+\]
+\[
+L=\frac{f_{xx}}{W}=-\frac{3}{2R},\qquad
+M=\frac{f_{xy}}{W}=-\frac{1}{2R},\qquad
+N=\frac{f_{yy}}{W}=-\frac{3}{2R}.
+\]
+
+\[
+K=\frac{LN-M^2}{EG-F^2}=\frac{1}{R^2}.
+\]
+
+\textbf{4) Нормальная кривизна в направлении $a=3\mathbf r_x-2\mathbf r_y$}
+
+\[
+k_n(a)=\frac{9L-12M+4N}{9E-12F+4G}
+=-\frac1R.
+\]
+
+\textbf{5) Главные кривизны и средняя кривизна}
+
+\[
+k_1=k_2=-\frac1R,\qquad H=-\frac1R,\qquad K=\frac1{R^2}.
+\]
+
+\textit{Замечание.} Это та же самая сфера, что и в пункте b), но ориентация нормали здесь задается графиком, поэтому знаки $k_1$, $k_2$ и $H$ получаются противоположными.
+
+\end{document}
