@@ -209,21 +209,21 @@ s=s(t)=\int_{t_0}^t \|\gamma'(\tau)\|\dd \tau
 
 \textbf{Единичный касательный вектор:}
 \[
-\vec{\tau}(s)=\gamma'(s),\qquad \|\vec{\tau}(s)\|=1.
+\vec{v}(s)=\gamma'(s),\qquad \|\vec{v}(s)\|=1.
 \]
 
 \textbf{Кривизна:}
 \[
-\kappa(s)=\|\vec{\tau}'(s)\|.
+\kappa(s)=\|\vec{v}'(s)\|.
 \]
 Если $\kappa(s)\neq 0$, то единичная главная нормаль определяется формулой
 \[
-\vec{n}(s)=\frac{\vec{\tau}'(s)}{\kappa(s)}.
+\vec{n}(s)=\frac{\vec{v}'(s)}{\kappa(s)}.
 \]
 
 \textbf{Бинормаль:}
 \[
-\vec{b}(s)=\vec{\tau}(s)\times \vec{n}(s).
+\vec{b}(s)=\vec{v}(s)\times \vec{n}(s).
 \]
 
 \textbf{Кручение} $\varkappa(s)$ определяется из формулы Френе
@@ -233,8 +233,8 @@ s=s(t)=\int_{t_0}^t \|\gamma'(\tau)\|\dd \tau
 
 \textbf{Формулы Френе:}
 \begin{align*}
-\vec{\tau}'(s) &= \kappa(s)\vec{n}(s),\\
-\vec{n}'(s) &= -\kappa(s)\vec{\tau}(s)+\varkappa(s)\vec{b}(s),\\
+\vec{v}'(s) &= \kappa(s)\vec{n}(s),\\
+\vec{n}'(s) &= -\kappa(s)\vec{v}(s)+\varkappa(s)\vec{b}(s),\\
 \vec{b}'(s) &= -\varkappa(s)\vec{n}(s).
 \end{align*}
 
@@ -257,13 +257,13 @@ s=s(t)=\int_{t_0}^t \|\gamma'(\tau)\|\dd \tau
 \textbf{1. Условие $\kappa\equiv 0$.}
 Если
 \[
-\kappa(s)=\|\vec{\tau}'(s)\|\equiv 0,
+\kappa(s)=\|\vec{v}'(s)\|\equiv 0,
 \]
 то
 \[
-\vec{\tau}'(s)=0,
+\vec{v}'(s)=0,
 \]
-следовательно, $\vec{\tau}(s)$ постоянно.
+следовательно, $\vec{v}(s)$ постоянно.
 Значит, все касательные совпадают, и кривая лежит на одной прямой.
 
 \textbf{2. Условие $\varkappa\equiv 0$.}

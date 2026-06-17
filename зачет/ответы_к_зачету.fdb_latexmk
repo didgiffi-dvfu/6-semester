@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1781660195.42078 "/Users/zasmina/Study/6-semester/зачет/ответы_к_зачету.tex" "ответы_к_зачету.pdf" "ответы_к_зачету" 1781660196.75567 0
+["pdflatex"] 1781667095.5641 "/Users/zasmina/Study/6-semester/зачет/ответы_к_зачету.tex" "ответы_к_зачету.pdf" "ответы_к_зачету" 1781667096.41269 0
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1776163255.13452 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/larm2074.tfm" 1776405606.96293 3264 03c2b9e4787a40d3b9c197c38b93b558 ""
   "/Users/zasmina/Library/texlive/2026/texmf-var/fonts/tfm/lh/lh-t2a/latt1200.tfm" 1777024088.12424 1272 bf3bb5cc29880b269c8bcb412a1ac6e2 ""
-  "/Users/zasmina/Study/6-semester/зачет/ответы_к_зачету.tex" 1781660190.42976 25874 8510e7e2266dc6035d22affeeda5d967 ""
+  "/Users/zasmina/Study/6-semester/зачет/ответы_к_зачету.tex" 1781667086.24636 25879 10e17c1005382bfe92b7a2475128c33d ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1136849721 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -114,10 +114,10 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1776162630 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1776162512 3636778 6925ab35a6e199589a5d52b3eef864c9 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "ответы_к_зачету.aux" 1781660196.5778 3393 25f02d8b98d999b89957b1fae43fbd52 "pdflatex"
-  "ответы_к_зачету.out" 1781660196.57919 7106 c90c39b23c9b634281a838bbb68a4cf9 "pdflatex"
-  "ответы_к_зачету.tex" 1781660190.42976 25874 8510e7e2266dc6035d22affeeda5d967 ""
-  "ответы_к_зачету.toc" 1781660196.57958 2466 30020e78be667fbd44da5550aea1e775 "pdflatex"
+  "ответы_к_зачету.aux" 1781667096.29763 3393 25f02d8b98d999b89957b1fae43fbd52 "pdflatex"
+  "ответы_к_зачету.out" 1781667096.29842 7106 c90c39b23c9b634281a838bbb68a4cf9 "pdflatex"
+  "ответы_к_зачету.tex" 1781667086.24636 25879 10e17c1005382bfe92b7a2475128c33d ""
+  "ответы_к_зачету.toc" 1781667096.29865 2466 30020e78be667fbd44da5550aea1e775 "pdflatex"
   (generated)
   "ответы_к_зачету.aux"
   "ответы_к_зачету.log"
